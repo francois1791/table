@@ -1,19 +1,24 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
-import { Ingredient } from "@/lib/types";
+import { ArrowLeft, ChevronDown, ChevronUp } from "lucide-react";
+import { Ingredient, Dish } from "@/lib/types";
 
 interface IngredientDetailClientProps {
   ingredient: Ingredient;
   ingredientsData: Ingredient[];
+  dishesWithIngredient: Dish[];
 }
 
 export default function IngredientDetailClient({ 
   ingredient, 
-  ingredientsData 
+  ingredientsData,
+  dishesWithIngredient
 }: IngredientDetailClientProps) {
+  const [showAllDishes, setShowAllDishes] = useState(false);
+  
   const emojis: Record<string, string> = {
     viande: "🥩",
     poisson: "🐟",
@@ -30,8 +35,13 @@ export default function IngredientDetailClient({
     .sort((a, b) => b.frequency - a.frequency)
     .slice(0, 5);
 
+  // Limiter les plats affichés
+  const displayedDishes = showAllDishes 
+    ? dishesWithIngredient 
+    : dishesWithIngredient.slice(0, 10);
+
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 max-w-5xl">
       {/* Back button */}
       <Link
         href="/"
@@ -80,73 +90,142 @@ export default function IngredientDetailClient({
         </div>
       </motion.div>
 
-      {/* Star Distribution */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        className="glass rounded-2xl p-6 mb-8"
-      >
-        <h2 className="text-xl font-semibold mb-6">Distribution by Michelin Stars</h2>
-        <div className="space-y-4">
-          {[
-            { star: "3 étoiles", color: "from-yellow-400 to-amber-500", icon: "⭐⭐⭐" },
-            { star: "2 étoiles", color: "from-gray-300 to-gray-400", icon: "⭐⭐" },
-            { star: "1 étoile", color: "from-orange-300 to-orange-400", icon: "⭐" },
-          ].map(({ star, color, icon }) => {
-            const count = ingredient.by_stars?.[star] || 0;
-            const percent = ingredient.star_percentages?.[star] || 0;
-            
-            return (
-              <div key={star} className="space-y-2">
-                <div className="flex items-center justify-between">
-                  <span className="flex items-center gap-2">
-                    <span>{icon}</span>
-                    <span className="text-muted-foreground">{star}</span>
-                  </span>
-                  <div className="flex items-center gap-4">
-                    <span className="text-sm font-mono">{count} occurrences</span>
-                    <span className="text-sm font-bold w-16 text-right">{percent}%</span>
+      <div className="grid lg:grid-cols-2 gap-8">
+        {/* Left Column - Star Distribution & Similar */}
+        <div className="space-y-8">
+          {/* Star Distribution */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="glass rounded-2xl p-6"
+          >
+            <h2 className="text-xl font-semibold mb-6">Distribution by Michelin Stars</h2>
+            <div className="space-y-4">
+              {[
+                { star: "3 étoiles", color: "from-yellow-400 to-amber-500", icon: "⭐⭐⭐" },
+                { star: "2 étoiles", color: "from-gray-300 to-gray-400", icon: "⭐⭐" },
+                { star: "1 étoile", color: "from-orange-300 to-orange-400", icon: "⭐" },
+              ].map(({ star, color, icon }) => {
+                const count = ingredient.by_stars?.[star] || 0;
+                const percent = ingredient.star_percentages?.[star] || 0;
+                
+                return (
+                  <div key={star} className="space-y-2">
+                    <div className="flex items-center justify-between">
+                      <span className="flex items-center gap-2">
+                        <span>{icon}</span>
+                        <span className="text-muted-foreground">{star}</span>
+                      </span>
+                      <div className="flex items-center gap-4">
+                        <span className="text-sm font-mono">{count} occurrences</span>
+                        <span className="text-sm font-bold w-16 text-right">{percent}%</span>
+                      </div>
+                    </div>
+                    <div className="h-2 bg-surface rounded-full overflow-hidden">
+                      <div
+                        className={`h-full bg-gradient-to-r ${color} rounded-full transition-all duration-500`}
+                        style={{ width: `${Math.min(percent * 5, 100)}%` }}
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="h-2 bg-surface rounded-full overflow-hidden">
-                  <div
-                    className={`h-full bg-gradient-to-r ${color} rounded-full transition-all duration-500`}
-                    style={{ width: `${Math.min(percent * 5, 100)}%` }}
-                  />
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </motion.div>
+                );
+              })}
+            </div>
+          </motion.div>
 
-      {/* Similar Ingredients */}
-      {similarIngredients.length > 0 && (
+          {/* Similar Ingredients */}
+          {similarIngredients.length > 0 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="glass rounded-2xl p-6"
+            >
+              <h2 className="text-xl font-semibold mb-4">Similar Ingredients</h2>
+              <div className="space-y-2">
+                {similarIngredients.map((ing) => (
+                  <Link
+                    key={ing.id}
+                    href={`/ingredients/${ing.id}`}
+                    className="flex items-center justify-between p-3 rounded-xl hover:bg-surface-hover transition-colors"
+                  >
+                    <div className="flex items-center gap-3">
+                      <span>{ing.emoji || emojis[ing.category] || "🍽️"}</span>
+                      <span className="capitalize">{ing.name}</span>
+                    </div>
+                    <span className="text-sm text-muted-foreground">{ing.frequency}</span>
+                  </Link>
+                ))}
+              </div>
+            </motion.div>
+          )}
+        </div>
+
+        {/* Right Column - Dishes */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
           className="glass rounded-2xl p-6"
         >
-          <h2 className="text-xl font-semibold mb-4">Similar Ingredients</h2>
-          <div className="space-y-2">
-            {similarIngredients.map((ing) => (
-              <Link
-                key={ing.id}
-                href={`/ingredients/${ing.id}`}
-                className="flex items-center justify-between p-3 rounded-xl hover:bg-surface-hover transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <span>{ing.emoji || emojis[ing.category] || "🍽️"}</span>
-                  <span className="capitalize">{ing.name}</span>
-                </div>
-                <span className="text-sm text-muted-foreground">{ing.frequency}</span>
-              </Link>
-            ))}
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-xl font-semibold">Dishes with {ingredient.name}</h2>
+            <span className="text-sm text-muted-foreground">
+              {dishesWithIngredient.length} found
+            </span>
           </div>
+
+          {dishesWithIngredient.length === 0 ? (
+            <div className="text-center py-12">
+              <p className="text-muted-foreground">No dishes found with this ingredient.</p>
+              <p className="text-xs text-muted-foreground mt-2">
+                This may be due to incomplete data extraction.
+              </p>
+            </div>
+          ) : (
+            <>
+              <div className="space-y-3 max-h-[600px] overflow-y-auto pr-2">
+                {displayedDishes.map((dish) => (
+                  <div
+                    key={dish.id}
+                    className="p-4 rounded-xl bg-surface-hover/50 hover:bg-surface-hover transition-colors"
+                  >
+                    <p className="font-medium text-sm leading-relaxed">{dish.name}</p>
+                    <div className="flex items-center gap-3 mt-2 text-xs text-muted-foreground">
+                      <span className="capitalize">{dish.category}</span>
+                      {dish.distinction && (
+                        <span className="px-2 py-0.5 rounded-full bg-accent-violet/10 text-accent-violet">
+                          {dish.distinction}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {dishesWithIngredient.length > 10 && (
+                <button
+                  onClick={() => setShowAllDishes(!showAllDishes)}
+                  className="w-full mt-4 py-3 rounded-xl bg-surface hover:bg-surface-hover transition-colors text-sm font-medium flex items-center justify-center gap-2"
+                >
+                  {showAllDishes ? (
+                    <>
+                      <ChevronUp className="w-4 h-4" />
+                      Show less
+                    </>
+                  ) : (
+                    <>
+                      <ChevronDown className="w-4 h-4" />
+                      Show {dishesWithIngredient.length - 10} more dishes
+                    </>
+                  )}
+                </button>
+              )}
+            </>
+          )}
         </motion.div>
-      )}
+      </div>
     </div>
   );
 }

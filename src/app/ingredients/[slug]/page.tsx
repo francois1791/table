@@ -1,8 +1,10 @@
 import ingredientsDataRaw from "@/data/ingredients.json";
-import { Ingredient } from "@/lib/types";
+import dishesDataRaw from "@/data/dishes.json";
+import { Ingredient, Dish } from "@/lib/types";
 import IngredientDetailClient from "./client";
 
 const ingredientsData = ingredientsDataRaw as Ingredient[];
+const dishesData = dishesDataRaw as Dish[];
 
 export function generateStaticParams() {
   return ingredientsData.map((ingredient) => ({
@@ -28,5 +30,16 @@ export default function IngredientDetailPage({ params }: PageProps) {
     );
   }
 
-  return <IngredientDetailClient ingredient={ingredient} ingredientsData={ingredientsData} />;
+  // Filtrer les plats qui contiennent cet ingrédient
+  const dishesWithIngredient = dishesData.filter((dish) => 
+    dish.ingredients && dish.ingredients.includes(ingredient.name)
+  );
+
+  return (
+    <IngredientDetailClient 
+      ingredient={ingredient} 
+      ingredientsData={ingredientsData}
+      dishesWithIngredient={dishesWithIngredient}
+    />
+  );
 }

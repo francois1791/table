@@ -10,6 +10,7 @@
   --surface: #ffffff;
   --surface-hover: #f4f4f5;
   --surface-active: #e4e4e7;
+  --surface-alpha: rgba(255, 255, 255, 0.8);
   --border: rgba(0, 0, 0, 0.08);
   --border-strong: rgba(0, 0, 0, 0.15);
   --foreground: #18181b;
@@ -23,6 +24,7 @@
   --surface: #12121a;
   --surface-hover: #1a1a25;
   --surface-active: #222230;
+  --surface-alpha: rgba(18, 18, 26, 0.8);
   --border: rgba(255, 255, 255, 0.08);
   --border-strong: rgba(255, 255, 255, 0.15);
   --foreground: #fafafa;
@@ -47,25 +49,30 @@
   }
 
   ::-webkit-scrollbar-track {
-    @apply bg-surface;
+    background: var(--surface);
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-border-strong rounded-full;
+    background: var(--border-strong);
+    border-radius: 9999px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-muted-foreground;
+    background: var(--muted-foreground);
   }
 }
 
 @layer utilities {
   .glass {
-    @apply bg-surface/80 backdrop-blur-xl border border-border;
+    background: var(--surface-alpha);
+    backdrop-filter: blur(24px);
+    border: 1px solid var(--border);
   }
 
   .glass-strong {
-    @apply bg-surface/95 backdrop-blur-2xl border border-border-strong;
+    background: rgba(var(--surface), 0.95);
+    backdrop-filter: blur(32px);
+    border: 1px solid var(--border-strong);
   }
 
   .gradient-text {
@@ -77,6 +84,11 @@
   }
 
   .card-hover {
-    @apply transition-all duration-300 hover:border-border-strong hover:shadow-lg hover:shadow-accent-violet/10;
+    @apply transition-all duration-300 hover:border-border-strong;
+    box-shadow: 0 0 0 rgba(124, 58, 237, 0);
+  }
+  
+  .card-hover:hover {
+    box-shadow: 0 10px 40px rgba(124, 58, 237, 0.1);
   }
 }

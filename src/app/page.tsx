@@ -17,6 +17,7 @@ const categories = [
   { key: "champignon", label: "Champignons", emoji: "🍄", color: "#f59e0b" },
   { key: "legume", label: "Légumes", emoji: "🥬", color: "#22c55e" },
   { key: "fruit", label: "Fruits", emoji: "🍎", color: "#a855f7" },
+  { key: "fruit_sec", label: "Fruits secs", emoji: "🥜", color: "#d97706" },
 ] as const;
 
 const stars = [

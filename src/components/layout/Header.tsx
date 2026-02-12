@@ -76,7 +76,7 @@ export function Header() {
           </div>
           <div className="w-px h-4 bg-border" />
           <div className="flex items-center gap-1.5">
-            <span>4,162 Dishes</span>
+            <span>3,151 Dishes</span>
           </div>
         </div>
 

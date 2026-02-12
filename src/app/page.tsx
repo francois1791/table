@@ -45,8 +45,8 @@ function CategoryDonut({
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const categoryTotal = items.reduce((sum, item) => sum + item.frequency, 0);
   
-  // Prepare data for donut
-  const donutData = items.slice(0, 10).map((item, i) => ({
+  // Prepare data for donut (tous les ingrédients)
+  const donutData = items.map((item, i) => ({
     ...item,
     label: item.name.charAt(0).toUpperCase() + item.name.slice(1),
     value: item.frequency,
@@ -194,14 +194,13 @@ export default function OverviewPage() {
     [filteredIngredients]
   );
 
-  // Top ingrédients par catégorie
+  // Tous les ingrédients par catégorie
   const byCategory = useMemo(() => {
     const grouped: Record<string, Ingredient[]> = {};
     categories.forEach((cat) => {
       grouped[cat.key] = filteredIngredients
         .filter((ing) => ing.category === cat.key)
-        .sort((a, b) => b.frequency - a.frequency)
-        .slice(0, 10);
+        .sort((a, b) => b.frequency - a.frequency);
     });
     return grouped;
   }, [filteredIngredients]);

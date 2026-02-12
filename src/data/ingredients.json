@@ -5,7 +5,7 @@
     "emoji": "🍄",
     "category": "champignon",
     "frequency": 249,
-    "frequency_percent": 8.94,
+    "frequency_percent": 8.95,
     "restaurants": 98,
     "by_stars": {
       "1 étoile": 211,
@@ -15,30 +15,9 @@
     },
     "star_percentages": {
       "1 étoile": 9.09,
-      "2 étoiles": 7.52,
+      "2 étoiles": 7.55,
       "3 étoiles": 11.81,
       "Sélectionné": 1.85
-    }
-  },
-  {
-    "id": "pomme",
-    "name": "pomme",
-    "emoji": "🍎",
-    "category": "fruit",
-    "frequency": 159,
-    "frequency_percent": 5.71,
-    "restaurants": 107,
-    "by_stars": {
-      "1 étoile": 129,
-      "2 étoiles": 18,
-      "3 étoiles": 10,
-      "Sélectionné": 2
-    },
-    "star_percentages": {
-      "1 étoile": 5.56,
-      "2 étoiles": 6.77,
-      "3 étoiles": 6.94,
-      "Sélectionné": 3.7
     }
   },
   {
@@ -57,7 +36,7 @@
     },
     "star_percentages": {
       "1 étoile": 5.0,
-      "2 étoiles": 3.76,
+      "2 étoiles": 3.77,
       "3 étoiles": 2.08,
       "Sélectionné": 5.56
     }
@@ -78,7 +57,7 @@
     },
     "star_percentages": {
       "1 étoile": 3.97,
-      "2 étoiles": 3.01,
+      "2 étoiles": 3.02,
       "3 étoiles": 7.64,
       "Sélectionné": 1.85
     }
@@ -99,7 +78,7 @@
     },
     "star_percentages": {
       "1 étoile": 3.84,
-      "2 étoiles": 5.26,
+      "2 étoiles": 5.28,
       "3 étoiles": 2.78,
       "Sélectionné": 1.85
     }
@@ -120,7 +99,7 @@
     },
     "star_percentages": {
       "1 étoile": 3.32,
-      "2 étoiles": 5.26,
+      "2 étoiles": 5.28,
       "3 étoiles": 2.08,
       "Sélectionné": 7.41
     }
@@ -166,6 +145,27 @@
     }
   },
   {
+    "id": "pomme",
+    "name": "pomme",
+    "emoji": "🍎",
+    "category": "fruit",
+    "frequency": 86,
+    "frequency_percent": 3.09,
+    "restaurants": 64,
+    "by_stars": {
+      "1 étoile": 72,
+      "2 étoiles": 6,
+      "3 étoiles": 7,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 3.1,
+      "2 étoiles": 2.26,
+      "3 étoiles": 4.86,
+      "Sélectionné": 1.85
+    }
+  },
+  {
     "id": "homard",
     "name": "homard",
     "emoji": "🦐",
@@ -180,7 +180,7 @@
     },
     "star_percentages": {
       "1 étoile": 3.15,
-      "2 étoiles": 2.63,
+      "2 étoiles": 2.64,
       "3 étoiles": 2.78
     }
   },
@@ -200,7 +200,7 @@
     },
     "star_percentages": {
       "1 étoile": 2.8,
-      "2 étoiles": 3.76,
+      "2 étoiles": 3.77,
       "3 étoiles": 2.08,
       "Sélectionné": 9.26
     }
@@ -220,8 +220,29 @@
     },
     "star_percentages": {
       "1 étoile": 2.63,
-      "2 étoiles": 3.76,
+      "2 étoiles": 3.77,
       "3 étoiles": 3.47
+    }
+  },
+  {
+    "id": "pomme-de-terre",
+    "name": "pomme de terre",
+    "emoji": "🍚",
+    "category": "feculent",
+    "frequency": 72,
+    "frequency_percent": 2.59,
+    "restaurants": 58,
+    "by_stars": {
+      "1 étoile": 57,
+      "2 étoiles": 11,
+      "3 étoiles": 3,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 2.46,
+      "2 étoiles": 4.15,
+      "3 étoiles": 2.08,
+      "Sélectionné": 1.85
     }
   },
   {
@@ -230,7 +251,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 70,
-    "frequency_percent": 2.51,
+    "frequency_percent": 2.52,
     "restaurants": 55,
     "by_stars": {
       "1 étoile": 60,
@@ -240,7 +261,7 @@
     },
     "star_percentages": {
       "1 étoile": 2.59,
-      "2 étoiles": 1.88,
+      "2 étoiles": 1.89,
       "3 étoiles": 2.08,
       "Sélectionné": 3.7
     }
@@ -281,7 +302,7 @@
     },
     "star_percentages": {
       "1 étoile": 1.94,
-      "2 étoiles": 2.63,
+      "2 étoiles": 2.64,
       "3 étoiles": 2.78
     }
   },
@@ -300,7 +321,7 @@
     },
     "star_percentages": {
       "1 étoile": 1.85,
-      "2 étoiles": 2.63,
+      "2 étoiles": 2.64,
       "3 étoiles": 1.39
     }
   },
@@ -338,7 +359,7 @@
     },
     "star_percentages": {
       "1 étoile": 1.77,
-      "2 étoiles": 2.63,
+      "2 étoiles": 2.64,
       "3 étoiles": 0.69
     }
   },
@@ -436,7 +457,7 @@
     },
     "star_percentages": {
       "1 étoile": 1.51,
-      "2 étoiles": 1.88
+      "2 étoiles": 1.89
     }
   },
   {
@@ -473,7 +494,7 @@
     },
     "star_percentages": {
       "1 étoile": 1.16,
-      "2 étoiles": 1.88,
+      "2 étoiles": 1.89,
       "3 étoiles": 2.78
     }
   },
@@ -492,7 +513,7 @@
     },
     "star_percentages": {
       "1 étoile": 1.21,
-      "2 étoiles": 1.88,
+      "2 étoiles": 1.89,
       "3 étoiles": 1.39
     }
   },
@@ -564,7 +585,7 @@
     },
     "star_percentages": {
       "1 étoile": 0.99,
-      "2 étoiles": 1.5,
+      "2 étoiles": 1.51,
       "Sélectionné": 1.85
     }
   },
@@ -754,7 +775,7 @@
     },
     "star_percentages": {
       "1 étoile": 0.6,
-      "2 étoiles": 1.5,
+      "2 étoiles": 1.51,
       "Sélectionné": 1.85
     }
   },

@@ -73,28 +73,28 @@ function CategoryDonut({
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="glass rounded-3xl p-6 mb-6"
+      className="glass rounded-2xl p-4 mb-4"
     >
       {/* Header */}
-      <div className="flex items-center justify-between mb-6">
-        <div className="flex items-center gap-3">
-          <span className="text-4xl">{emoji}</span>
-          <h2 className="font-bold text-2xl" style={{ color }}>
+      <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center gap-2">
+          <span className="text-2xl">{emoji}</span>
+          <h2 className="font-bold text-xl" style={{ color }}>
             {categoryLabel}
           </h2>
         </div>
         <div className="text-right">
-          <span className="text-4xl font-bold">{categoryTotal.toLocaleString()}</span>
-          <p className="text-sm text-muted-foreground">
+          <span className="text-2xl font-bold">{categoryTotal.toLocaleString()}</span>
+          <p className="text-xs text-muted-foreground">
             {Math.round((categoryTotal / total) * 100)}% {t("overview.percent_of_total")}
           </p>
         </div>
       </div>
       
       {/* Donut Chart and Legend */}
-      <div className="flex flex-col md:flex-row gap-8">
+      <div className="flex flex-col md:flex-row gap-6">
         {/* Chart */}
-        <div className="relative w-64 h-64 flex-shrink-0 mx-auto md:mx-0">
+        <div className="relative w-48 h-48 flex-shrink-0 mx-auto md:mx-0">
           <svg viewBox="0 0 100 100" className="w-full h-full">
             {paths.map((path, i) => (
               <Link
@@ -126,42 +126,36 @@ function CategoryDonut({
             <circle cx="50" cy="50" r="22" fill="var(--background)" />
           </svg>
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-            <span className="text-2xl font-bold">{items.length}</span>
+            <span className="text-xl font-bold">{items.length}</span>
           </div>
         </div>
         
-        {/* Legend - Vertical list */}
-        <div className="flex-1 space-y-2">
+        {/* Legend - Compact grid */}
+        <div className="flex-1 grid grid-cols-2 xl:grid-cols-3 gap-1">
           {donutData.map((item, i) => (
             <Link
               key={i}
               href={`/ingredients/${item.id}`}
               onMouseEnter={() => setHoveredIndex(i)}
               onMouseLeave={() => setHoveredIndex(null)}
-              className={`flex items-center gap-4 p-3 rounded-xl transition-all ${
+              className={`flex items-center gap-2 px-2 py-1.5 rounded-lg transition-all text-sm ${
                 hoveredIndex === i 
-                  ? "bg-accent-violet/20 scale-[1.02]" 
+                  ? "bg-accent-violet/20" 
                   : hoveredIndex !== null 
                     ? "opacity-40" 
                     : "hover:bg-surface-hover"
               }`}
             >
               <div 
-                className="w-5 h-5 rounded-full flex-shrink-0 transition-transform"
-                style={{ 
-                  backgroundColor: item.color,
-                  transform: hoveredIndex === i ? 'scale(1.2)' : 'scale(1)'
-                }}
+                className="w-3 h-3 rounded-full flex-shrink-0"
+                style={{ backgroundColor: item.color }}
               />
-              <div className="flex-1 min-w-0">
-                <p className="font-medium text-base capitalize truncate">
-                  {item.label}
-                </p>
-              </div>
-              <div className="text-right">
-                <p className="font-bold text-base">{item.value}</p>
-                <p className="text-sm text-muted-foreground">{item.percentage}%</p>
-              </div>
+              <span className="flex-1 min-w-0 truncate capitalize">
+                {item.label}
+              </span>
+              <span className="text-muted-foreground text-xs whitespace-nowrap">
+                {item.value}
+              </span>
             </Link>
           ))}
         </div>

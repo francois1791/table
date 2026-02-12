@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { Award, Filter, BarChart3, PieChart, TrendingUp } from "lucide-react";
+import { Award, BarChart3, PieChart } from "lucide-react";
 import ingredientsDataRaw from "@/data/ingredients.json";
 import { StarFilter, Ingredient } from "@/lib/types";
 
@@ -25,22 +25,67 @@ const stars = [
   { value: "1 étoile" as StarFilter, label: "1★", stars: "⭐" },
 ];
 
+// Donut Chart Component
+function DonutChart({ data, size = 80 }: { data: { label: string; value: number; color: string }[]; size?: number }) {
+  const total = data.reduce((sum, d) => sum + d.value, 0);
+  if (total === 0) return null;
+  
+  let accumulated = 0;
+  
+  return (
+    <div className="relative" style={{ width: size, height: size }}>
+      <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
+        {data.map((slice, i) => {
+          const start = (accumulated / total) * 360;
+          accumulated += slice.value;
+          const end = (accumulated / total) * 360;
+          const largeArc = end - start > 180 ? 1 : 0;
+          
+          const startRad = (start * Math.PI) / 180;
+          const endRad = (end * Math.PI) / 180;
+          
+          const x1 = 50 + 40 * Math.cos(startRad);
+          const y1 = 50 + 40 * Math.sin(startRad);
+          const x2 = 50 + 40 * Math.cos(endRad);
+          const y2 = 50 + 40 * Math.sin(endRad);
+          
+          return (
+            <path
+              key={i}
+              d={`M 50 50 L ${x1} ${y1} A 40 40 0 ${largeArc} 1 ${x2} ${y2} Z`}
+              fill={slice.color}
+              stroke="rgba(0,0,0,0.2)"
+              strokeWidth="1"
+            />
+          );
+        })}
+        <circle cx="50" cy="50" r="20" fill="#0a0a0f" />
+      </svg>
+      <div className="absolute inset-0 flex items-center justify-center">
+        <span className="text-sm font-bold">{total}</span>
+      </div>
+    </div>
+  );
+}
+
 // Bar Chart Component
 function BarChart({ data, color }: { data: { name: string; value: number; emoji: string }[]; color: string }) {
   const max = Math.max(...data.map((d) => d.value), 1);
   
   return (
-    <div className="space-y-2">
+    <div className="space-y-1.5">
       {data.map((item, i) => (
         <div key={i} className="flex items-center gap-2">
-          <span className="text-sm w-24 truncate" title={item.name}>
-            {item.emoji} {item.name}
+          <span className="text-xs w-6 text-center text-muted-foreground">{i + 1}</span>
+          <span className="text-base">{item.emoji}</span>
+          <span className="text-sm w-20 truncate" title={item.name}>
+            {item.name}
           </span>
-          <div className="flex-1 h-6 bg-surface rounded-full overflow-hidden">
+          <div className="flex-1 h-5 bg-surface rounded-full overflow-hidden">
             <motion.div
               initial={{ width: 0 }}
               animate={{ width: `${(item.value / max) * 100}%` }}
-              transition={{ duration: 0.5, delay: i * 0.05 }}
+              transition={{ duration: 0.5, delay: i * 0.03 }}
               className="h-full rounded-full flex items-center justify-end pr-2"
               style={{ backgroundColor: color }}
             >
@@ -53,230 +98,188 @@ function BarChart({ data, color }: { data: { name: string; value: number; emoji:
   );
 }
 
-// Donut Chart Component
-function DonutChart({ data }: { data: { label: string; value: number; color: string }[] }) {
-  const total = data.reduce((sum, d) => sum + d.value, 0);
-  let accumulated = 0;
+// Category Card Component
+function CategoryCard({ 
+  cat, 
+  items, 
+  starFilter,
+  onStarChange,
+  viewMode 
+}: { 
+  cat: typeof categories[number]; 
+  items: Ingredient[]; 
+  starFilter: StarFilter;
+  onStarChange: (star: StarFilter) => void;
+  viewMode: "bars" | "donut";
+}) {
+  const total = items.reduce((sum, ing) => sum + ing.frequency, 0);
   
+  // Data for donut chart (by star)
+  const starData = [
+    { label: "3★", value: items.reduce((s, i) => s + (i.by_stars?.["3 étoiles"] || 0), 0), color: "#fbbf24" },
+    { label: "2★", value: items.reduce((s, i) => s + (i.by_stars?.["2 étoiles"] || 0), 0), color: "#9ca3af" },
+    { label: "1★", value: items.reduce((s, i) => s + (i.by_stars?.["1 étoile"] || 0), 0), color: "#fb923c" },
+  ].filter(d => d.value > 0);
+
   return (
-    <div className="flex items-center gap-4">
-      <div className="relative w-32 h-32">
-        <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
-          {data.map((slice, i) => {
-            const start = (accumulated / total) * 360;
-            accumulated += slice.value;
-            const end = (accumulated / total) * 360;
-            const largeArc = end - start > 180 ? 1 : 0;
-            
-            const startRad = (start * Math.PI) / 180;
-            const endRad = (end * Math.PI) / 180;
-            
-            const x1 = 50 + 40 * Math.cos(startRad);
-            const y1 = 50 + 40 * Math.sin(startRad);
-            const x2 = 50 + 40 * Math.cos(endRad);
-            const y2 = 50 + 40 * Math.sin(endRad);
-            
-            return (
-              <path
-                key={i}
-                d={`M 50 50 L ${x1} ${y1} A 40 40 0 ${largeArc} 1 ${x2} ${y2} Z`}
-                fill={slice.color}
-                stroke="rgba(0,0,0,0.1)"
-                strokeWidth="1"
-              />
-            );
-          })}
-          <circle cx="50" cy="50" r="25" fill="#0a0a0f" />
-        </svg>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-lg font-bold">{total}</span>
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="glass rounded-2xl p-4"
+    >
+      {/* Header */}
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-2">
+          <div
+            className="w-8 h-8 rounded-lg flex items-center justify-center text-lg"
+            style={{ backgroundColor: `${cat.color}20` }}
+          >
+            {cat.emoji}
+          </div>
+          <div>
+            <h2 className="font-semibold text-sm">{cat.label}</h2>
+            <p className="text-xs text-muted-foreground">{total} occ.</p>
+          </div>
+        </div>
+        
+        {/* Star Filter per category */}
+        <div className="flex gap-0.5">
+          {stars.map((star) => (
+            <button
+              key={star.value}
+              onClick={() => onStarChange(star.value)}
+              className={`px-1.5 py-0.5 rounded text-[10px] transition-colors ${
+                starFilter === star.value
+                  ? "bg-accent-violet text-white"
+                  : "text-muted-foreground hover:bg-surface-hover"
+              }`}
+              title={star.label}
+            >
+              {star.stars}
+            </button>
+          ))}
         </div>
       </div>
-      <div className="flex-1 space-y-1">
-        {data.map((d, i) => (
-          <div key={i} className="flex items-center gap-2 text-xs">
-            <div className="w-3 h-3 rounded" style={{ backgroundColor: d.color }} />
-            <span className="flex-1">{d.label}</span>
-            <span className="font-mono">{d.value}</span>
-            <span className="text-muted-foreground">({Math.round((d.value / total) * 100)}%)</span>
+
+      {/* Chart Area */}
+      <div className="flex gap-4">
+        {/* Donut by stars */}
+        {starData.length > 0 && (
+          <div className="flex-shrink-0">
+            <DonutChart data={starData} size={70} />
+            <div className="text-[10px] text-center text-muted-foreground mt-1">par étoile</div>
           </div>
-        ))}
+        )}
+        
+        {/* Bar chart */}
+        <div className="flex-1 min-w-0">
+          {viewMode === "bars" ? (
+            <BarChart
+              data={items.map((i) => ({ name: i.name, value: i.frequency, emoji: i.emoji }))}
+              color={cat.color}
+            />
+          ) : (
+            <div className="space-y-1">
+              {items.slice(0, 5).map((ing, i) => (
+                <a
+                  key={ing.id}
+                  href={`/ingredients/${ing.id}`}
+                  className="flex items-center justify-between py-1 px-2 rounded hover:bg-surface-hover text-sm"
+                >
+                  <span className="flex items-center gap-2 truncate">
+                    <span>{i + 1}.</span>
+                    <span>{ing.emoji}</span>
+                    <span className="capitalize truncate">{ing.name}</span>
+                  </span>
+                  <span className="font-mono text-xs">{ing.frequency}</span>
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
 export default function OverviewPage() {
-  const [starFilter, setStarFilter] = useState<StarFilter>("all");
   const [viewMode, setViewMode] = useState<"bars" | "donut">("bars");
+  
+  // Star filter per category
+  const [starFilters, setStarFilters] = useState<Record<string, StarFilter>>(
+    Object.fromEntries(categories.map(c => [c.key, "all"]))
+  );
 
-  // Filtrer les ingrédients
-  const filteredIngredients = useMemo(() => {
-    return ingredientsData.filter((ing) => {
-      if (starFilter === "all") return true;
-      return ing.by_stars && ing.by_stars[starFilter] > 0;
-    });
-  }, [starFilter]);
-
-  // Stats globales
-  const stats = useMemo(() => {
-    const byCat: Record<string, number> = {};
-    categories.forEach((cat) => {
-      byCat[cat.key] = filteredIngredients
-        .filter((ing) => ing.category === cat.key)
-        .reduce((sum, ing) => sum + ing.frequency, 0);
-    });
-    return byCat;
-  }, [filteredIngredients]);
-
-  // Top par catégorie
+  // Get items per category with their specific star filter
   const byCategory = useMemo(() => {
     const grouped: Record<string, Ingredient[]> = {};
     categories.forEach((cat) => {
-      grouped[cat.key] = filteredIngredients
-        .filter((ing) => ing.category === cat.key)
+      const starFilter = starFilters[cat.key];
+      grouped[cat.key] = ingredientsData
+        .filter((ing) => {
+          if (ing.category !== cat.key) return false;
+          if (starFilter === "all") return true;
+          return ing.by_stars && ing.by_stars[starFilter] > 0;
+        })
         .sort((a, b) => b.frequency - a.frequency)
-        .slice(0, 5);
+        .slice(0, 10); // Top 10
     });
     return grouped;
-  }, [filteredIngredients]);
+  }, [starFilters]);
+
+  const handleStarChange = (catKey: string, star: StarFilter) => {
+    setStarFilters(prev => ({ ...prev, [catKey]: star }));
+  };
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-6xl">
+    <div className="container mx-auto px-4 py-6 max-w-7xl">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
+      <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gradient-accent-soft flex items-center justify-center">
             <Award className="w-5 h-5 text-accent-violet" />
           </div>
           <div>
-            <h1 className="font-bold text-xl">Ingredient Analytics</h1>
-            <p className="text-xs text-muted-foreground">
-              {filteredIngredients.length} ingrédients • {starFilter !== "all" && starFilter}
-            </p>
+            <h1 className="font-bold text-lg">Ingredient Analytics</h1>
+            <p className="text-xs text-muted-foreground">Top 10 par catégorie</p>
           </div>
         </div>
 
-        <div className="flex items-center gap-4">
-          {/* View Mode Toggle */}
-          <div className="flex items-center gap-1 bg-surface rounded-lg p-1">
-            <button
-              onClick={() => setViewMode("bars")}
-              className={`p-2 rounded-md transition-colors ${
-                viewMode === "bars" ? "bg-accent-violet/20 text-accent-violet" : "text-muted-foreground"
-              }`}
-              title="Barres"
-            >
-              <BarChart3 className="w-4 h-4" />
-            </button>
-            <button
-              onClick={() => setViewMode("donut")}
-              className={`p-2 rounded-md transition-colors ${
-                viewMode === "donut" ? "bg-accent-violet/20 text-accent-violet" : "text-muted-foreground"
-              }`}
-              title="Camembert"
-            >
-              <PieChart className="w-4 h-4" />
-            </button>
-          </div>
-
-          {/* Star Filter */}
-          <div className="flex items-center gap-2">
-            <Filter className="w-4 h-4 text-muted-foreground" />
-            <div className="flex gap-1">
-              {stars.map((star) => (
-                <button
-                  key={star.value}
-                  onClick={() => setStarFilter(star.value)}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all border ${
-                    starFilter === star.value
-                      ? "bg-gradient-accent text-white border-transparent"
-                      : "bg-surface text-muted-foreground border-border hover:border-border-strong"
-                  }`}
-                >
-                  {star.stars}
-                </button>
-              ))}
-            </div>
-          </div>
+        {/* View Mode Toggle */}
+        <div className="flex items-center gap-1 bg-surface rounded-lg p-1">
+          <button
+            onClick={() => setViewMode("bars")}
+            className={`p-2 rounded-md transition-colors ${
+              viewMode === "bars" ? "bg-accent-violet/20 text-accent-violet" : "text-muted-foreground"
+            }`}
+            title="Barres"
+          >
+            <BarChart3 className="w-4 h-4" />
+          </button>
+          <button
+            onClick={() => setViewMode("donut")}
+            className={`p-2 rounded-md transition-colors ${
+              viewMode === "donut" ? "bg-accent-violet/20 text-accent-violet" : "text-muted-foreground"
+            }`}
+            title="Liste"
+          >
+            <PieChart className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
-      {/* Overview Stats (Donut View) */}
-      {viewMode === "donut" && (
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="glass rounded-2xl p-6 mb-8"
-        >
-          <h2 className="text-lg font-semibold mb-4">Répartition par catégorie</h2>
-          <DonutChart
-            data={categories
-              .map((cat) => ({
-                label: cat.label,
-                value: stats[cat.key] || 0,
-                color: cat.color,
-              }))
-              .filter((d) => d.value > 0)}
-          />
-        </motion.div>
-      )}
-
       {/* Categories Grid */}
-      <div className="grid md:grid-cols-2 gap-6">
-        {categories.map((cat, idx) => {
-          const items = byCategory[cat.key] || [];
-          if (items.length === 0) return null;
-
-          return (
-            <motion.div
-              key={cat.key}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.05 }}
-              className="glass rounded-2xl p-5"
-            >
-              {/* Category Header */}
-              <div className="flex items-center gap-3 mb-4">
-                <div
-                  className="w-10 h-10 rounded-xl flex items-center justify-center text-xl"
-                  style={{ backgroundColor: `${cat.color}30` }}
-                >
-                  {cat.emoji}
-                </div>
-                <div>
-                  <h2 className="font-semibold">{cat.label}</h2>
-                  <p className="text-xs text-muted-foreground">{stats[cat.key]} occurrences</p>
-                </div>
-              </div>
-
-              {/* Chart */}
-              {viewMode === "bars" ? (
-                <BarChart
-                  data={items.map((i) => ({ name: i.name, value: i.frequency, emoji: i.emoji }))}
-                  color={cat.color}
-                />
-              ) : (
-                <div className="space-y-2">
-                  {items.slice(0, 5).map((ing, i) => (
-                    <a
-                      key={ing.id}
-                      href={`/ingredients/${ing.id}`}
-                      className="flex items-center justify-between p-2 rounded-lg hover:bg-surface-hover transition-colors"
-                    >
-                      <span className="flex items-center gap-2">
-                        <span>{i + 1}.</span>
-                        <span>{ing.emoji}</span>
-                        <span className="capitalize">{ing.name}</span>
-                      </span>
-                      <span className="font-mono">{ing.frequency}</span>
-                    </a>
-                  ))}
-                </div>
-              )}
-            </motion.div>
-          );
-        })}
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {categories.map((cat) => (
+          <CategoryCard
+            key={cat.key}
+            cat={cat}
+            items={byCategory[cat.key] || []}
+            starFilter={starFilters[cat.key]}
+            onStarChange={(star) => handleStarChange(cat.key, star)}
+            viewMode={viewMode}
+          />
+        ))}
       </div>
     </div>
   );

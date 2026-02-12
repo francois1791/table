@@ -25,57 +25,51 @@ const stars = [
   { value: "1 étoile" as StarFilter, label: "1★", stars: "⭐" },
 ];
 
-// Donut Chart Component
+// Donut Chart Component - Simple with category color
 function DonutChart({ 
-  data, 
-  size = 120, 
-  showCenter = true,
-  centerValue
+  value, 
+  total,
+  color,
+  size = 100
 }: { 
-  data: { label: string; value: number; color: string }[]; 
+  value: number;
+  total: number;
+  color: string;
   size?: number;
-  showCenter?: boolean;
-  centerValue?: string;
 }) {
-  const total = data.reduce((sum, d) => sum + d.value, 0);
-  if (total === 0) return <div className="text-muted-foreground text-xs">Aucune donnée</div>;
-  
-  let accumulated = 0;
+  const percentage = total > 0 ? (value / total) * 100 : 0;
+  const circumference = 2 * Math.PI * 40;
+  const strokeDasharray = `${(percentage / 100) * circumference} ${circumference}`;
   
   return (
     <div className="relative" style={{ width: size, height: size }}>
       <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
-        {data.map((slice, i) => {
-          const start = (accumulated / total) * 360;
-          accumulated += slice.value;
-          const end = (accumulated / total) * 360;
-          const largeArc = end - start > 180 ? 1 : 0;
-          
-          const startRad = (start * Math.PI) / 180;
-          const endRad = (end * Math.PI) / 180;
-          
-          const x1 = 50 + 40 * Math.cos(startRad);
-          const y1 = 50 + 40 * Math.sin(startRad);
-          const x2 = 50 + 40 * Math.cos(endRad);
-          const y2 = 50 + 40 * Math.sin(endRad);
-          
-          return (
-            <path
-              key={i}
-              d={`M 50 50 L ${x1} ${y1} A 40 40 0 ${largeArc} 1 ${x2} ${y2} Z`}
-              fill={slice.color}
-              stroke="rgba(0,0,0,0.2)"
-              strokeWidth="1"
-            />
-          );
-        })}
-        {showCenter && <circle cx="50" cy="50" r="25" fill="#0a0a0f" />}
+        {/* Background circle */}
+        <circle
+          cx="50"
+          cy="50"
+          r="40"
+          fill="none"
+          stroke="rgba(255,255,255,0.1)"
+          strokeWidth="12"
+        />
+        {/* Value arc */}
+        <circle
+          cx="50"
+          cy="50"
+          r="40"
+          fill="none"
+          stroke={color}
+          strokeWidth="12"
+          strokeLinecap="round"
+          strokeDasharray={strokeDasharray}
+          className="transition-all duration-1000"
+        />
       </svg>
-      {showCenter && (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-sm font-bold">{centerValue || total}</span>
-        </div>
-      )}
+      <div className="absolute inset-0 flex flex-col items-center justify-center">
+        <span className="text-lg font-bold">{value}</span>
+        <span className="text-[10px] text-muted-foreground">{Math.round(percentage)}%</span>
+      </div>
     </div>
   );
 }
@@ -122,20 +116,16 @@ export default function OverviewPage() {
 
   // Stats globales par catégorie
   const stats = useMemo(() => {
-    const byCat: Record<string, { total: number; byStar: Record<string, number> }> = {};
+    const byCat: Record<string, number> = {};
     categories.forEach((cat) => {
-      const catItems = filteredIngredients.filter((ing) => ing.category === cat.key);
-      byCat[cat.key] = {
-        total: catItems.reduce((sum, ing) => sum + ing.frequency, 0),
-        byStar: {
-          "3 étoiles": catItems.reduce((s, i) => s + (i.by_stars?.["3 étoiles"] || 0), 0),
-          "2 étoiles": catItems.reduce((s, i) => s + (i.by_stars?.["2 étoiles"] || 0), 0),
-          "1 étoile": catItems.reduce((s, i) => s + (i.by_stars?.["1 étoile"] || 0), 0),
-        }
-      };
+      byCat[cat.key] = filteredIngredients
+        .filter((ing) => ing.category === cat.key)
+        .reduce((sum, ing) => sum + ing.frequency, 0);
     });
     return byCat;
   }, [filteredIngredients]);
+
+  const totalAll = useMemo(() => Object.values(stats).reduce((a, b) => a + b, 0), [stats]);
 
   // Top 5 par catégorie
   const byCategory = useMemo(() => {
@@ -160,7 +150,7 @@ export default function OverviewPage() {
           <div>
             <h1 className="font-bold text-xl">Ingredient Analytics</h1>
             <p className="text-xs text-muted-foreground">
-              {filteredIngredients.length} ingrédients • {starFilter !== "all" && starFilter}
+              {filteredIngredients.length} ingrédients • {totalAll} occurrences
             </p>
           </div>
         </div>
@@ -216,40 +206,26 @@ export default function OverviewPage() {
         animate={{ opacity: 1, y: 0 }}
         className="glass rounded-2xl p-6 mb-8"
       >
-        <h2 className="text-lg font-semibold mb-6 text-center">Répartition par catégorie et étoiles</h2>
+        <h2 className="text-lg font-semibold mb-6 text-center">Répartition par catégorie</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
           {categories.map((cat) => {
-            const stat = stats[cat.key];
-            const donutData = [
-              { label: "3★", value: stat?.byStar["3 étoiles"] || 0, color: "#fbbf24" },
-              { label: "2★", value: stat?.byStar["2 étoiles"] || 0, color: "#9ca3af" },
-              { label: "1★", value: stat?.byStar["1 étoile"] || 0, color: "#fb923c" },
-            ].filter(d => d.value > 0);
-            
-            if (donutData.length === 0) donutData.push({ label: "Aucun", value: 1, color: "#333" });
+            const value = stats[cat.key] || 0;
             
             return (
               <div key={cat.key} className="flex flex-col items-center">
                 <DonutChart 
-                  data={donutData} 
-                  size={80} 
-                  centerValue={stat?.total.toString()}
+                  value={value}
+                  total={totalAll}
+                  color={cat.color}
+                  size={90}
                 />
                 <div className="mt-2 text-center">
-                  <span className="text-lg">{cat.emoji}</span>
+                  <span className="text-xl">{cat.emoji}</span>
                   <p className="text-xs font-medium">{cat.label}</p>
-                  <p className="text-[10px] text-muted-foreground">{stat?.total || 0} occ.</p>
                 </div>
               </div>
             );
           })}
-        </div>
-        
-        {/* Legend */}
-        <div className="flex justify-center gap-4 mt-4 text-xs">
-          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-yellow-400"></span> 3★</span>
-          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-gray-400"></span> 2★</span>
-          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-orange-400"></span> 1★</span>
         </div>
       </motion.div>
 
@@ -277,7 +253,7 @@ export default function OverviewPage() {
                 </div>
                 <div>
                   <h2 className="font-semibold">{cat.label}</h2>
-                  <p className="text-xs text-muted-foreground">{stats[cat.key]?.total || 0} occurrences</p>
+                  <p className="text-xs text-muted-foreground">{stats[cat.key] || 0} occurrences</p>
                 </div>
               </div>
 

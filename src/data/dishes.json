@@ -21,7 +21,9 @@
     "category": "entree",
     "restaurant_id": 1,
     "distinction": "Sélectionné",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 4,
@@ -81,7 +83,9 @@
     "category": "entree",
     "restaurant_id": 1,
     "distinction": "Sélectionné",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 13,
@@ -114,7 +118,8 @@
     "restaurant_id": 1,
     "distinction": "Sélectionné",
     "ingredients": [
-      "radis"
+      "radis",
+      "yuzu"
     ]
   },
   {
@@ -144,7 +149,8 @@
     "ingredients": [
       "truite",
       "chou",
-      "chou de Bruxelles"
+      "chou de Bruxelles",
+      "kumquat"
     ]
   },
   {
@@ -155,7 +161,8 @@
     "distinction": "Sélectionné",
     "ingredients": [
       "chou",
-      "chou-fleur"
+      "chou-fleur",
+      "anchois"
     ]
   },
   {
@@ -282,7 +289,8 @@
       "porc",
       "coquillage",
       "chou",
-      "coing"
+      "coing",
+      "cochon"
     ]
   },
   {
@@ -337,7 +345,8 @@
     "distinction": "Sélectionné",
     "ingredients": [
       "veau",
-      "huitre"
+      "huitre",
+      "anchois"
     ]
   },
   {
@@ -358,7 +367,9 @@
     "restaurant_id": 2,
     "distinction": "Sélectionné",
     "ingredients": [
-      "moule"
+      "moule",
+      "courge",
+      "lieu"
     ]
   },
   {
@@ -367,7 +378,9 @@
     "category": "plat",
     "restaurant_id": 2,
     "distinction": "Sélectionné",
-    "ingredients": []
+    "ingredients": [
+      "cassis"
+    ]
   },
   {
     "id": 44,
@@ -383,7 +396,9 @@
     "category": "dessert",
     "restaurant_id": 2,
     "distinction": "Sélectionné",
-    "ingredients": []
+    "ingredients": [
+      "framboise"
+    ]
   },
   {
     "id": 46,
@@ -462,7 +477,9 @@
     "category": "entree",
     "restaurant_id": 3,
     "distinction": "Sélectionné",
-    "ingredients": []
+    "ingredients": [
+      "brochet"
+    ]
   },
   {
     "id": 54,
@@ -479,7 +496,8 @@
     "restaurant_id": 3,
     "distinction": "Sélectionné",
     "ingredients": [
-      "ail"
+      "ail",
+      "écrevisse"
     ]
   },
   {
@@ -489,7 +507,9 @@
     "restaurant_id": 3,
     "distinction": "Sélectionné",
     "ingredients": [
-      "truite"
+      "truite",
+      "courge",
+      "oie"
     ]
   },
   {
@@ -500,7 +520,8 @@
     "distinction": "Sélectionné",
     "ingredients": [
       "bœuf",
-      "pomme"
+      "pomme de terre",
+      "boeuf"
     ]
   },
   {
@@ -631,7 +652,8 @@
     "ingredients": [
       "agneau",
       "chou",
-      "citron"
+      "citron",
+      "coco"
     ]
   },
   {
@@ -665,7 +687,8 @@
     "restaurant_id": 5,
     "distinction": "3 étoiles",
     "ingredients": [
-      "oignon"
+      "oignon",
+      "anchois"
     ]
   },
   {
@@ -718,7 +741,8 @@
     "restaurant_id": 5,
     "distinction": "3 étoiles",
     "ingredients": [
-      "veau"
+      "veau",
+      "coco"
     ]
   },
   {
@@ -737,7 +761,11 @@
     "category": "dessert",
     "restaurant_id": 5,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "ananas",
+      "coco",
+      "noix de coco"
+    ]
   },
   {
     "id": 86,
@@ -778,7 +806,12 @@
     "category": "dessert",
     "restaurant_id": 5,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "ananas",
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 91,
@@ -823,7 +856,8 @@
     "restaurant_id": 7,
     "distinction": "3 étoiles",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -890,7 +924,9 @@
     "category": "plat",
     "restaurant_id": 7,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "chevreuil"
+    ]
   },
   {
     "id": 110,
@@ -929,7 +965,8 @@
     "distinction": "3 étoiles",
     "ingredients": [
       "lotte",
-      "ail"
+      "ail",
+      "sandre"
     ]
   },
   {
@@ -942,7 +979,8 @@
       "caille",
       "chapon",
       "panais",
-      "pomme"
+      "myrtille",
+      "pomme de terre"
     ]
   },
   {
@@ -959,7 +997,9 @@
     "category": "dessert",
     "restaurant_id": 8,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 117,
@@ -977,7 +1017,8 @@
     "distinction": "3 étoiles",
     "ingredients": [
       "tourteau",
-      "citron"
+      "citron",
+      "courge"
     ]
   },
   {
@@ -1007,7 +1048,11 @@
     "category": "plat",
     "restaurant_id": 9,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "coco",
+      "cresson",
+      "haricot"
+    ]
   },
   {
     "id": 122,
@@ -1016,7 +1061,8 @@
     "restaurant_id": 9,
     "distinction": "3 étoiles",
     "ingredients": [
-      "homard"
+      "homard",
+      "grenade"
     ]
   },
   {
@@ -1025,7 +1071,11 @@
     "category": "plat",
     "restaurant_id": 9,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "concombre",
+      "avocat",
+      "saint-pierre"
+    ]
   },
   {
     "id": 124,
@@ -1044,7 +1094,8 @@
     "restaurant_id": 9,
     "distinction": "3 étoiles",
     "ingredients": [
-      "agneau"
+      "agneau",
+      "mandarine"
     ]
   },
   {
@@ -1054,7 +1105,9 @@
     "restaurant_id": 9,
     "distinction": "3 étoiles",
     "ingredients": [
-      "pigeon"
+      "pigeon",
+      "prune",
+      "navet"
     ]
   },
   {
@@ -1166,7 +1219,11 @@
     "category": "plat",
     "restaurant_id": 11,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "fenouil",
+      "brochet",
+      "sandre"
+    ]
   },
   {
     "id": 140,
@@ -1203,7 +1260,9 @@
     "category": "dessert",
     "restaurant_id": 11,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "pamplemousse"
+    ]
   },
   {
     "id": 144,
@@ -1256,7 +1315,8 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "poire"
+      "poire",
+      "oie"
     ]
   },
   {
@@ -1266,7 +1326,8 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "carotte"
+      "carotte",
+      "courge"
     ]
   },
   {
@@ -1286,7 +1347,8 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "pomme"
+      "pomme de terre",
+      "cardon"
     ]
   },
   {
@@ -1296,7 +1358,8 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "poire"
+      "poire",
+      "oie"
     ]
   },
   {
@@ -1314,7 +1377,8 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "truite"
+      "truite",
+      "oie"
     ]
   },
   {
@@ -1340,7 +1404,8 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "chevreuil"
     ]
   },
   {
@@ -1350,7 +1415,9 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "pomme"
+      "pomme de terre",
+      "fenouil",
+      "sandre"
     ]
   },
   {
@@ -1360,7 +1427,8 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "saumon"
+      "saumon",
+      "mandarine"
     ]
   },
   {
@@ -1394,7 +1462,8 @@
     "restaurant_id": 11,
     "distinction": "2 étoiles",
     "ingredients": [
-      "poire"
+      "poire",
+      "oie"
     ]
   },
   {
@@ -1406,7 +1475,8 @@
     "ingredients": [
       "Saint-Jacques",
       "panais",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -1439,7 +1509,9 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "bar",
-      "coquillage"
+      "coquillage",
+      "coco",
+      "pomelo"
     ]
   },
   {
@@ -1704,7 +1776,9 @@
     "category": "fromage",
     "restaurant_id": 15,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "endive"
+    ]
   },
   {
     "id": 229,
@@ -1769,7 +1843,9 @@
     "category": "plat",
     "restaurant_id": 16,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "anchois"
+    ]
   },
   {
     "id": 236,
@@ -1791,7 +1867,8 @@
     "ingredients": [
       "crevette",
       "chou",
-      "chou-fleur"
+      "chou-fleur",
+      "amande"
     ]
   },
   {
@@ -1840,7 +1917,10 @@
     "category": "dessert",
     "restaurant_id": 16,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "prune",
+      "amande"
+    ]
   },
   {
     "id": 244,
@@ -1888,7 +1968,9 @@
       "porc",
       "poireau",
       "poire",
-      "truffe"
+      "truffe",
+      "roquette",
+      "cochon"
     ]
   },
   {
@@ -1898,7 +1980,8 @@
     "restaurant_id": 16,
     "distinction": "2 étoiles",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "ananas"
     ]
   },
   {
@@ -1949,7 +2032,8 @@
       "porc",
       "poireau",
       "poire",
-      "truffe"
+      "truffe",
+      "cochon"
     ]
   },
   {
@@ -1996,7 +2080,9 @@
     "category": "dessert",
     "restaurant_id": 16,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "prune"
+    ]
   },
   {
     "id": 267,
@@ -2005,7 +2091,8 @@
     "restaurant_id": 16,
     "distinction": "2 étoiles",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "ananas"
     ]
   },
   {
@@ -2016,7 +2103,8 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "ail",
-      "brocoli"
+      "brocoli",
+      "sandre"
     ]
   },
   {
@@ -2026,7 +2114,8 @@
     "restaurant_id": 17,
     "distinction": "2 étoiles",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -2045,7 +2134,9 @@
     "category": "plat",
     "restaurant_id": 17,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "chevreuil"
+    ]
   },
   {
     "id": 272,
@@ -2062,7 +2153,9 @@
     "restaurant_id": 17,
     "distinction": "2 étoiles",
     "ingredients": [
-      "poire"
+      "poire",
+      "chicorée",
+      "amande"
     ]
   },
   {
@@ -2112,8 +2205,8 @@
     "restaurant_id": 17,
     "distinction": "2 étoiles",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -2355,7 +2448,8 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "langoustine",
-      "caviar"
+      "caviar",
+      "framboise"
     ]
   },
   {
@@ -2364,7 +2458,9 @@
     "category": "plat",
     "restaurant_id": 21,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "framboise"
+    ]
   },
   {
     "id": 329,
@@ -2384,7 +2480,9 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "lotte",
-      "ail"
+      "ail",
+      "coco",
+      "saint-pierre"
     ]
   },
   {
@@ -2403,9 +2501,7 @@
     "category": "plat",
     "restaurant_id": 21,
     "distinction": "2 étoiles",
-    "ingredients": [
-      "pomme"
-    ]
+    "ingredients": []
   },
   {
     "id": 333,
@@ -2458,7 +2554,9 @@
     "category": "plat",
     "restaurant_id": 21,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "passion"
+    ]
   },
   {
     "id": 339,
@@ -2487,7 +2585,8 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "bar",
-      "oursin"
+      "oursin",
+      "mandarine"
     ]
   },
   {
@@ -2510,7 +2609,8 @@
     "ingredients": [
       "langoustine",
       "poireau",
-      "poire"
+      "poire",
+      "kumquat"
     ]
   },
   {
@@ -2520,7 +2620,9 @@
     "restaurant_id": 22,
     "distinction": "2 étoiles",
     "ingredients": [
-      "pomme"
+      "pomme",
+      "navet",
+      "saint-jacques"
     ]
   },
   {
@@ -2529,7 +2631,10 @@
     "category": "plat",
     "restaurant_id": 22,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "brochet",
+      "écrevisse"
+    ]
   },
   {
     "id": 346,
@@ -2558,7 +2663,9 @@
     "category": "plat",
     "restaurant_id": 22,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "passion"
+    ]
   },
   {
     "id": 349,
@@ -2587,7 +2694,10 @@
     "category": "plat",
     "restaurant_id": 22,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "brochet",
+      "écrevisse"
+    ]
   },
   {
     "id": 358,
@@ -2595,7 +2705,10 @@
     "category": "plat",
     "restaurant_id": 22,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "coco",
+      "noix de coco"
+    ]
   },
   {
     "id": 359,
@@ -2614,7 +2727,8 @@
     "ingredients": [
       "canard",
       "foie gras",
-      "poire"
+      "poire",
+      "kiwi"
     ]
   },
   {
@@ -2624,7 +2738,7 @@
     "restaurant_id": 23,
     "distinction": "2 étoiles",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -2645,7 +2759,8 @@
     "restaurant_id": 23,
     "distinction": "2 étoiles",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -2656,8 +2771,8 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "veau",
-      "pomme",
-      "caviar"
+      "caviar",
+      "pomme de terre"
     ]
   },
   {
@@ -2668,7 +2783,8 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "pigeon",
-      "betterave"
+      "betterave",
+      "brochet"
     ]
   },
   {
@@ -2677,7 +2793,9 @@
     "category": "plat",
     "restaurant_id": 23,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "coco"
+    ]
   },
   {
     "id": 367,
@@ -2685,7 +2803,9 @@
     "category": "plat",
     "restaurant_id": 23,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "amande"
+    ]
   },
   {
     "id": 370,
@@ -2725,7 +2845,9 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "bœuf",
-      "citron"
+      "citron",
+      "navet",
+      "boeuf"
     ]
   },
   {
@@ -2773,7 +2895,8 @@
     "restaurant_id": 25,
     "distinction": "2 étoiles",
     "ingredients": [
-      "asperge"
+      "asperge",
+      "abricot"
     ]
   },
   {
@@ -2782,7 +2905,9 @@
     "category": "plat",
     "restaurant_id": 25,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "abricot"
+    ]
   },
   {
     "id": 386,
@@ -2964,7 +3089,8 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "Saint-Jacques",
-      "artichaut"
+      "artichaut",
+      "saint-jacques"
     ]
   },
   {
@@ -2975,7 +3101,9 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "truite",
-      "caviar"
+      "caviar",
+      "navet",
+      "sandre"
     ]
   },
   {
@@ -2998,8 +3126,8 @@
     "restaurant_id": 28,
     "distinction": "2 étoiles",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -3049,8 +3177,8 @@
     "ingredients": [
       "coquillage",
       "poireau",
-      "pomme",
-      "poire"
+      "poire",
+      "pomme de terre"
     ]
   },
   {
@@ -3091,7 +3219,9 @@
     "category": "plat",
     "restaurant_id": 29,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "ananas"
+    ]
   },
   {
     "id": 419,
@@ -3149,7 +3279,9 @@
     "category": "plat",
     "restaurant_id": 30,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "saint-pierre"
+    ]
   },
   {
     "id": 425,
@@ -3186,7 +3318,9 @@
     "category": "plat",
     "restaurant_id": 30,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "concombre"
+    ]
   },
   {
     "id": 431,
@@ -3194,7 +3328,9 @@
     "category": "plat",
     "restaurant_id": 30,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "daurade"
+    ]
   },
   {
     "id": 435,
@@ -3213,7 +3349,8 @@
     "restaurant_id": 30,
     "distinction": "2 étoiles",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "cerise"
     ]
   },
   {
@@ -3223,7 +3360,7 @@
     "restaurant_id": 30,
     "distinction": "2 étoiles",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -3251,7 +3388,8 @@
     "restaurant_id": 30,
     "distinction": "2 étoiles",
     "ingredients": [
-      "tomate"
+      "tomate",
+      "pêche"
     ]
   },
   {
@@ -3418,7 +3556,9 @@
     "category": "plat",
     "restaurant_id": 31,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "brochet"
+    ]
   },
   {
     "id": 472,
@@ -3435,7 +3575,7 @@
     "restaurant_id": 32,
     "distinction": "2 étoiles",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -3523,7 +3663,8 @@
     "ingredients": [
       "canard",
       "huitre",
-      "coquillage"
+      "coquillage",
+      "oie"
     ]
   },
   {
@@ -3542,7 +3683,9 @@
     "category": "plat",
     "restaurant_id": 33,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "sandre"
+    ]
   },
   {
     "id": 485,
@@ -3550,7 +3693,9 @@
     "category": "plat",
     "restaurant_id": 33,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "saint-pierre"
+    ]
   },
   {
     "id": 486,
@@ -3568,7 +3713,9 @@
     "category": "plat",
     "restaurant_id": 33,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "chevreuil"
+    ]
   },
   {
     "id": 488,
@@ -3654,7 +3801,9 @@
     "category": "plat",
     "restaurant_id": 35,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "salade"
+    ]
   },
   {
     "id": 498,
@@ -3672,7 +3821,9 @@
     "category": "plat",
     "restaurant_id": 35,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "courge"
+    ]
   },
   {
     "id": 500,
@@ -3712,7 +3863,7 @@
     "ingredients": [
       "ail",
       "brocoli",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -3734,7 +3885,7 @@
     "ingredients": [
       "agneau",
       "chou",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -3820,7 +3971,8 @@
     "restaurant_id": 35,
     "distinction": "2 étoiles",
     "ingredients": [
-      "truite"
+      "truite",
+      "salade"
     ]
   },
   {
@@ -3837,7 +3989,9 @@
     "category": "plat",
     "restaurant_id": 35,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "salade"
+    ]
   },
   {
     "id": 518,
@@ -3881,7 +4035,9 @@
     "category": "plat",
     "restaurant_id": 36,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "sandre"
+    ]
   },
   {
     "id": 523,
@@ -3993,7 +4149,9 @@
     "category": "plat",
     "restaurant_id": 38,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "cassis"
+    ]
   },
   {
     "id": 536,
@@ -4389,7 +4547,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "canard",
-      "foie gras"
+      "foie gras",
+      "myrtille"
     ]
   },
   {
@@ -4420,7 +4579,8 @@
     "restaurant_id": 43,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -4491,7 +4651,10 @@
     "category": "plat",
     "restaurant_id": 44,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "abricot",
+      "amande"
+    ]
   },
   {
     "id": 629,
@@ -4765,8 +4928,8 @@
     "restaurant_id": 48,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -4834,8 +4997,8 @@
     "restaurant_id": 48,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -4942,7 +5105,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "Saint-Jacques",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -4953,8 +5117,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "ail",
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -5008,7 +5172,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "coquillage",
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -5020,7 +5185,8 @@
     "ingredients": [
       "topinambour",
       "chou",
-      "orange"
+      "orange",
+      "gambas"
     ]
   },
   {
@@ -5031,7 +5197,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "homard",
-      "pomme"
+      "pêche",
+      "pomme de terre"
     ]
   },
   {
@@ -5069,7 +5236,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "canard",
-      "foie gras"
+      "foie gras",
+      "kumquat"
     ]
   },
   {
@@ -5079,7 +5247,8 @@
     "restaurant_id": 49,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "navet"
     ]
   },
   {
@@ -5096,7 +5265,9 @@
     "category": "plat",
     "restaurant_id": 49,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "amande"
+    ]
   },
   {
     "id": 711,
@@ -5114,7 +5285,11 @@
     "category": "plat",
     "restaurant_id": 49,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coco",
+      "courge",
+      "bulot"
+    ]
   },
   {
     "id": 713,
@@ -5123,7 +5298,8 @@
     "restaurant_id": 49,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "navet"
     ]
   },
   {
@@ -5135,7 +5311,8 @@
     "ingredients": [
       "poireau",
       "poire",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -5177,7 +5354,8 @@
     "restaurant_id": 50,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -5206,7 +5384,8 @@
     "restaurant_id": 50,
     "distinction": "1 étoile",
     "ingredients": [
-      "poire"
+      "poire",
+      "amande"
     ]
   },
   {
@@ -5217,7 +5396,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "porc",
-      "maquereau"
+      "maquereau",
+      "cochon"
     ]
   },
   {
@@ -5247,7 +5427,8 @@
     "ingredients": [
       "carotte",
       "champignon",
-      "truffe"
+      "truffe",
+      "cresson"
     ]
   },
   {
@@ -5258,7 +5439,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "tourteau",
-      "citron"
+      "citron",
+      "saint-jacques"
     ]
   },
   {
@@ -5293,7 +5475,7 @@
       "pintade",
       "ail",
       "salsifis",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -5305,7 +5487,8 @@
     "ingredients": [
       "lotte",
       "carotte",
-      "orange"
+      "orange",
+      "coco"
     ]
   },
   {
@@ -5419,7 +5602,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "Saint-Jacques",
-      "citron"
+      "citron",
+      "saint-jacques"
     ]
   },
   {
@@ -5446,7 +5630,9 @@
     "category": "plat",
     "restaurant_id": 54,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas"
+    ]
   },
   {
     "id": 760,
@@ -5549,7 +5735,8 @@
     "restaurant_id": 55,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -5570,7 +5757,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "porc",
-      "truffe"
+      "truffe",
+      "cochon"
     ]
   },
   {
@@ -5618,7 +5806,8 @@
     "restaurant_id": 55,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -5651,7 +5840,9 @@
     "category": "plat",
     "restaurant_id": 55,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "salade"
+    ]
   },
   {
     "id": 783,
@@ -5659,7 +5850,9 @@
     "category": "plat",
     "restaurant_id": 55,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mandarine"
+    ]
   },
   {
     "id": 784,
@@ -5691,7 +5884,10 @@
     "category": "plat",
     "restaurant_id": 56,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "cerise",
+      "yuzu"
+    ]
   },
   {
     "id": 788,
@@ -5711,7 +5907,8 @@
     "restaurant_id": 56,
     "distinction": "1 étoile",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "sanglier"
     ]
   },
   {
@@ -5741,7 +5938,7 @@
     "restaurant_id": 56,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -5759,7 +5956,9 @@
     "restaurant_id": 56,
     "distinction": "1 étoile",
     "ingredients": [
-      "caviar"
+      "caviar",
+      "courge",
+      "saint-jacques"
     ]
   },
   {
@@ -5846,7 +6045,8 @@
     "restaurant_id": 57,
     "distinction": "1 étoile",
     "ingredients": [
-      "ail"
+      "ail",
+      "oie"
     ]
   },
   {
@@ -5939,7 +6139,10 @@
     "category": "plat",
     "restaurant_id": 57,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "cresson",
+      "saint-jacques"
+    ]
   },
   {
     "id": 815,
@@ -5958,7 +6161,9 @@
     "category": "plat",
     "restaurant_id": 57,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pamplemousse"
+    ]
   },
   {
     "id": 817,
@@ -5997,7 +6202,9 @@
     "restaurant_id": 58,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "kumquat",
+      "saint-jacques"
     ]
   },
   {
@@ -6035,7 +6242,8 @@
     "restaurant_id": 58,
     "distinction": "1 étoile",
     "ingredients": [
-      "poire"
+      "poire",
+      "passion"
     ]
   },
   {
@@ -6070,7 +6278,9 @@
     "category": "plat",
     "restaurant_id": 58,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "salade"
+    ]
   },
   {
     "id": 837,
@@ -6179,7 +6389,9 @@
     "category": "plat",
     "restaurant_id": 61,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 850,
@@ -6545,7 +6757,8 @@
     "restaurant_id": 67,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme",
+      "fenouil"
     ]
   },
   {
@@ -6570,7 +6783,11 @@
     "category": "plat",
     "restaurant_id": 67,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "abricot",
+      "coco",
+      "noix de coco"
+    ]
   },
   {
     "id": 914,
@@ -6578,7 +6795,9 @@
     "category": "plat",
     "restaurant_id": 67,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kiwi"
+    ]
   },
   {
     "id": 915,
@@ -6621,7 +6840,8 @@
     "restaurant_id": 68,
     "distinction": "1 étoile",
     "ingredients": [
-      "ail"
+      "ail",
+      "cardon"
     ]
   },
   {
@@ -6779,8 +6999,8 @@
     "ingredients": [
       "veau",
       "poireau",
-      "pomme",
-      "poire"
+      "poire",
+      "pomme de terre"
     ]
   },
   {
@@ -6800,7 +7020,8 @@
     "restaurant_id": 70,
     "distinction": "1 étoile",
     "ingredients": [
-      "topinambour"
+      "topinambour",
+      "saint-jacques"
     ]
   },
   {
@@ -6810,7 +7031,8 @@
     "restaurant_id": 70,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "saint-jacques"
     ]
   },
   {
@@ -6820,7 +7042,8 @@
     "restaurant_id": 70,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "navet"
     ]
   },
   {
@@ -7006,7 +7229,9 @@
     "category": "plat",
     "restaurant_id": 73,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "oie"
+    ]
   },
   {
     "id": 976,
@@ -7121,8 +7346,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "poulet",
-      "pomme",
-      "caviar"
+      "caviar",
+      "pomme de terre"
     ]
   },
   {
@@ -7189,7 +7414,8 @@
     "restaurant_id": 77,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -7200,8 +7426,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "veau",
-      "pomme",
-      "champignon"
+      "champignon",
+      "pomme de terre"
     ]
   },
   {
@@ -7277,7 +7503,7 @@
     "restaurant_id": 77,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -7304,7 +7530,9 @@
     "category": "plat",
     "restaurant_id": 77,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 1030,
@@ -7313,7 +7541,8 @@
     "restaurant_id": 77,
     "distinction": "1 étoile",
     "ingredients": [
-      "homard"
+      "homard",
+      "sandre"
     ]
   },
   {
@@ -7324,7 +7553,10 @@
     "distinction": "1 étoile",
     "ingredients": [
       "chou",
-      "chou-fleur"
+      "chou-fleur",
+      "clémentine",
+      "saint-jacques",
+      "amande"
     ]
   },
   {
@@ -7336,7 +7568,8 @@
     "ingredients": [
       "saumon",
       "citron",
-      "caviar"
+      "caviar",
+      "kumquat"
     ]
   },
   {
@@ -7347,7 +7580,11 @@
     "distinction": "1 étoile",
     "ingredients": [
       "morue",
-      "poulet"
+      "poulet",
+      "passion",
+      "fruit de la passion",
+      "courge",
+      "cabillaud"
     ]
   },
   {
@@ -7359,7 +7596,8 @@
     "ingredients": [
       "foie gras",
       "ail",
-      "panais"
+      "panais",
+      "biche"
     ]
   },
   {
@@ -7370,8 +7608,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "ail",
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -7391,7 +7629,8 @@
     "ingredients": [
       "citron",
       "orange",
-      "caviar"
+      "caviar",
+      "yuzu"
     ]
   },
   {
@@ -7489,7 +7728,7 @@
     "restaurant_id": 79,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -7498,7 +7737,9 @@
     "category": "plat",
     "restaurant_id": 79,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mandarine"
+    ]
   },
   {
     "id": 1081,
@@ -7544,7 +7785,9 @@
     "category": "plat",
     "restaurant_id": 80,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 1086,
@@ -7553,7 +7796,8 @@
     "restaurant_id": 80,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "dorade"
     ]
   },
   {
@@ -7616,8 +7860,8 @@
     "restaurant_id": 81,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -7627,7 +7871,8 @@
     "restaurant_id": 81,
     "distinction": "1 étoile",
     "ingredients": [
-      "pigeon"
+      "pigeon",
+      "endive"
     ]
   },
   {
@@ -7680,7 +7925,9 @@
     "category": "plat",
     "restaurant_id": 82,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "cassis"
+    ]
   },
   {
     "id": 1100,
@@ -7753,7 +8000,9 @@
     "restaurant_id": 84,
     "distinction": "1 étoile",
     "ingredients": [
-      "caviar"
+      "caviar",
+      "clémentine",
+      "yuzu"
     ]
   },
   {
@@ -7775,8 +8024,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "jambon",
-      "pomme",
-      "champignon"
+      "champignon",
+      "pomme de terre"
     ]
   },
   {
@@ -7787,7 +8036,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "porc",
-      "bar"
+      "bar",
+      "cochon"
     ]
   },
   {
@@ -7889,7 +8139,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "langoustine",
-      "chou"
+      "chou",
+      "grenade"
     ]
   },
   {
@@ -7899,7 +8150,9 @@
     "restaurant_id": 85,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "courge",
+      "endive"
     ]
   },
   {
@@ -7916,7 +8169,9 @@
     "category": "plat",
     "restaurant_id": 85,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pomelo"
+    ]
   },
   {
     "id": 1134,
@@ -8038,7 +8293,8 @@
     "restaurant_id": 87,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme",
+      "lieu"
     ]
   },
   {
@@ -8073,7 +8329,9 @@
     "category": "plat",
     "restaurant_id": 87,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 1164,
@@ -8143,7 +8401,8 @@
     "restaurant_id": 88,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -8162,7 +8421,9 @@
     "category": "plat",
     "restaurant_id": 88,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coco"
+    ]
   },
   {
     "id": 1176,
@@ -8216,7 +8477,9 @@
     "category": "plat",
     "restaurant_id": 88,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 1182,
@@ -8242,7 +8505,9 @@
     "category": "plat",
     "restaurant_id": 89,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "lieu"
+    ]
   },
   {
     "id": 1185,
@@ -8251,7 +8516,8 @@
     "restaurant_id": 89,
     "distinction": "1 étoile",
     "ingredients": [
-      "porc"
+      "porc",
+      "cochon"
     ]
   },
   {
@@ -8295,7 +8561,8 @@
     "restaurant_id": 89,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -8324,7 +8591,9 @@
     "category": "plat",
     "restaurant_id": 89,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 1207,
@@ -8354,7 +8623,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "poireau",
-      "poire"
+      "poire",
+      "pêche"
     ]
   },
   {
@@ -8382,7 +8652,9 @@
     "category": "plat",
     "restaurant_id": 90,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kiwi"
+    ]
   },
   {
     "id": 1218,
@@ -8404,7 +8676,8 @@
     "ingredients": [
       "bar",
       "Saint-Jacques",
-      "pomme"
+      "pomme",
+      "saint-jacques"
     ]
   },
   {
@@ -8423,7 +8696,10 @@
     "category": "plat",
     "restaurant_id": 90,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 1224,
@@ -8441,7 +8717,9 @@
     "category": "plat",
     "restaurant_id": 91,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 1226,
@@ -8476,7 +8754,11 @@
     "category": "plat",
     "restaurant_id": 91,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche",
+      "fenouil",
+      "daurade"
+    ]
   },
   {
     "id": 1232,
@@ -8485,7 +8767,9 @@
     "restaurant_id": 91,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "fraise",
+      "rhubarbe"
     ]
   },
   {
@@ -8536,7 +8820,9 @@
     "restaurant_id": 91,
     "distinction": "1 étoile",
     "ingredients": [
-      "homard"
+      "homard",
+      "passion",
+      "fruit de la passion"
     ]
   },
   {
@@ -8546,7 +8832,8 @@
     "restaurant_id": 91,
     "distinction": "1 étoile",
     "ingredients": [
-      "salsifis"
+      "salsifis",
+      "daurade"
     ]
   },
   {
@@ -8563,7 +8850,9 @@
     "category": "plat",
     "restaurant_id": 92,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "fraise"
+    ]
   },
   {
     "id": 1243,
@@ -8571,7 +8860,9 @@
     "category": "plat",
     "restaurant_id": 92,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 1244,
@@ -8601,7 +8892,8 @@
     "restaurant_id": 92,
     "distinction": "1 étoile",
     "ingredients": [
-      "coquillage"
+      "coquillage",
+      "lieu"
     ]
   },
   {
@@ -8610,7 +8902,10 @@
     "category": "plat",
     "restaurant_id": 92,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine",
+      "kumquat"
+    ]
   },
   {
     "id": 1251,
@@ -8641,8 +8936,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "panais",
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -8651,7 +8946,9 @@
     "category": "plat",
     "restaurant_id": 92,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 1256,
@@ -8660,7 +8957,8 @@
     "restaurant_id": 92,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -8688,7 +8986,8 @@
     "restaurant_id": 92,
     "distinction": "1 étoile",
     "ingredients": [
-      "langoustine"
+      "langoustine",
+      "yuzu"
     ]
   },
   {
@@ -8697,7 +8996,9 @@
     "category": "plat",
     "restaurant_id": 92,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ormeau"
+    ]
   },
   {
     "id": 1262,
@@ -8707,7 +9008,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "pigeon",
-      "foie gras"
+      "foie gras",
+      "courge"
     ]
   },
   {
@@ -8716,7 +9018,9 @@
     "category": "plat",
     "restaurant_id": 92,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "prune"
+    ]
   },
   {
     "id": 1264,
@@ -8762,7 +9066,9 @@
     "category": "plat",
     "restaurant_id": 93,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "salade"
+    ]
   },
   {
     "id": 1269,
@@ -8812,7 +9118,9 @@
     "category": "plat",
     "restaurant_id": 94,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "lieu"
+    ]
   },
   {
     "id": 1275,
@@ -8850,7 +9158,9 @@
     "category": "plat",
     "restaurant_id": 94,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-pierre"
+    ]
   },
   {
     "id": 1279,
@@ -8910,7 +9220,9 @@
     "category": "plat",
     "restaurant_id": 95,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 1286,
@@ -8927,7 +9239,8 @@
     "restaurant_id": 95,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -8938,7 +9251,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "oursin",
-      "céleri"
+      "céleri",
+      "celeri"
     ]
   },
   {
@@ -8947,7 +9261,9 @@
     "category": "plat",
     "restaurant_id": 95,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 1290,
@@ -8977,7 +9293,8 @@
     "restaurant_id": 95,
     "distinction": "1 étoile",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "cerise"
     ]
   },
   {
@@ -9023,7 +9340,9 @@
     "restaurant_id": 95,
     "distinction": "1 étoile",
     "ingredients": [
-      "lotte"
+      "lotte",
+      "cresson",
+      "ormeau"
     ]
   },
   {
@@ -9083,7 +9402,8 @@
     "restaurant_id": 96,
     "distinction": "1 étoile",
     "ingredients": [
-      "saumon"
+      "saumon",
+      "salade"
     ]
   },
   {
@@ -9104,7 +9424,9 @@
     "distinction": "1 étoile",
     "ingredients": [
       "homard",
-      "pomme"
+      "pomme",
+      "yuzu",
+      "avocat"
     ]
   },
   {
@@ -9123,7 +9445,9 @@
     "category": "plat",
     "restaurant_id": 96,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "banane"
+    ]
   },
   {
     "id": 1312,
@@ -9131,7 +9455,9 @@
     "category": "plat",
     "restaurant_id": 96,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 1313,
@@ -9224,7 +9550,8 @@
     "restaurant_id": 98,
     "distinction": "1 étoile",
     "ingredients": [
-      "caviar"
+      "caviar",
+      "raie"
     ]
   },
   {
@@ -9234,7 +9561,8 @@
     "restaurant_id": 98,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "oie"
     ]
   },
   {
@@ -9247,7 +9575,8 @@
       "Saint-Jacques",
       "poireau",
       "poire",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -9258,7 +9587,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bœuf",
-      "caviar"
+      "caviar",
+      "boeuf"
     ]
   },
   {
@@ -9270,7 +9600,8 @@
     "ingredients": [
       "chou",
       "chou-fleur",
-      "truffe"
+      "truffe",
+      "lieu"
     ]
   },
   {
@@ -9281,7 +9612,7 @@
     "distinction": "1 étoile",
     "ingredients": [
       "veau",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -9331,7 +9662,8 @@
     "restaurant_id": 98,
     "distinction": "1 étoile",
     "ingredients": [
-      "orange"
+      "orange",
+      "endive"
     ]
   },
   {
@@ -9352,7 +9684,7 @@
     "restaurant_id": 98,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -9402,7 +9734,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "chou",
-      "chou-fleur"
+      "chou-fleur",
+      "lieu"
     ]
   },
   {
@@ -9411,7 +9744,10 @@
     "category": "plat",
     "restaurant_id": 98,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "cassis",
+      "amande"
+    ]
   },
   {
     "id": 1344,
@@ -9571,7 +9907,9 @@
     "category": "plat",
     "restaurant_id": 99,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas"
+    ]
   },
   {
     "id": 1365,
@@ -9672,7 +10010,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bar",
-      "poire"
+      "poire",
+      "saint-jacques"
     ]
   },
   {
@@ -9703,7 +10042,8 @@
     "restaurant_id": 100,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "kiwi"
     ]
   },
   {
@@ -9841,7 +10181,8 @@
     "restaurant_id": 105,
     "distinction": "1 étoile",
     "ingredients": [
-      "canard"
+      "canard",
+      "lentille"
     ]
   },
   {
@@ -9851,7 +10192,9 @@
     "restaurant_id": 105,
     "distinction": "1 étoile",
     "ingredients": [
-      "truite"
+      "truite",
+      "navet",
+      "cresson"
     ]
   },
   {
@@ -9900,7 +10243,8 @@
     "restaurant_id": 105,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "endive"
     ]
   },
   {
@@ -9911,7 +10255,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "langoustine",
-      "caviar"
+      "caviar",
+      "kiwi"
     ]
   },
   {
@@ -9982,7 +10327,9 @@
     "category": "plat",
     "restaurant_id": 106,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "endive"
+    ]
   },
   {
     "id": 1444,
@@ -9991,7 +10338,8 @@
     "restaurant_id": 106,
     "distinction": "1 étoile",
     "ingredients": [
-      "panais"
+      "panais",
+      "biche"
     ]
   },
   {
@@ -10079,7 +10427,8 @@
     "ingredients": [
       "Saint-Jacques",
       "panais",
-      "orange"
+      "orange",
+      "saint-jacques"
     ]
   },
   {
@@ -10110,7 +10459,9 @@
     "category": "plat",
     "restaurant_id": 106,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas"
+    ]
   },
   {
     "id": 1460,
@@ -10127,7 +10478,8 @@
     "restaurant_id": 107,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre",
+      "cresson"
     ]
   },
   {
@@ -10146,7 +10498,9 @@
     "category": "plat",
     "restaurant_id": 107,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "courge"
+    ]
   },
   {
     "id": 1464,
@@ -10192,7 +10546,9 @@
     "category": "plat",
     "restaurant_id": 108,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "endive"
+    ]
   },
   {
     "id": 1469,
@@ -10233,7 +10589,8 @@
     "restaurant_id": 108,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -10311,7 +10668,8 @@
     "restaurant_id": 108,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -10353,7 +10711,8 @@
     "ingredients": [
       "tourteau",
       "courgette",
-      "tomate"
+      "tomate",
+      "courge"
     ]
   },
   {
@@ -10374,7 +10733,7 @@
     "distinction": "1 étoile",
     "ingredients": [
       "turbot",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -10401,7 +10760,9 @@
     "category": "plat",
     "restaurant_id": 109,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "fraise"
+    ]
   },
   {
     "id": 1500,
@@ -10410,7 +10771,8 @@
     "restaurant_id": 109,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "rhubarbe"
     ]
   },
   {
@@ -10468,7 +10830,8 @@
     "restaurant_id": 110,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -10524,7 +10887,9 @@
     "category": "plat",
     "restaurant_id": 111,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 1540,
@@ -10533,8 +10898,9 @@
     "restaurant_id": 111,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre",
+      "biche"
     ]
   },
   {
@@ -10551,7 +10917,12 @@
     "category": "plat",
     "restaurant_id": 111,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "coco",
+      "noix de coco",
+      "passion"
+    ]
   },
   {
     "id": 1543,
@@ -10560,7 +10931,8 @@
     "restaurant_id": 111,
     "distinction": "1 étoile",
     "ingredients": [
-      "caviar"
+      "caviar",
+      "daurade"
     ]
   },
   {
@@ -10621,7 +10993,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "Saint-Jacques",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -10649,7 +11022,9 @@
     "category": "plat",
     "restaurant_id": 112,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 1554,
@@ -10687,7 +11062,9 @@
     "category": "plat",
     "restaurant_id": 112,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "chevreuil"
+    ]
   },
   {
     "id": 1558,
@@ -10753,7 +11130,8 @@
     "restaurant_id": 112,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -10772,7 +11150,9 @@
     "category": "plat",
     "restaurant_id": 112,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "perdreau"
+    ]
   },
   {
     "id": 1572,
@@ -10873,7 +11253,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "huitre",
-      "caviar"
+      "caviar",
+      "lieu"
     ]
   },
   {
@@ -10890,7 +11271,9 @@
     "category": "plat",
     "restaurant_id": 113,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "cassis"
+    ]
   },
   {
     "id": 1587,
@@ -10898,7 +11281,10 @@
     "category": "plat",
     "restaurant_id": 113,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "passion"
+    ]
   },
   {
     "id": 1590,
@@ -10918,8 +11304,8 @@
     "restaurant_id": 113,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "caviar"
+      "caviar",
+      "pomme de terre"
     ]
   },
   {
@@ -10981,7 +11367,8 @@
     "restaurant_id": 113,
     "distinction": "1 étoile",
     "ingredients": [
-      "homard"
+      "homard",
+      "coque"
     ]
   },
   {
@@ -11001,8 +11388,8 @@
     "restaurant_id": 113,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -11055,7 +11442,8 @@
     "restaurant_id": 113,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "pêche"
     ]
   },
   {
@@ -11117,7 +11505,9 @@
     "distinction": "1 étoile",
     "ingredients": [
       "chou",
-      "chou-fleur"
+      "chou-fleur",
+      "coco",
+      "noix de coco"
     ]
   },
   {
@@ -11128,7 +11518,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "sole",
-      "truffe"
+      "truffe",
+      "pêche"
     ]
   },
   {
@@ -11194,7 +11585,9 @@
     "category": "plat",
     "restaurant_id": 114,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "sanglier"
+    ]
   },
   {
     "id": 1625,
@@ -11266,7 +11659,9 @@
     "category": "plat",
     "restaurant_id": 114,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "cassis"
+    ]
   },
   {
     "id": 1633,
@@ -11292,7 +11687,9 @@
     "category": "plat",
     "restaurant_id": 115,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coco"
+    ]
   },
   {
     "id": 1636,
@@ -11497,7 +11894,8 @@
     "ingredients": [
       "foie gras",
       "Saint-Jacques",
-      "artichaut"
+      "artichaut",
+      "saint-jacques"
     ]
   },
   {
@@ -11518,7 +11916,8 @@
     "restaurant_id": 118,
     "distinction": "1 étoile",
     "ingredients": [
-      "chou"
+      "chou",
+      "chevreuil"
     ]
   },
   {
@@ -11537,7 +11936,10 @@
     "category": "plat",
     "restaurant_id": 118,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "sandre",
+      "raie"
+    ]
   },
   {
     "id": 1679,
@@ -11555,7 +11957,10 @@
     "category": "plat",
     "restaurant_id": 119,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 1682,
@@ -11588,7 +11993,8 @@
     "restaurant_id": 119,
     "distinction": "1 étoile",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "roquette"
     ]
   },
   {
@@ -11619,7 +12025,9 @@
     "category": "plat",
     "restaurant_id": 119,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "brochet"
+    ]
   },
   {
     "id": 1688,
@@ -11638,7 +12046,9 @@
     "category": "plat",
     "restaurant_id": 119,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "biche"
+    ]
   },
   {
     "id": 1690,
@@ -11685,7 +12095,8 @@
       "porc",
       "foie gras",
       "chou",
-      "choucroute"
+      "choucroute",
+      "cochon"
     ]
   },
   {
@@ -11696,7 +12107,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "foie gras",
-      "truffe"
+      "truffe",
+      "salade"
     ]
   },
   {
@@ -11733,7 +12145,11 @@
     "category": "plat",
     "restaurant_id": 119,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "ananas",
+      "passion"
+    ]
   },
   {
     "id": 1699,
@@ -11742,7 +12158,8 @@
     "restaurant_id": 119,
     "distinction": "1 étoile",
     "ingredients": [
-      "coing"
+      "coing",
+      "cassis"
     ]
   },
   {
@@ -11751,7 +12168,9 @@
     "category": "plat",
     "restaurant_id": 119,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 1701,
@@ -11759,7 +12178,9 @@
     "category": "plat",
     "restaurant_id": 120,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mandarine"
+    ]
   },
   {
     "id": 1702,
@@ -11768,7 +12189,8 @@
     "restaurant_id": 120,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -11838,7 +12260,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bœuf",
-      "truffe"
+      "truffe",
+      "boeuf"
     ]
   },
   {
@@ -11901,7 +12324,8 @@
     "restaurant_id": 120,
     "distinction": "1 étoile",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "yuzu"
     ]
   },
   {
@@ -12077,7 +12501,11 @@
     "category": "plat",
     "restaurant_id": 121,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas",
+      "coco",
+      "noix de coco"
+    ]
   },
   {
     "id": 1735,
@@ -12116,7 +12544,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "coquillage",
-      "chou"
+      "chou",
+      "ormeau"
     ]
   },
   {
@@ -12148,7 +12577,11 @@
     "category": "plat",
     "restaurant_id": 121,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 1744,
@@ -12182,7 +12615,7 @@
     "distinction": "1 étoile",
     "ingredients": [
       "topinambour",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -12225,7 +12658,8 @@
     "restaurant_id": 122,
     "distinction": "1 étoile",
     "ingredients": [
-      "champignon"
+      "champignon",
+      "faisan"
     ]
   },
   {
@@ -12236,7 +12670,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "porc",
-      "carotte"
+      "carotte",
+      "cochon"
     ]
   },
   {
@@ -12291,7 +12726,8 @@
     "ingredients": [
       "porc",
       "carotte",
-      "citron"
+      "citron",
+      "cochon"
     ]
   },
   {
@@ -12342,7 +12778,8 @@
     "restaurant_id": 122,
     "distinction": "1 étoile",
     "ingredients": [
-      "saumon"
+      "saumon",
+      "mandarine"
     ]
   },
   {
@@ -12395,7 +12832,8 @@
     "ingredients": [
       "canard",
       "foie gras",
-      "pomme"
+      "pomme",
+      "raisin"
     ]
   },
   {
@@ -12414,7 +12852,9 @@
     "category": "plat",
     "restaurant_id": 122,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "biche"
+    ]
   },
   {
     "id": 1776,
@@ -12444,7 +12884,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bœuf",
-      "huitre"
+      "huitre",
+      "boeuf"
     ]
   },
   {
@@ -12491,7 +12932,8 @@
     "restaurant_id": 123,
     "distinction": "1 étoile",
     "ingredients": [
-      "pigeon"
+      "pigeon",
+      "raisin"
     ]
   },
   {
@@ -12550,7 +12992,8 @@
     "restaurant_id": 124,
     "distinction": "1 étoile",
     "ingredients": [
-      "huitre"
+      "huitre",
+      "endive"
     ]
   },
   {
@@ -12561,7 +13004,7 @@
     "distinction": "1 étoile",
     "ingredients": [
       "caille",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -12578,7 +13021,9 @@
     "category": "plat",
     "restaurant_id": 124,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "brochet"
+    ]
   },
   {
     "id": 1793,
@@ -12588,7 +13033,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "topinambour",
-      "poire"
+      "poire",
+      "pêche"
     ]
   },
   {
@@ -12640,7 +13086,8 @@
     "ingredients": [
       "homard",
       "Saint-Jacques",
-      "panais"
+      "panais",
+      "saint-jacques"
     ]
   },
   {
@@ -12714,7 +13161,8 @@
     "restaurant_id": 126,
     "distinction": "1 étoile",
     "ingredients": [
-      "chou"
+      "chou",
+      "coque"
     ]
   },
   {
@@ -12742,7 +13190,9 @@
     "category": "plat",
     "restaurant_id": 126,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "chicorée"
+    ]
   },
   {
     "id": 1814,
@@ -12783,7 +13233,8 @@
     "restaurant_id": 127,
     "distinction": "1 étoile",
     "ingredients": [
-      "topinambour"
+      "topinambour",
+      "saint-jacques"
     ]
   },
   {
@@ -12837,7 +13288,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "veau",
-      "salsifis"
+      "salsifis",
+      "passion"
     ]
   },
   {
@@ -12864,7 +13316,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "veau",
-      "chou"
+      "chou",
+      "salade"
     ]
   },
   {
@@ -12874,7 +13327,8 @@
     "restaurant_id": 128,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme",
+      "lieu"
     ]
   },
   {
@@ -12885,7 +13339,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "canard",
-      "foie gras"
+      "foie gras",
+      "yuzu"
     ]
   },
   {
@@ -12906,7 +13361,9 @@
     "restaurant_id": 128,
     "distinction": "1 étoile",
     "ingredients": [
-      "porc"
+      "porc",
+      "passion",
+      "cochon"
     ]
   },
   {
@@ -12941,7 +13398,10 @@
     "category": "plat",
     "restaurant_id": 128,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas",
+      "coco"
+    ]
   },
   {
     "id": 1834,
@@ -12949,7 +13409,9 @@
     "category": "plat",
     "restaurant_id": 128,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mandarine"
+    ]
   },
   {
     "id": 1835,
@@ -12968,7 +13430,9 @@
     "ingredients": [
       "Saint-Jacques",
       "carotte",
-      "citron"
+      "citron",
+      "kumquat",
+      "saint-jacques"
     ]
   },
   {
@@ -13002,7 +13466,8 @@
     "restaurant_id": 129,
     "distinction": "1 étoile",
     "ingredients": [
-      "truite"
+      "truite",
+      "salade"
     ]
   },
   {
@@ -13025,8 +13490,8 @@
     "restaurant_id": 129,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "caviar"
+      "caviar",
+      "pomme de terre"
     ]
   },
   {
@@ -13089,9 +13554,9 @@
     "restaurant_id": 130,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
       "citron",
-      "girolle"
+      "girolle",
+      "pomme de terre"
     ]
   },
   {
@@ -13117,7 +13582,8 @@
       "caille",
       "bar",
       "poulet",
-      "pomme"
+      "kumquat",
+      "pomme de terre"
     ]
   },
   {
@@ -13128,7 +13594,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "rouget",
-      "topinambour"
+      "topinambour",
+      "clémentine"
     ]
   },
   {
@@ -13139,7 +13606,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "homard",
-      "poire"
+      "poire",
+      "navet"
     ]
   },
   {
@@ -13148,7 +13616,9 @@
     "category": "plat",
     "restaurant_id": 130,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "perdreau"
+    ]
   },
   {
     "id": 1854,
@@ -13169,7 +13639,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "agneau",
-      "caille"
+      "caille",
+      "courge"
     ]
   },
   {
@@ -13188,7 +13659,9 @@
     "category": "plat",
     "restaurant_id": 130,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 1858,
@@ -13196,7 +13669,9 @@
     "category": "plat",
     "restaurant_id": 130,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue"
+    ]
   },
   {
     "id": 1859,
@@ -13263,7 +13738,8 @@
     "restaurant_id": 132,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "amande"
     ]
   },
   {
@@ -13375,7 +13851,8 @@
       "Saint-Jacques",
       "chou",
       "brocoli",
-      "caviar"
+      "caviar",
+      "saint-jacques"
     ]
   },
   {
@@ -13385,7 +13862,8 @@
     "restaurant_id": 133,
     "distinction": "1 étoile",
     "ingredients": [
-      "chou"
+      "chou",
+      "sandre"
     ]
   },
   {
@@ -13443,7 +13921,9 @@
     "category": "plat",
     "restaurant_id": 133,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "chicorée"
+    ]
   },
   {
     "id": 1885,
@@ -13452,7 +13932,8 @@
     "restaurant_id": 133,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "raisin"
     ]
   },
   {
@@ -13472,7 +13953,9 @@
     "restaurant_id": 133,
     "distinction": "1 étoile",
     "ingredients": [
-      "orange"
+      "orange",
+      "clémentine",
+      "salade"
     ]
   },
   {
@@ -13519,7 +14002,9 @@
     "restaurant_id": 134,
     "distinction": "1 étoile",
     "ingredients": [
-      "foie gras"
+      "foie gras",
+      "biche",
+      "brochet"
     ]
   },
   {
@@ -13528,7 +14013,9 @@
     "category": "plat",
     "restaurant_id": 134,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "daurade"
+    ]
   },
   {
     "id": 1894,
@@ -13655,7 +14142,9 @@
     "category": "plat",
     "restaurant_id": 135,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coque"
+    ]
   },
   {
     "id": 1918,
@@ -13664,7 +14153,8 @@
     "restaurant_id": 135,
     "distinction": "1 étoile",
     "ingredients": [
-      "poulet"
+      "poulet",
+      "roquette"
     ]
   },
   {
@@ -13689,7 +14179,9 @@
     "category": "plat",
     "restaurant_id": 136,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "gambas"
+    ]
   },
   {
     "id": 1922,
@@ -13827,7 +14319,9 @@
     "category": "plat",
     "restaurant_id": 137,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "lieu"
+    ]
   },
   {
     "id": 1948,
@@ -13868,7 +14362,8 @@
     "restaurant_id": 138,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -13885,7 +14380,9 @@
     "category": "plat",
     "restaurant_id": 138,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-pierre"
+    ]
   },
   {
     "id": 1955,
@@ -13949,7 +14446,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "Saint-Jacques",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -13970,7 +14468,8 @@
     "restaurant_id": 138,
     "distinction": "1 étoile",
     "ingredients": [
-      "saumon"
+      "saumon",
+      "passion"
     ]
   },
   {
@@ -13997,7 +14496,9 @@
     "category": "plat",
     "restaurant_id": 138,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "framboise"
+    ]
   },
   {
     "id": 1971,
@@ -14081,7 +14582,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "foie gras",
-      "betterave"
+      "betterave",
+      "navet"
     ]
   },
   {
@@ -14114,7 +14616,9 @@
     "category": "plat",
     "restaurant_id": 140,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coque"
+    ]
   },
   {
     "id": 1984,
@@ -14133,7 +14637,9 @@
     "restaurant_id": 140,
     "distinction": "1 étoile",
     "ingredients": [
-      "orange"
+      "orange",
+      "passion",
+      "fruit de la passion"
     ]
   },
   {
@@ -14142,7 +14648,10 @@
     "category": "plat",
     "restaurant_id": 140,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "prune",
+      "banane"
+    ]
   },
   {
     "id": 1987,
@@ -14163,7 +14672,8 @@
     "ingredients": [
       "canard",
       "foie gras",
-      "betterave"
+      "betterave",
+      "navet"
     ]
   },
   {
@@ -14227,7 +14737,8 @@
     "restaurant_id": 140,
     "distinction": "1 étoile",
     "ingredients": [
-      "truite"
+      "truite",
+      "pamplemousse"
     ]
   },
   {
@@ -14276,7 +14787,10 @@
     "category": "plat",
     "restaurant_id": 140,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas",
+      "banane"
+    ]
   },
   {
     "id": 2018,
@@ -14295,7 +14809,8 @@
     "ingredients": [
       "tourteau",
       "betterave",
-      "oignon"
+      "oignon",
+      "cresson"
     ]
   },
   {
@@ -14305,7 +14820,9 @@
     "restaurant_id": 141,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "yuzu",
+      "saint-jacques"
     ]
   },
   {
@@ -14315,7 +14832,8 @@
     "restaurant_id": 141,
     "distinction": "1 étoile",
     "ingredients": [
-      "orange"
+      "orange",
+      "endive"
     ]
   },
   {
@@ -14346,7 +14864,8 @@
     "ingredients": [
       "canard",
       "foie gras",
-      "coing"
+      "coing",
+      "amande"
     ]
   },
   {
@@ -14358,7 +14877,9 @@
     "ingredients": [
       "Saint-Jacques",
       "citron",
-      "caviar"
+      "caviar",
+      "cresson",
+      "saint-jacques"
     ]
   },
   {
@@ -14369,7 +14890,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "betterave",
-      "oignon"
+      "oignon",
+      "gambas"
     ]
   },
   {
@@ -14422,7 +14944,10 @@
     "category": "plat",
     "restaurant_id": 141,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas",
+      "yuzu"
+    ]
   },
   {
     "id": 2037,
@@ -14448,7 +14973,9 @@
     "category": "plat",
     "restaurant_id": 142,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "fraise"
+    ]
   },
   {
     "id": 2040,
@@ -14477,7 +15004,8 @@
     "restaurant_id": 143,
     "distinction": "1 étoile",
     "ingredients": [
-      "huitre"
+      "huitre",
+      "passion"
     ]
   },
   {
@@ -14551,7 +15079,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "ail",
-      "truffe"
+      "truffe",
+      "salade"
     ]
   },
   {
@@ -14560,7 +15089,9 @@
     "category": "plat",
     "restaurant_id": 143,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 2051,
@@ -14568,7 +15099,9 @@
     "category": "plat",
     "restaurant_id": 143,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pamplemousse"
+    ]
   },
   {
     "id": 2052,
@@ -14577,7 +15110,8 @@
     "restaurant_id": 144,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -14586,7 +15120,9 @@
     "category": "plat",
     "restaurant_id": 144,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "lieu"
+    ]
   },
   {
     "id": 2054,
@@ -14622,7 +15158,9 @@
     "category": "plat",
     "restaurant_id": 144,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "navet"
+    ]
   },
   {
     "id": 2061,
@@ -14640,7 +15178,10 @@
     "distinction": "1 étoile",
     "ingredients": [
       "crevette",
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "kumquat",
+      "navet",
+      "saint-jacques"
     ]
   },
   {
@@ -14649,7 +15190,11 @@
     "category": "plat",
     "restaurant_id": 145,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "fenouil",
+      "saint-pierre",
+      "coque"
+    ]
   },
   {
     "id": 2065,
@@ -14657,7 +15202,9 @@
     "category": "plat",
     "restaurant_id": 145,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "anchois"
+    ]
   },
   {
     "id": 2066,
@@ -14714,7 +15261,9 @@
     "category": "plat",
     "restaurant_id": 146,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 2075,
@@ -14797,7 +15346,9 @@
     "restaurant_id": 146,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "lentille",
+      "cabillaud"
     ]
   },
   {
@@ -14819,8 +15370,9 @@
     "ingredients": [
       "poireau",
       "ail",
-      "pomme",
-      "poire"
+      "poire",
+      "pomme de terre",
+      "coque"
     ]
   },
   {
@@ -14847,7 +15399,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "carotte",
-      "orange"
+      "orange",
+      "pamplemousse"
     ]
   },
   {
@@ -14874,7 +15427,11 @@
     "category": "plat",
     "restaurant_id": 146,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 2091,
@@ -14920,7 +15477,9 @@
       "canard",
       "foie gras",
       "maquereau",
-      "betterave"
+      "betterave",
+      "framboise",
+      "fenouil"
     ]
   },
   {
@@ -14941,7 +15500,9 @@
     "restaurant_id": 147,
     "distinction": "1 étoile",
     "ingredients": [
-      "porc"
+      "porc",
+      "yuzu",
+      "cochon"
     ]
   },
   {
@@ -14961,7 +15522,10 @@
     "restaurant_id": 147,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "mangue",
+      "ananas",
+      "yuzu"
     ]
   },
   {
@@ -15019,7 +15583,9 @@
     "restaurant_id": 147,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "concombre",
+      "lieu"
     ]
   },
   {
@@ -15146,8 +15712,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "ail",
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -15228,7 +15794,9 @@
     "category": "plat",
     "restaurant_id": 150,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "abricot"
+    ]
   },
   {
     "id": 2144,
@@ -15346,7 +15914,9 @@
     "category": "plat",
     "restaurant_id": 152,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 2159,
@@ -15386,7 +15956,9 @@
     "category": "plat",
     "restaurant_id": 152,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "passion"
+    ]
   },
   {
     "id": 2168,
@@ -15394,7 +15966,9 @@
     "category": "plat",
     "restaurant_id": 152,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 2169,
@@ -15423,7 +15997,8 @@
     "restaurant_id": 153,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -15467,7 +16042,8 @@
     "restaurant_id": 153,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -15513,7 +16089,8 @@
     "restaurant_id": 153,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -15550,7 +16127,9 @@
     "category": "plat",
     "restaurant_id": 153,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 2191,
@@ -15679,7 +16258,9 @@
     "category": "plat",
     "restaurant_id": 153,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas"
+    ]
   },
   {
     "id": 2205,
@@ -15772,7 +16353,8 @@
     "ingredients": [
       "canard",
       "foie gras",
-      "orange"
+      "orange",
+      "grenade"
     ]
   },
   {
@@ -15781,7 +16363,9 @@
     "category": "plat",
     "restaurant_id": 155,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 2216,
@@ -15817,7 +16401,8 @@
     "restaurant_id": 155,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme",
+      "amande"
     ]
   },
   {
@@ -15826,7 +16411,11 @@
     "category": "plat",
     "restaurant_id": 155,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 2221,
@@ -15862,7 +16451,9 @@
     "distinction": "1 étoile",
     "ingredients": [
       "foie gras",
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "lentille",
+      "saint-jacques"
     ]
   },
   {
@@ -15900,7 +16491,10 @@
     "restaurant_id": 155,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "ananas",
+      "coco",
+      "noix de coco"
     ]
   },
   {
@@ -16215,7 +16809,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bar",
-      "coquillage"
+      "coquillage",
+      "coque"
     ]
   },
   {
@@ -16250,7 +16845,8 @@
     "ingredients": [
       "pigeon",
       "betterave",
-      "panais"
+      "panais",
+      "raisin"
     ]
   },
   {
@@ -16336,7 +16932,7 @@
     "restaurant_id": 162,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -16374,7 +16970,8 @@
     "restaurant_id": 162,
     "distinction": "1 étoile",
     "ingredients": [
-      "truite"
+      "truite",
+      "concombre"
     ]
   },
   {
@@ -16385,7 +16982,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "morue",
-      "asperge"
+      "asperge",
+      "cabillaud"
     ]
   },
   {
@@ -16413,7 +17011,9 @@
     "category": "plat",
     "restaurant_id": 162,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "figue"
+    ]
   },
   {
     "id": 2294,
@@ -16431,7 +17031,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "homard",
-      "tomate"
+      "tomate",
+      "salade"
     ]
   },
   {
@@ -16461,7 +17062,9 @@
     "restaurant_id": 164,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "yuzu",
+      "navet"
     ]
   },
   {
@@ -16483,8 +17086,8 @@
     "restaurant_id": 164,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -16517,7 +17120,8 @@
     "ingredients": [
       "pomme",
       "huitre",
-      "caviar"
+      "caviar",
+      "cresson"
     ]
   },
   {
@@ -16538,7 +17142,8 @@
     "restaurant_id": 164,
     "distinction": "1 étoile",
     "ingredients": [
-      "caille"
+      "caille",
+      "raisin"
     ]
   },
   {
@@ -16608,7 +17213,8 @@
     "ingredients": [
       "bar",
       "topinambour",
-      "pomme"
+      "pomme",
+      "cresson"
     ]
   },
   {
@@ -16641,7 +17247,9 @@
     "restaurant_id": 164,
     "distinction": "1 étoile",
     "ingredients": [
-      "orange"
+      "orange",
+      "clémentine",
+      "yuzu"
     ]
   },
   {
@@ -16652,7 +17260,10 @@
     "distinction": "1 étoile",
     "ingredients": [
       "truite",
-      "huitre"
+      "huitre",
+      "yuzu",
+      "navet",
+      "merlan"
     ]
   },
   {
@@ -16675,7 +17286,9 @@
     "ingredients": [
       "lotte",
       "ail",
-      "orange"
+      "orange",
+      "biche",
+      "gambas"
     ]
   },
   {
@@ -16745,7 +17358,8 @@
     "restaurant_id": 165,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -16765,7 +17379,8 @@
     "restaurant_id": 165,
     "distinction": "1 étoile",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "cassis"
     ]
   },
   {
@@ -16860,7 +17475,9 @@
     "restaurant_id": 166,
     "distinction": "1 étoile",
     "ingredients": [
-      "poire"
+      "poire",
+      "raisin",
+      "ananas"
     ]
   },
   {
@@ -16903,7 +17520,8 @@
     "ingredients": [
       "bar",
       "poireau",
-      "poire"
+      "poire",
+      "saint-jacques"
     ]
   },
   {
@@ -16914,7 +17532,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "veau",
-      "huitre"
+      "huitre",
+      "salade"
     ]
   },
   {
@@ -16973,7 +17592,8 @@
     "restaurant_id": 166,
     "distinction": "1 étoile",
     "ingredients": [
-      "homard"
+      "homard",
+      "mangue"
     ]
   },
   {
@@ -16985,7 +17605,8 @@
     "ingredients": [
       "brocoli",
       "champignon",
-      "truffe"
+      "truffe",
+      "dorade"
     ]
   },
   {
@@ -17013,7 +17634,8 @@
     "restaurant_id": 167,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -17022,7 +17644,9 @@
     "category": "plat",
     "restaurant_id": 167,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "endive"
+    ]
   },
   {
     "id": 2370,
@@ -17041,7 +17665,8 @@
     "restaurant_id": 167,
     "distinction": "1 étoile",
     "ingredients": [
-      "ail"
+      "ail",
+      "raie"
     ]
   },
   {
@@ -17107,7 +17732,8 @@
     "restaurant_id": 168,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "chevreuil"
     ]
   },
   {
@@ -17184,7 +17810,8 @@
     "restaurant_id": 168,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "pêche"
     ]
   },
   {
@@ -17203,7 +17830,9 @@
     "category": "plat",
     "restaurant_id": 168,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "chevreuil"
+    ]
   },
   {
     "id": 2389,
@@ -17227,7 +17856,9 @@
     "category": "plat",
     "restaurant_id": 168,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas"
+    ]
   },
   {
     "id": 2392,
@@ -17243,7 +17874,9 @@
     "category": "plat",
     "restaurant_id": 169,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 2394,
@@ -17252,7 +17885,8 @@
     "restaurant_id": 169,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -17407,7 +18041,8 @@
     "restaurant_id": 170,
     "distinction": "1 étoile",
     "ingredients": [
-      "caviar"
+      "caviar",
+      "mangue"
     ]
   },
   {
@@ -17438,7 +18073,9 @@
     "restaurant_id": 171,
     "distinction": "1 étoile",
     "ingredients": [
-      "lotte"
+      "lotte",
+      "concombre",
+      "avocat"
     ]
   },
   {
@@ -17458,7 +18095,8 @@
     "restaurant_id": 171,
     "distinction": "1 étoile",
     "ingredients": [
-      "ail"
+      "ail",
+      "fenouil"
     ]
   },
   {
@@ -17636,7 +18274,9 @@
     "category": "plat",
     "restaurant_id": 173,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "amande"
+    ]
   },
   {
     "id": 2438,
@@ -17653,7 +18293,8 @@
     "restaurant_id": 174,
     "distinction": "1 étoile",
     "ingredients": [
-      "tomate"
+      "tomate",
+      "haricot"
     ]
   },
   {
@@ -17700,7 +18341,8 @@
     "restaurant_id": 174,
     "distinction": "1 étoile",
     "ingredients": [
-      "tomate"
+      "tomate",
+      "haricot"
     ]
   },
   {
@@ -17719,7 +18361,9 @@
     "category": "plat",
     "restaurant_id": 174,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "raisin"
+    ]
   },
   {
     "id": 2451,
@@ -17728,7 +18372,8 @@
     "restaurant_id": 174,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "coco"
     ]
   },
   {
@@ -17786,7 +18431,9 @@
     "category": "plat",
     "restaurant_id": 175,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 2459,
@@ -17835,7 +18482,8 @@
     "restaurant_id": 175,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "yuzu"
     ]
   },
   {
@@ -17879,7 +18527,8 @@
     "restaurant_id": 176,
     "distinction": "1 étoile",
     "ingredients": [
-      "champignon"
+      "champignon",
+      "oie"
     ]
   },
   {
@@ -18030,7 +18679,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "morue",
-      "ail"
+      "ail",
+      "cabillaud"
     ]
   },
   {
@@ -18052,7 +18702,9 @@
       "foie gras",
       "betterave",
       "oignon",
-      "ail"
+      "ail",
+      "mûre",
+      "amande"
     ]
   },
   {
@@ -18062,8 +18714,9 @@
     "restaurant_id": 179,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "citron"
+      "citron",
+      "pomme de terre",
+      "coque"
     ]
   },
   {
@@ -18074,7 +18727,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bœuf",
-      "salsifis"
+      "salsifis",
+      "boeuf"
     ]
   },
   {
@@ -18117,7 +18771,9 @@
     "ingredients": [
       "oursin",
       "carotte",
-      "caviar"
+      "caviar",
+      "avocat",
+      "coque"
     ]
   },
   {
@@ -18127,7 +18783,8 @@
     "restaurant_id": 179,
     "distinction": "1 étoile",
     "ingredients": [
-      "caviar"
+      "caviar",
+      "yuzu"
     ]
   },
   {
@@ -18195,7 +18852,9 @@
     "category": "plat",
     "restaurant_id": 179,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 2516,
@@ -18225,7 +18884,8 @@
     "restaurant_id": 180,
     "distinction": "1 étoile",
     "ingredients": [
-      "veau"
+      "veau",
+      "fraise"
     ]
   },
   {
@@ -18451,7 +19111,7 @@
     "distinction": "1 étoile",
     "ingredients": [
       "moule",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -18460,7 +19120,9 @@
     "category": "plat",
     "restaurant_id": 184,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "anchois"
+    ]
   },
   {
     "id": 2557,
@@ -18496,7 +19158,8 @@
     "restaurant_id": 184,
     "distinction": "1 étoile",
     "ingredients": [
-      "porc"
+      "porc",
+      "cochon"
     ]
   },
   {
@@ -18541,7 +19204,9 @@
     "category": "plat",
     "restaurant_id": 184,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coque"
+    ]
   },
   {
     "id": 2566,
@@ -18549,7 +19214,9 @@
     "category": "plat",
     "restaurant_id": 184,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "prune"
+    ]
   },
   {
     "id": 2567,
@@ -18559,7 +19226,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "citron",
-      "caviar"
+      "caviar",
+      "cresson"
     ]
   },
   {
@@ -18598,7 +19266,10 @@
     "category": "plat",
     "restaurant_id": 185,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coco",
+      "kiwi"
+    ]
   },
   {
     "id": 2572,
@@ -18881,7 +19552,8 @@
     "restaurant_id": 188,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -18999,7 +19671,8 @@
     "restaurant_id": 189,
     "distinction": "1 étoile",
     "ingredients": [
-      "pintade"
+      "pintade",
+      "salade"
     ]
   },
   {
@@ -19018,7 +19691,9 @@
     "category": "plat",
     "restaurant_id": 189,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "framboise"
+    ]
   },
   {
     "id": 2653,
@@ -19027,7 +19702,8 @@
     "restaurant_id": 190,
     "distinction": "1 étoile",
     "ingredients": [
-      "oignon"
+      "oignon",
+      "navet"
     ]
   },
   {
@@ -19048,7 +19724,9 @@
     "category": "plat",
     "restaurant_id": 190,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "raie"
+    ]
   },
   {
     "id": 2656,
@@ -19066,7 +19744,9 @@
     "category": "plat",
     "restaurant_id": 190,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "courge"
+    ]
   },
   {
     "id": 2658,
@@ -19074,7 +19754,9 @@
     "category": "plat",
     "restaurant_id": 190,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 2659,
@@ -19082,7 +19764,9 @@
     "category": "plat",
     "restaurant_id": 190,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pamplemousse"
+    ]
   },
   {
     "id": 2660,
@@ -19304,7 +19988,9 @@
     "category": "plat",
     "restaurant_id": 191,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mouton"
+    ]
   },
   {
     "id": 2687,
@@ -19466,7 +20152,8 @@
     "restaurant_id": 192,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "pêche"
     ]
   },
   {
@@ -19476,7 +20163,9 @@
     "restaurant_id": 192,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "mangue",
+      "coco"
     ]
   },
   {
@@ -19504,7 +20193,8 @@
     "restaurant_id": 193,
     "distinction": "1 étoile",
     "ingredients": [
-      "porc"
+      "porc",
+      "cresson"
     ]
   },
   {
@@ -19527,7 +20217,8 @@
     "ingredients": [
       "lotte",
       "poivron",
-      "tomate"
+      "tomate",
+      "haricot"
     ]
   },
   {
@@ -19590,7 +20281,9 @@
     "category": "plat",
     "restaurant_id": 193,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "figue"
+    ]
   },
   {
     "id": 2726,
@@ -19621,7 +20314,8 @@
     "restaurant_id": 193,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "coco"
     ]
   },
   {
@@ -19656,7 +20350,8 @@
     "ingredients": [
       "bar",
       "Saint-Jacques",
-      "pomme"
+      "pomme",
+      "saint-jacques"
     ]
   },
   {
@@ -19676,7 +20371,9 @@
     "category": "plat",
     "restaurant_id": 193,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "lieu"
+    ]
   },
   {
     "id": 2734,
@@ -19695,7 +20392,9 @@
     "category": "plat",
     "restaurant_id": 193,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coco"
+    ]
   },
   {
     "id": 2736,
@@ -19748,7 +20447,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "pigeon",
-      "truffe"
+      "truffe",
+      "oie"
     ]
   },
   {
@@ -19760,7 +20460,8 @@
     "ingredients": [
       "coquillage",
       "Saint-Jacques",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -19820,7 +20521,8 @@
     "restaurant_id": 196,
     "distinction": "1 étoile",
     "ingredients": [
-      "truite"
+      "truite",
+      "fenouil"
     ]
   },
   {
@@ -19851,7 +20553,8 @@
     "restaurant_id": 196,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -19862,7 +20565,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "poireau",
-      "poire"
+      "poire",
+      "courge"
     ]
   },
   {
@@ -19880,7 +20584,8 @@
     "restaurant_id": 196,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "mandarine"
     ]
   },
   {
@@ -19981,7 +20686,9 @@
     "restaurant_id": 198,
     "distinction": "1 étoile",
     "ingredients": [
-      "carotte"
+      "carotte",
+      "pomelo",
+      "lieu"
     ]
   },
   {
@@ -19990,7 +20697,11 @@
     "category": "plat",
     "restaurant_id": 198,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 2788,
@@ -20010,7 +20721,8 @@
     "restaurant_id": 198,
     "distinction": "1 étoile",
     "ingredients": [
-      "oignon"
+      "oignon",
+      "lieu"
     ]
   },
   {
@@ -20020,7 +20732,8 @@
     "restaurant_id": 198,
     "distinction": "1 étoile",
     "ingredients": [
-      "salsifis"
+      "salsifis",
+      "chevreuil"
     ]
   },
   {
@@ -20039,7 +20752,9 @@
     "category": "plat",
     "restaurant_id": 198,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "navet"
+    ]
   },
   {
     "id": 2796,
@@ -20083,7 +20798,10 @@
     "category": "plat",
     "restaurant_id": 199,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "haricot",
+      "anchois"
+    ]
   },
   {
     "id": 2801,
@@ -20092,7 +20810,8 @@
     "restaurant_id": 199,
     "distinction": "1 étoile",
     "ingredients": [
-      "porc"
+      "porc",
+      "cochon"
     ]
   },
   {
@@ -20104,7 +20823,7 @@
     "ingredients": [
       "veau",
       "oignon",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -20114,7 +20833,8 @@
     "restaurant_id": 199,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -20124,7 +20844,8 @@
     "restaurant_id": 199,
     "distinction": "1 étoile",
     "ingredients": [
-      "courgette"
+      "courgette",
+      "courge"
     ]
   },
   {
@@ -20133,7 +20854,9 @@
     "category": "plat",
     "restaurant_id": 199,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "framboise"
+    ]
   },
   {
     "id": 2806,
@@ -20142,7 +20865,8 @@
     "restaurant_id": 199,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "amande"
     ]
   },
   {
@@ -20151,7 +20875,9 @@
     "category": "plat",
     "restaurant_id": 199,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coque"
+    ]
   },
   {
     "id": 2813,
@@ -20342,7 +21068,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bœuf",
-      "truffe"
+      "truffe",
+      "boeuf"
     ]
   },
   {
@@ -20361,7 +21088,9 @@
     "category": "plat",
     "restaurant_id": 202,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 2841,
@@ -20412,7 +21141,9 @@
       "porc",
       "morue",
       "carotte",
-      "chou"
+      "chou",
+      "cochon",
+      "cabillaud"
     ]
   },
   {
@@ -20474,7 +21205,9 @@
     "restaurant_id": 202,
     "distinction": "1 étoile",
     "ingredients": [
-      "veau"
+      "veau",
+      "endive",
+      "anchois"
     ]
   },
   {
@@ -20493,7 +21226,10 @@
     "category": "plat",
     "restaurant_id": 202,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "passion"
+    ]
   },
   {
     "id": 2860,
@@ -20504,7 +21240,8 @@
     "ingredients": [
       "bœuf",
       "carotte",
-      "champignon"
+      "champignon",
+      "boeuf"
     ]
   },
   {
@@ -20515,8 +21252,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "poireau",
-      "pomme",
-      "poire"
+      "poire",
+      "pomme de terre"
     ]
   },
   {
@@ -20525,7 +21262,11 @@
     "category": "plat",
     "restaurant_id": 203,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche",
+      "pamplemousse",
+      "fenouil"
+    ]
   },
   {
     "id": 2863,
@@ -20534,7 +21275,8 @@
     "restaurant_id": 203,
     "distinction": "1 étoile",
     "ingredients": [
-      "veau"
+      "veau",
+      "endive"
     ]
   },
   {
@@ -20586,7 +21328,8 @@
     "restaurant_id": 204,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -20613,7 +21356,9 @@
     "category": "plat",
     "restaurant_id": 204,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "passion"
+    ]
   },
   {
     "id": 2877,
@@ -20621,7 +21366,9 @@
     "category": "plat",
     "restaurant_id": 204,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 2878,
@@ -20629,7 +21376,9 @@
     "category": "plat",
     "restaurant_id": 204,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "merlan"
+    ]
   },
   {
     "id": 2879,
@@ -20637,7 +21386,9 @@
     "category": "plat",
     "restaurant_id": 204,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "sanglier"
+    ]
   },
   {
     "id": 2880,
@@ -20723,7 +21474,7 @@
     "restaurant_id": 206,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -20732,7 +21483,9 @@
     "category": "plat",
     "restaurant_id": 206,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "lieu"
+    ]
   },
   {
     "id": 2891,
@@ -20757,7 +21510,8 @@
     "restaurant_id": 206,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -20839,7 +21593,9 @@
     "category": "plat",
     "restaurant_id": 206,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mandarine"
+    ]
   },
   {
     "id": 2903,
@@ -20904,7 +21660,8 @@
     "restaurant_id": 206,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -20990,7 +21747,9 @@
     "category": "plat",
     "restaurant_id": 207,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue"
+    ]
   },
   {
     "id": 2920,
@@ -21033,7 +21792,8 @@
     "ingredients": [
       "langoustine",
       "citron",
-      "truffe"
+      "truffe",
+      "salade"
     ]
   },
   {
@@ -21045,7 +21805,8 @@
     "ingredients": [
       "bœuf",
       "caille",
-      "truffe"
+      "truffe",
+      "boeuf"
     ]
   },
   {
@@ -21067,7 +21828,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bœuf",
-      "truffe"
+      "truffe",
+      "boeuf"
     ]
   },
   {
@@ -21090,7 +21852,8 @@
     "restaurant_id": 208,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "salade"
     ]
   },
   {
@@ -21111,7 +21874,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bœuf",
-      "topinambour"
+      "topinambour",
+      "boeuf"
     ]
   },
   {
@@ -21122,7 +21886,7 @@
     "distinction": "1 étoile",
     "ingredients": [
       "oursin",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -21169,7 +21933,8 @@
     "restaurant_id": 208,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "clémentine"
     ]
   },
   {
@@ -21195,7 +21960,8 @@
     "restaurant_id": 209,
     "distinction": "1 étoile",
     "ingredients": [
-      "carotte"
+      "carotte",
+      "raisin"
     ]
   },
   {
@@ -21205,7 +21971,8 @@
     "restaurant_id": 209,
     "distinction": "1 étoile",
     "ingredients": [
-      "chou"
+      "chou",
+      "clémentine"
     ]
   },
   {
@@ -21222,7 +21989,9 @@
     "category": "plat",
     "restaurant_id": 209,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "brochet"
+    ]
   },
   {
     "id": 2950,
@@ -21244,7 +22013,8 @@
     "ingredients": [
       "bar",
       "topinambour",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -21265,7 +22035,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "foie gras",
-      "truffe"
+      "truffe",
+      "cresson"
     ]
   },
   {
@@ -21274,7 +22045,12 @@
     "category": "plat",
     "restaurant_id": 209,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coco",
+      "noix de coco",
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 2955,
@@ -21313,7 +22089,8 @@
     "restaurant_id": 210,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "courge"
     ]
   },
   {
@@ -21330,7 +22107,9 @@
     "category": "plat",
     "restaurant_id": 210,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "amande"
+    ]
   },
   {
     "id": 2961,
@@ -21346,7 +22125,9 @@
     "category": "plat",
     "restaurant_id": 211,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "courge"
+    ]
   },
   {
     "id": 2963,
@@ -21366,7 +22147,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "ail",
-      "citron"
+      "citron",
+      "raie"
     ]
   },
   {
@@ -21376,7 +22158,8 @@
     "restaurant_id": 211,
     "distinction": "1 étoile",
     "ingredients": [
-      "porc"
+      "porc",
+      "fenouil"
     ]
   },
   {
@@ -21450,7 +22233,8 @@
     "ingredients": [
       "carotte",
       "chou",
-      "chou-fleur"
+      "chou-fleur",
+      "passion"
     ]
   },
   {
@@ -21459,7 +22243,9 @@
     "category": "plat",
     "restaurant_id": 211,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "lieu"
+    ]
   },
   {
     "id": 2976,
@@ -21478,7 +22264,7 @@
     "restaurant_id": 211,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -21541,7 +22327,9 @@
     "category": "plat",
     "restaurant_id": 211,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coco"
+    ]
   },
   {
     "id": 2987,
@@ -21550,7 +22338,8 @@
     "restaurant_id": 211,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "yuzu"
     ]
   },
   {
@@ -21762,7 +22551,10 @@
     "ingredients": [
       "Saint-Jacques",
       "citron",
-      "caviar"
+      "caviar",
+      "passion",
+      "fruit de la passion",
+      "saint-jacques"
     ]
   },
   {
@@ -21772,7 +22564,8 @@
     "restaurant_id": 213,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -21792,7 +22585,9 @@
     "category": "plat",
     "restaurant_id": 213,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 3018,
@@ -21802,8 +22597,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "turbot",
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -21848,7 +22643,9 @@
     "category": "plat",
     "restaurant_id": 213,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "clémentine"
+    ]
   },
   {
     "id": 3024,
@@ -21856,7 +22653,9 @@
     "category": "plat",
     "restaurant_id": 213,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue"
+    ]
   },
   {
     "id": 3025,
@@ -21901,7 +22700,9 @@
     "category": "plat",
     "restaurant_id": 214,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "fenouil"
+    ]
   },
   {
     "id": 3030,
@@ -21930,7 +22731,8 @@
     "restaurant_id": 214,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme",
+      "kiwi"
     ]
   },
   {
@@ -21950,7 +22752,8 @@
     "restaurant_id": 214,
     "distinction": "1 étoile",
     "ingredients": [
-      "thon"
+      "thon",
+      "coco"
     ]
   },
   {
@@ -21960,7 +22763,8 @@
     "restaurant_id": 214,
     "distinction": "1 étoile",
     "ingredients": [
-      "tomate"
+      "tomate",
+      "coco"
     ]
   },
   {
@@ -21971,7 +22775,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "veau",
-      "aubergine"
+      "aubergine",
+      "anchois"
     ]
   },
   {
@@ -21996,7 +22801,9 @@
     "category": "plat",
     "restaurant_id": 215,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coque"
+    ]
   },
   {
     "id": 3040,
@@ -22022,7 +22829,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "Saint-Jacques",
-      "caviar"
+      "caviar",
+      "saint-jacques"
     ]
   },
   {
@@ -22032,7 +22840,8 @@
     "restaurant_id": 215,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "courge"
     ]
   },
   {
@@ -22079,7 +22888,9 @@
     "category": "plat",
     "restaurant_id": 215,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "courge"
+    ]
   },
   {
     "id": 3049,
@@ -22151,7 +22962,8 @@
     "ingredients": [
       "Saint-Jacques",
       "pomme",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -22181,7 +22993,9 @@
     "category": "plat",
     "restaurant_id": 215,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "salade"
+    ]
   },
   {
     "id": 3059,
@@ -22227,7 +23041,8 @@
     "ingredients": [
       "langoustine",
       "Saint-Jacques",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -22250,7 +23065,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "rouget",
-      "oursin"
+      "oursin",
+      "oie"
     ]
   },
   {
@@ -22314,7 +23130,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "coquillage",
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -22344,7 +23161,9 @@
     "category": "plat",
     "restaurant_id": 215,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mandarine"
+    ]
   },
   {
     "id": 3075,
@@ -22424,7 +23243,7 @@
     "restaurant_id": 215,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -22460,7 +23279,9 @@
     "category": "plat",
     "restaurant_id": 215,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kumquat"
+    ]
   },
   {
     "id": 3105,
@@ -22490,7 +23311,7 @@
     "restaurant_id": 216,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -22533,7 +23354,9 @@
     "category": "plat",
     "restaurant_id": 216,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "peche"
+    ]
   },
   {
     "id": 3113,
@@ -22661,7 +23484,9 @@
     "category": "plat",
     "restaurant_id": 218,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "daurade"
+    ]
   },
   {
     "id": 3132,
@@ -22761,8 +23586,8 @@
     "restaurant_id": 219,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -22773,8 +23598,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "ail",
-      "pomme",
-      "caviar"
+      "caviar",
+      "pomme de terre"
     ]
   },
   {
@@ -22792,7 +23617,8 @@
     "restaurant_id": 219,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "fraise",
+      "pomme de terre"
     ]
   },
   {
@@ -22978,7 +23804,8 @@
     "restaurant_id": 221,
     "distinction": "1 étoile",
     "ingredients": [
-      "ail"
+      "ail",
+      "oie"
     ]
   },
   {
@@ -23095,7 +23922,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "poireau",
-      "poire"
+      "poire",
+      "saint-jacques"
     ]
   },
   {
@@ -23124,7 +23952,9 @@
     "restaurant_id": 222,
     "distinction": "1 étoile",
     "ingredients": [
-      "panais"
+      "panais",
+      "chevreuil",
+      "ormeau"
     ]
   },
   {
@@ -23152,8 +23982,8 @@
     "restaurant_id": 222,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "girolle"
+      "girolle",
+      "pomme de terre"
     ]
   },
   {
@@ -23162,7 +23992,10 @@
     "category": "plat",
     "restaurant_id": 222,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "navet",
+      "saint-pierre"
+    ]
   },
   {
     "id": 3195,
@@ -23171,7 +24004,9 @@
     "restaurant_id": 222,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "haricot",
+      "boeuf"
     ]
   },
   {
@@ -23180,7 +24015,9 @@
     "category": "plat",
     "restaurant_id": 222,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "abricot"
+    ]
   },
   {
     "id": 3197,
@@ -23210,7 +24047,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "homard",
-      "caviar"
+      "caviar",
+      "fenouil"
     ]
   },
   {
@@ -23220,7 +24058,8 @@
     "restaurant_id": 223,
     "distinction": "1 étoile",
     "ingredients": [
-      "chou"
+      "chou",
+      "saint-pierre"
     ]
   },
   {
@@ -23330,7 +24169,9 @@
     "category": "plat",
     "restaurant_id": 225,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "salade"
+    ]
   },
   {
     "id": 3214,
@@ -23362,7 +24203,9 @@
     "category": "plat",
     "restaurant_id": 225,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 3223,
@@ -23395,7 +24238,8 @@
     "restaurant_id": 227,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -23425,7 +24269,8 @@
     "restaurant_id": 227,
     "distinction": "1 étoile",
     "ingredients": [
-      "orange"
+      "orange",
+      "clémentine"
     ]
   },
   {
@@ -23435,7 +24280,8 @@
     "restaurant_id": 227,
     "distinction": "1 étoile",
     "ingredients": [
-      "huitre"
+      "huitre",
+      "biche"
     ]
   },
   {
@@ -23445,7 +24291,8 @@
     "restaurant_id": 227,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -23491,7 +24338,8 @@
     "restaurant_id": 227,
     "distinction": "1 étoile",
     "ingredients": [
-      "veau"
+      "veau",
+      "courge"
     ]
   },
   {
@@ -23529,7 +24377,8 @@
     "restaurant_id": 228,
     "distinction": "1 étoile",
     "ingredients": [
-      "maquereau"
+      "maquereau",
+      "courge"
     ]
   },
   {
@@ -23539,7 +24388,7 @@
     "restaurant_id": 228,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -23550,7 +24399,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "canard",
-      "truffe"
+      "truffe",
+      "salade"
     ]
   },
   {
@@ -23587,7 +24437,9 @@
     "restaurant_id": 229,
     "distinction": "1 étoile",
     "ingredients": [
-      "canard"
+      "canard",
+      "navet",
+      "oie"
     ]
   },
   {
@@ -23607,7 +24459,8 @@
     "restaurant_id": 229,
     "distinction": "1 étoile",
     "ingredients": [
-      "carotte"
+      "carotte",
+      "coco"
     ]
   },
   {
@@ -23627,7 +24480,9 @@
     "category": "plat",
     "restaurant_id": 229,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche"
+    ]
   },
   {
     "id": 3256,
@@ -23637,7 +24492,9 @@
     "distinction": "1 étoile",
     "ingredients": [
       "porc",
-      "carotte"
+      "carotte",
+      "coco",
+      "cochon"
     ]
   },
   {
@@ -23646,7 +24503,9 @@
     "category": "plat",
     "restaurant_id": 229,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pamplemousse"
+    ]
   },
   {
     "id": 3262,
@@ -23656,7 +24515,9 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bar",
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "fenouil",
+      "saint-jacques"
     ]
   },
   {
@@ -23676,7 +24537,8 @@
     "restaurant_id": 229,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "pêche"
     ]
   },
   {
@@ -23686,7 +24548,8 @@
     "restaurant_id": 229,
     "distinction": "1 étoile",
     "ingredients": [
-      "pigeon"
+      "pigeon",
+      "cresson"
     ]
   },
   {
@@ -23715,8 +24578,8 @@
     "restaurant_id": 230,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -23763,8 +24626,8 @@
     "restaurant_id": 230,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -23827,8 +24690,8 @@
     "restaurant_id": 230,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -23901,7 +24764,9 @@
     "category": "plat",
     "restaurant_id": 231,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "courge"
+    ]
   },
   {
     "id": 3307,
@@ -23961,7 +24826,7 @@
     "restaurant_id": 231,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -23978,7 +24843,9 @@
     "category": "plat",
     "restaurant_id": 231,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "fenouil"
+    ]
   },
   {
     "id": 3317,
@@ -24064,7 +24931,8 @@
     "restaurant_id": 232,
     "distinction": "1 étoile",
     "ingredients": [
-      "foie gras"
+      "foie gras",
+      "gambas"
     ]
   },
   {
@@ -24074,7 +24942,10 @@
     "restaurant_id": 232,
     "distinction": "1 étoile",
     "ingredients": [
-      "coing"
+      "coing",
+      "pêche",
+      "courge",
+      "roquette"
     ]
   },
   {
@@ -24083,7 +24954,9 @@
     "category": "plat",
     "restaurant_id": 232,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kumquat"
+    ]
   },
   {
     "id": 3329,
@@ -24146,7 +25019,7 @@
     "distinction": "3 étoiles",
     "ingredients": [
       "homard",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -24209,7 +25082,8 @@
     "restaurant_id": 233,
     "distinction": "3 étoiles",
     "ingredients": [
-      "pigeon"
+      "pigeon",
+      "amande"
     ]
   },
   {
@@ -24256,7 +25130,8 @@
     "distinction": "3 étoiles",
     "ingredients": [
       "radis",
-      "chou"
+      "chou",
+      "navet"
     ]
   },
   {
@@ -24306,7 +25181,8 @@
     "restaurant_id": 234,
     "distinction": "3 étoiles",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "navet"
     ]
   },
   {
@@ -24348,7 +25224,9 @@
     "category": "plat",
     "restaurant_id": 234,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "kiwi"
+    ]
   },
   {
     "id": 3355,
@@ -24356,7 +25234,10 @@
     "category": "plat",
     "restaurant_id": 234,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "framboise",
+      "ananas"
+    ]
   },
   {
     "id": 3356,
@@ -24462,7 +25343,8 @@
     "distinction": "3 étoiles",
     "ingredients": [
       "agneau",
-      "citron"
+      "citron",
+      "navet"
     ]
   },
   {
@@ -24519,7 +25401,9 @@
     "category": "plat",
     "restaurant_id": 236,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "navet"
+    ]
   },
   {
     "id": 3372,
@@ -24551,7 +25435,9 @@
     "category": "plat",
     "restaurant_id": 236,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "mûre"
+    ]
   },
   {
     "id": 3376,
@@ -24567,7 +25453,9 @@
     "category": "plat",
     "restaurant_id": 236,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "pamplemousse"
+    ]
   },
   {
     "id": 3378,
@@ -24576,7 +25464,8 @@
     "restaurant_id": 236,
     "distinction": "3 étoiles",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -24593,7 +25482,10 @@
     "category": "plat",
     "restaurant_id": 236,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "cresson",
+      "endive"
+    ]
   },
   {
     "id": 3381,
@@ -24619,7 +25511,9 @@
     "category": "plat",
     "restaurant_id": 236,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "amande"
+    ]
   },
   {
     "id": 3384,
@@ -24668,7 +25562,7 @@
     "distinction": "3 étoiles",
     "ingredients": [
       "homard",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -24690,7 +25584,8 @@
     "restaurant_id": 237,
     "distinction": "3 étoiles",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "faisan"
     ]
   },
   {
@@ -24711,7 +25606,8 @@
     "restaurant_id": 237,
     "distinction": "3 étoiles",
     "ingredients": [
-      "agneau"
+      "agneau",
+      "brochet"
     ]
   },
   {
@@ -24749,7 +25645,9 @@
     "category": "plat",
     "restaurant_id": 237,
     "distinction": "3 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "mangue"
+    ]
   },
   {
     "id": 3397,
@@ -24768,7 +25666,8 @@
     "restaurant_id": 238,
     "distinction": "2 étoiles",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "daurade"
     ]
   },
   {
@@ -24778,7 +25677,8 @@
     "restaurant_id": 238,
     "distinction": "2 étoiles",
     "ingredients": [
-      "radis"
+      "radis",
+      "saint-jacques"
     ]
   },
   {
@@ -24789,7 +25689,8 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "pintade",
-      "foie gras"
+      "foie gras",
+      "salade"
     ]
   },
   {
@@ -24810,7 +25711,9 @@
     "distinction": "2 étoiles",
     "ingredients": [
       "poireau",
-      "poire"
+      "poire",
+      "concombre",
+      "saint-pierre"
     ]
   },
   {
@@ -24827,7 +25730,10 @@
     "category": "plat",
     "restaurant_id": 238,
     "distinction": "2 étoiles",
-    "ingredients": []
+    "ingredients": [
+      "coco",
+      "noix de coco"
+    ]
   },
   {
     "id": 3408,
@@ -24836,7 +25742,8 @@
     "restaurant_id": 238,
     "distinction": "2 étoiles",
     "ingredients": [
-      "homard"
+      "homard",
+      "navet"
     ]
   },
   {
@@ -24846,7 +25753,8 @@
     "restaurant_id": 238,
     "distinction": "2 étoiles",
     "ingredients": [
-      "caviar"
+      "caviar",
+      "chevreuil"
     ]
   },
   {
@@ -24908,7 +25816,8 @@
     "restaurant_id": 241,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -24945,7 +25854,13 @@
     "category": "plat",
     "restaurant_id": 241,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mangue",
+      "coco",
+      "noix de coco",
+      "passion",
+      "fruit de la passion"
+    ]
   },
   {
     "id": 3422,
@@ -24966,7 +25881,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "Saint-Jacques",
-      "truffe"
+      "truffe",
+      "saint-jacques"
     ]
   },
   {
@@ -24995,7 +25911,9 @@
     "category": "plat",
     "restaurant_id": 241,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 3429,
@@ -25014,7 +25932,8 @@
     "restaurant_id": 242,
     "distinction": "1 étoile",
     "ingredients": [
-      "oursin"
+      "oursin",
+      "lentille"
     ]
   },
   {
@@ -25032,7 +25951,8 @@
     "restaurant_id": 242,
     "distinction": "1 étoile",
     "ingredients": [
-      "moule"
+      "moule",
+      "lieu"
     ]
   },
   {
@@ -25128,7 +26048,10 @@
     "category": "plat",
     "restaurant_id": 243,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "dorade",
+      "coque"
+    ]
   },
   {
     "id": 3443,
@@ -25243,7 +26166,8 @@
     "ingredients": [
       "Saint-Jacques",
       "poivron",
-      "citron"
+      "citron",
+      "saint-jacques"
     ]
   },
   {
@@ -25272,7 +26196,9 @@
     "category": "plat",
     "restaurant_id": 244,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "chevreuil"
+    ]
   },
   {
     "id": 3476,
@@ -25288,7 +26214,10 @@
     "category": "plat",
     "restaurant_id": 244,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kiwi",
+      "fenouil"
+    ]
   },
   {
     "id": 3484,
@@ -25297,7 +26226,8 @@
     "restaurant_id": 244,
     "distinction": "1 étoile",
     "ingredients": [
-      "bœuf"
+      "bœuf",
+      "boeuf"
     ]
   },
   {
@@ -25559,7 +26489,9 @@
     "category": "plat",
     "restaurant_id": 248,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 3542,
@@ -25590,7 +26522,9 @@
     "category": "plat",
     "restaurant_id": 248,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kiwi"
+    ]
   },
   {
     "id": 3550,
@@ -25599,7 +26533,8 @@
     "restaurant_id": 248,
     "distinction": "1 étoile",
     "ingredients": [
-      "carotte"
+      "carotte",
+      "salade"
     ]
   },
   {
@@ -25610,7 +26545,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "Saint-Jacques",
-      "champignon"
+      "champignon",
+      "saint-jacques"
     ]
   },
   {
@@ -25870,7 +26806,8 @@
     "restaurant_id": 251,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "cresson"
     ]
   },
   {
@@ -25909,7 +26846,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bar",
-      "caviar"
+      "caviar",
+      "cresson"
     ]
   },
   {
@@ -25939,7 +26877,8 @@
     "restaurant_id": 252,
     "distinction": "1 étoile",
     "ingredients": [
-      "chou"
+      "chou",
+      "saint-jacques"
     ]
   },
   {
@@ -25958,7 +26897,9 @@
     "category": "plat",
     "restaurant_id": 252,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "salade"
+    ]
   },
   {
     "id": 3610,
@@ -25980,7 +26921,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bar",
-      "brocoli"
+      "brocoli",
+      "haricot"
     ]
   },
   {
@@ -26035,7 +26977,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "canard",
-      "foie gras"
+      "foie gras",
+      "prune"
     ]
   },
   {
@@ -26045,7 +26988,8 @@
     "restaurant_id": 252,
     "distinction": "1 étoile",
     "ingredients": [
-      "brocoli"
+      "brocoli",
+      "lieu"
     ]
   },
   {
@@ -26056,7 +27000,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "porc",
-      "champignon"
+      "champignon",
+      "cochon"
     ]
   },
   {
@@ -26112,7 +27057,8 @@
     "restaurant_id": 253,
     "distinction": "1 étoile",
     "ingredients": [
-      "courgette"
+      "courgette",
+      "courge"
     ]
   },
   {
@@ -26140,7 +27086,7 @@
     "restaurant_id": 253,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -26158,7 +27104,8 @@
     "restaurant_id": 253,
     "distinction": "1 étoile",
     "ingredients": [
-      "chou"
+      "chou",
+      "passion"
     ]
   },
   {
@@ -26198,7 +27145,9 @@
     "restaurant_id": 253,
     "distinction": "1 étoile",
     "ingredients": [
-      "tomate"
+      "tomate",
+      "salade",
+      "haricot"
     ]
   },
   {
@@ -26219,7 +27168,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "foie gras",
-      "bar"
+      "bar",
+      "rhubarbe"
     ]
   },
   {
@@ -26239,7 +27189,10 @@
     "ingredients": [
       "sole",
       "langoustine",
-      "huitre"
+      "huitre",
+      "saint-pierre",
+      "bulot",
+      "coque"
     ]
   },
   {
@@ -26249,7 +27202,8 @@
     "restaurant_id": 253,
     "distinction": "1 étoile",
     "ingredients": [
-      "canard"
+      "canard",
+      "cerise"
     ]
   },
   {
@@ -26349,7 +27303,10 @@
     "category": "plat",
     "restaurant_id": 253,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche",
+      "saint-pierre"
+    ]
   },
   {
     "id": 3657,
@@ -26357,7 +27314,9 @@
     "category": "plat",
     "restaurant_id": 253,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 3658,
@@ -26392,7 +27351,9 @@
     "restaurant_id": 254,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme",
+      "mangue",
+      "concombre"
     ]
   },
   {
@@ -26411,7 +27372,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "courgette",
-      "girolle"
+      "girolle",
+      "courge"
     ]
   },
   {
@@ -26420,7 +27382,10 @@
     "category": "plat",
     "restaurant_id": 254,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu",
+      "lieu"
+    ]
   },
   {
     "id": 3665,
@@ -26436,7 +27401,9 @@
     "category": "plat",
     "restaurant_id": 254,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "fraise"
+    ]
   },
   {
     "id": 3667,
@@ -26445,7 +27412,7 @@
     "restaurant_id": 255,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -26468,7 +27435,9 @@
     "restaurant_id": 255,
     "distinction": "1 étoile",
     "ingredients": [
-      "citron"
+      "citron",
+      "coco",
+      "noix de coco"
     ]
   },
   {
@@ -26526,7 +27495,8 @@
     "restaurant_id": 255,
     "distinction": "1 étoile",
     "ingredients": [
-      "langoustine"
+      "langoustine",
+      "avocat"
     ]
   },
   {
@@ -26537,7 +27507,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "veau",
-      "ail"
+      "ail",
+      "saint-jacques"
     ]
   },
   {
@@ -26588,7 +27559,10 @@
     "category": "plat",
     "restaurant_id": 255,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kumquat",
+      "saint-jacques"
+    ]
   },
   {
     "id": 3683,
@@ -26638,7 +27612,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "morue",
-      "citron"
+      "citron",
+      "cabillaud"
     ]
   },
   {
@@ -26666,7 +27641,8 @@
     "restaurant_id": 256,
     "distinction": "1 étoile",
     "ingredients": [
-      "thon"
+      "thon",
+      "anchois"
     ]
   },
   {
@@ -26709,7 +27685,8 @@
     "restaurant_id": 256,
     "distinction": "1 étoile",
     "ingredients": [
-      "saumon"
+      "saumon",
+      "endive"
     ]
   },
   {
@@ -26728,7 +27705,9 @@
     "category": "plat",
     "restaurant_id": 256,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 3698,
@@ -26745,7 +27724,8 @@
     "restaurant_id": 256,
     "distinction": "1 étoile",
     "ingredients": [
-      "thon"
+      "thon",
+      "abricot"
     ]
   },
   {
@@ -26793,7 +27773,8 @@
     "restaurant_id": 256,
     "distinction": "1 étoile",
     "ingredients": [
-      "morue"
+      "morue",
+      "cabillaud"
     ]
   },
   {
@@ -26824,7 +27805,9 @@
     "category": "plat",
     "restaurant_id": 256,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 3708,
@@ -26870,8 +27853,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "pintade",
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -26881,7 +27864,8 @@
     "restaurant_id": 257,
     "distinction": "1 étoile",
     "ingredients": [
-      "poire"
+      "poire",
+      "kumquat"
     ]
   },
   {
@@ -26902,7 +27886,10 @@
     "distinction": "1 étoile",
     "ingredients": [
       "veau",
-      "hareng"
+      "hareng",
+      "salade",
+      "endive",
+      "biche"
     ]
   },
   {
@@ -26914,7 +27901,8 @@
     "ingredients": [
       "saumon",
       "truite",
-      "radis"
+      "radis",
+      "kiwi"
     ]
   },
   {
@@ -26936,7 +27924,10 @@
     "distinction": "1 étoile",
     "ingredients": [
       "morue",
-      "chou"
+      "chou",
+      "pomelo",
+      "cabillaud",
+      "coque"
     ]
   },
   {
@@ -26948,7 +27939,8 @@
     "ingredients": [
       "truite",
       "poireau",
-      "poire"
+      "poire",
+      "cresson"
     ]
   },
   {
@@ -26959,8 +27951,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "foie gras",
-      "pomme",
-      "truffe"
+      "truffe",
+      "pomme de terre"
     ]
   },
   {
@@ -26981,7 +27973,8 @@
     "restaurant_id": 257,
     "distinction": "1 étoile",
     "ingredients": [
-      "poire"
+      "poire",
+      "kumquat"
     ]
   },
   {
@@ -26990,7 +27983,10 @@
     "category": "plat",
     "restaurant_id": 257,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "courge",
+      "amande"
+    ]
   },
   {
     "id": 3724,
@@ -27000,7 +27996,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "morue",
-      "truffe"
+      "truffe",
+      "cabillaud"
     ]
   },
   {
@@ -27027,7 +28024,9 @@
     "category": "plat",
     "restaurant_id": 258,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "gambas"
+    ]
   },
   {
     "id": 3728,
@@ -27035,7 +28034,10 @@
     "category": "plat",
     "restaurant_id": 258,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu",
+      "coque"
+    ]
   },
   {
     "id": 3729,
@@ -27044,7 +28046,8 @@
     "restaurant_id": 258,
     "distinction": "1 étoile",
     "ingredients": [
-      "huitre"
+      "huitre",
+      "concombre"
     ]
   },
   {
@@ -27074,7 +28077,8 @@
     "restaurant_id": 258,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "salade"
     ]
   },
   {
@@ -27108,7 +28112,8 @@
     "restaurant_id": 258,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -27130,7 +28135,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "homard",
-      "citron"
+      "citron",
+      "fenouil"
     ]
   },
   {
@@ -27153,7 +28159,8 @@
     "ingredients": [
       "porc",
       "chou",
-      "citron"
+      "citron",
+      "cochon"
     ]
   },
   {
@@ -27163,7 +28170,8 @@
     "restaurant_id": 258,
     "distinction": "1 étoile",
     "ingredients": [
-      "ail"
+      "ail",
+      "coco"
     ]
   },
   {
@@ -27173,7 +28181,7 @@
     "restaurant_id": 258,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -27202,7 +28210,9 @@
     "category": "plat",
     "restaurant_id": 258,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "coco"
+    ]
   },
   {
     "id": 3745,
@@ -27210,7 +28220,9 @@
     "category": "plat",
     "restaurant_id": 258,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kiwi"
+    ]
   },
   {
     "id": 3746,
@@ -27274,8 +28286,8 @@
     "restaurant_id": 259,
     "distinction": "1 étoile",
     "ingredients": [
-      "pomme",
-      "caviar"
+      "caviar",
+      "pomme de terre"
     ]
   },
   {
@@ -27308,7 +28320,8 @@
     "restaurant_id": 259,
     "distinction": "1 étoile",
     "ingredients": [
-      "truffe"
+      "truffe",
+      "salade"
     ]
   },
   {
@@ -27410,7 +28423,8 @@
     "restaurant_id": 260,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "saint-pierre"
     ]
   },
   {
@@ -27449,7 +28463,9 @@
     "category": "plat",
     "restaurant_id": 260,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "fraise"
+    ]
   },
   {
     "id": 3779,
@@ -27466,7 +28482,8 @@
     "restaurant_id": 260,
     "distinction": "1 étoile",
     "ingredients": [
-      "radis"
+      "radis",
+      "avocat"
     ]
   },
   {
@@ -27506,7 +28523,8 @@
     "restaurant_id": 261,
     "distinction": "1 étoile",
     "ingredients": [
-      "caviar"
+      "caviar",
+      "daurade"
     ]
   },
   {
@@ -27528,7 +28546,7 @@
     "distinction": "1 étoile",
     "ingredients": [
       "homard",
-      "pomme"
+      "pomme de terre"
     ]
   },
   {
@@ -27650,7 +28668,9 @@
     "category": "plat",
     "restaurant_id": 263,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "dorade"
+    ]
   },
   {
     "id": 3820,
@@ -27688,7 +28708,8 @@
     "restaurant_id": 263,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "saint-jacques"
     ]
   },
   {
@@ -27749,7 +28770,9 @@
     "category": "plat",
     "restaurant_id": 263,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "biche"
+    ]
   },
   {
     "id": 3834,
@@ -27775,7 +28798,9 @@
     "category": "plat",
     "restaurant_id": 263,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 3837,
@@ -27874,7 +28899,8 @@
     "restaurant_id": 266,
     "distinction": "1 étoile",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "oie"
     ]
   },
   {
@@ -27885,7 +28911,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "bœuf",
-      "huitre"
+      "huitre",
+      "boeuf"
     ]
   },
   {
@@ -27894,7 +28921,9 @@
     "category": "plat",
     "restaurant_id": 266,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "daurade"
+    ]
   },
   {
     "id": 3851,
@@ -27903,7 +28932,9 @@
     "restaurant_id": 266,
     "distinction": "1 étoile",
     "ingredients": [
-      "carotte"
+      "carotte",
+      "navet",
+      "saint-pierre"
     ]
   },
   {
@@ -27912,7 +28943,9 @@
     "category": "plat",
     "restaurant_id": 266,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "cresson"
+    ]
   },
   {
     "id": 3857,
@@ -28067,7 +29100,11 @@
     "category": "plat",
     "restaurant_id": 268,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pamplemousse",
+      "clémentine",
+      "pomelo"
+    ]
   },
   {
     "id": 3878,
@@ -28313,7 +29350,9 @@
     "category": "plat",
     "restaurant_id": 271,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 3996,
@@ -28405,7 +29444,9 @@
     "category": "plat",
     "restaurant_id": 271,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "kiwi"
+    ]
   },
   {
     "id": 4016,
@@ -28479,7 +29520,9 @@
       "foie gras",
       "poireau",
       "poire",
-      "citron"
+      "citron",
+      "mangue",
+      "coque"
     ]
   },
   {
@@ -28523,7 +29566,9 @@
     "restaurant_id": 273,
     "distinction": "1 étoile",
     "ingredients": [
-      "orange"
+      "orange",
+      "mangue",
+      "endive"
     ]
   },
   {
@@ -28553,7 +29598,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "tourteau",
-      "citron"
+      "citron",
+      "avocat"
     ]
   },
   {
@@ -28563,7 +29609,8 @@
     "restaurant_id": 273,
     "distinction": "1 étoile",
     "ingredients": [
-      "turbot"
+      "turbot",
+      "coco"
     ]
   },
   {
@@ -28600,7 +29647,8 @@
     "restaurant_id": 273,
     "distinction": "1 étoile",
     "ingredients": [
-      "homard"
+      "homard",
+      "endive"
     ]
   },
   {
@@ -28621,7 +29669,9 @@
     "category": "plat",
     "restaurant_id": 273,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "mandarine"
+    ]
   },
   {
     "id": 4040,
@@ -28713,7 +29763,9 @@
     "category": "plat",
     "restaurant_id": 275,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "courge"
+    ]
   },
   {
     "id": 4076,
@@ -28722,7 +29774,8 @@
     "restaurant_id": 275,
     "distinction": "1 étoile",
     "ingredients": [
-      "radis"
+      "radis",
+      "bulot"
     ]
   },
   {
@@ -28743,7 +29796,9 @@
     "distinction": "1 étoile",
     "ingredients": [
       "Saint-Jacques",
-      "radis"
+      "radis",
+      "cresson",
+      "saint-jacques"
     ]
   },
   {
@@ -28815,7 +29870,10 @@
     "restaurant_id": 276,
     "distinction": "1 étoile",
     "ingredients": [
-      "Saint-Jacques"
+      "Saint-Jacques",
+      "coco",
+      "endive",
+      "saint-jacques"
     ]
   },
   {
@@ -28825,7 +29883,8 @@
     "restaurant_id": 276,
     "distinction": "1 étoile",
     "ingredients": [
-      "foie gras"
+      "foie gras",
+      "chevreuil"
     ]
   },
   {
@@ -28835,7 +29894,9 @@
     "restaurant_id": 276,
     "distinction": "1 étoile",
     "ingredients": [
-      "betterave"
+      "betterave",
+      "pamplemousse",
+      "navet"
     ]
   },
   {
@@ -28857,7 +29918,9 @@
     "category": "plat",
     "restaurant_id": 276,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "yuzu"
+    ]
   },
   {
     "id": 4101,
@@ -28867,7 +29930,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "citron",
-      "orange"
+      "orange",
+      "salade"
     ]
   },
   {
@@ -28887,7 +29951,9 @@
     "category": "plat",
     "restaurant_id": 276,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "courge"
+    ]
   },
   {
     "id": 4111,
@@ -28896,7 +29962,8 @@
     "restaurant_id": 276,
     "distinction": "1 étoile",
     "ingredients": [
-      "salsifis"
+      "salsifis",
+      "kumquat"
     ]
   },
   {
@@ -28968,7 +30035,9 @@
     "category": "plat",
     "restaurant_id": 276,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "passion"
+    ]
   },
   {
     "id": 4121,
@@ -28976,7 +30045,9 @@
     "category": "plat",
     "restaurant_id": 276,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pamplemousse"
+    ]
   },
   {
     "id": 4122,
@@ -28994,7 +30065,8 @@
     "distinction": "1 étoile",
     "ingredients": [
       "homard",
-      "citron"
+      "citron",
+      "fenouil"
     ]
   },
   {
@@ -29004,7 +30076,8 @@
     "restaurant_id": 277,
     "distinction": "1 étoile",
     "ingredients": [
-      "bar"
+      "bar",
+      "saint-jacques"
     ]
   },
   {
@@ -29013,7 +30086,10 @@
     "category": "plat",
     "restaurant_id": 277,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "pêche",
+      "yuzu"
+    ]
   },
   {
     "id": 4126,
@@ -29022,7 +30098,9 @@
     "restaurant_id": 277,
     "distinction": "1 étoile",
     "ingredients": [
-      "homard"
+      "homard",
+      "fenouil",
+      "amande"
     ]
   },
   {
@@ -29051,7 +30129,9 @@
     "category": "plat",
     "restaurant_id": 277,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "ananas"
+    ]
   },
   {
     "id": 4133,
@@ -29060,7 +30140,9 @@
     "restaurant_id": 277,
     "distinction": "1 étoile",
     "ingredients": [
-      "homard"
+      "homard",
+      "fenouil",
+      "amande"
     ]
   },
   {
@@ -29108,7 +30190,9 @@
     "category": "plat",
     "restaurant_id": 278,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "chevreuil"
+    ]
   },
   {
     "id": 4142,
@@ -29142,7 +30226,9 @@
     "category": "plat",
     "restaurant_id": 278,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-pierre"
+    ]
   },
   {
     "id": 4148,
@@ -29160,7 +30246,9 @@
     "category": "plat",
     "restaurant_id": 278,
     "distinction": "1 étoile",
-    "ingredients": []
+    "ingredients": [
+      "saint-jacques"
+    ]
   },
   {
     "id": 4157,

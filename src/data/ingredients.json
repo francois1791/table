@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "truffe",
+    "name": "truffe",
+    "emoji": "🍄",
+    "category": "champignon",
+    "frequency": 292,
+    "frequency_percent": 9.28,
+    "restaurants": 98,
+    "by_stars": {
+      "1 étoile": 248,
+      "2 étoiles": 24,
+      "3 étoiles": 19,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 9.38,
+      "2 étoiles": 7.62,
+      "3 étoiles": 14.5,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "pomme",
+    "name": "pomme",
+    "emoji": "🍎",
+    "category": "fruit",
+    "frequency": 187,
+    "frequency_percent": 5.95,
+    "restaurants": 107,
+    "by_stars": {
+      "1 étoile": 153,
+      "2 étoiles": 22,
+      "3 étoiles": 10,
+      "Sélectionné": 2
+    },
+    "star_percentages": {
+      "1 étoile": 5.78,
+      "2 étoiles": 6.98,
+      "3 étoiles": 7.63,
+      "Sélectionné": 3.7
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "foie-gras",
+    "name": "foie gras",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 164,
+    "frequency_percent": 5.21,
+    "restaurants": 90,
+    "by_stars": {
+      "1 étoile": 146,
+      "2 étoiles": 11,
+      "3 étoiles": 3,
+      "Sélectionné": 4
+    },
+    "star_percentages": {
+      "1 étoile": 5.52,
+      "2 étoiles": 3.49,
+      "3 étoiles": 2.29,
+      "Sélectionné": 7.41
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "ail",
+    "name": "ail",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 147,
+    "frequency_percent": 4.67,
+    "restaurants": 86,
+    "by_stars": {
+      "1 étoile": 118,
+      "2 étoiles": 20,
+      "3 étoiles": 4,
+      "Sélectionné": 5
+    },
+    "star_percentages": {
+      "1 étoile": 4.46,
+      "2 étoiles": 6.35,
+      "3 étoiles": 3.05,
+      "Sélectionné": 9.26
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "citron",
+    "name": "citron",
+    "emoji": "🍎",
+    "category": "fruit",
+    "frequency": 143,
+    "frequency_percent": 4.55,
+    "restaurants": 72,
+    "by_stars": {
+      "1 étoile": 120,
+      "2 étoiles": 11,
+      "3 étoiles": 11,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 4.54,
+      "2 étoiles": 3.49,
+      "3 étoiles": 8.4,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "poire",
+    "name": "poire",
+    "emoji": "🍎",
+    "category": "fruit",
+    "frequency": 132,
+    "frequency_percent": 4.2,
+    "restaurants": 78,
+    "by_stars": {
+      "1 étoile": 108,
+      "2 étoiles": 19,
+      "3 étoiles": 4,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 4.08,
+      "2 étoiles": 6.03,
+      "3 étoiles": 3.05,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "bar",
+    "name": "bar",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 123,
+    "frequency_percent": 3.91,
+    "restaurants": 72,
+    "by_stars": {
+      "1 étoile": 103,
+      "2 étoiles": 11,
+      "3 étoiles": 4,
+      "Sélectionné": 5
+    },
+    "star_percentages": {
+      "1 étoile": 3.89,
+      "2 étoiles": 3.49,
+      "3 étoiles": 3.05,
+      "Sélectionné": 9.26
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "chou",
+    "name": "chou",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 118,
+    "frequency_percent": 3.75,
+    "restaurants": 72,
+    "by_stars": {
+      "1 étoile": 95,
+      "2 étoiles": 16,
+      "3 étoiles": 3,
+      "Sélectionné": 4
+    },
+    "star_percentages": {
+      "1 étoile": 3.59,
+      "2 étoiles": 5.08,
+      "3 étoiles": 2.29,
+      "Sélectionné": 7.41
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "veau",
+    "name": "veau",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 113,
+    "frequency_percent": 3.59,
+    "restaurants": 80,
+    "by_stars": {
+      "1 étoile": 100,
+      "2 étoiles": 7,
+      "3 étoiles": 5,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 3.78,
+      "2 étoiles": 2.22,
+      "3 étoiles": 3.82,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "homard",
+    "name": "homard",
+    "emoji": "🦐",
+    "category": "crustace",
+    "frequency": 97,
+    "frequency_percent": 3.08,
+    "restaurants": 68,
+    "by_stars": {
+      "1 étoile": 84,
+      "2 étoiles": 9,
+      "3 étoiles": 4
+    },
+    "star_percentages": {
+      "1 étoile": 3.18,
+      "2 étoiles": 2.86,
+      "3 étoiles": 3.05
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "canard",
+    "name": "canard",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 90,
+    "frequency_percent": 2.86,
+    "restaurants": 55,
+    "by_stars": {
+      "1 étoile": 79,
+      "2 étoiles": 6,
+      "3 étoiles": 3,
+      "Sélectionné": 2
+    },
+    "star_percentages": {
+      "1 étoile": 2.99,
+      "2 étoiles": 1.9,
+      "3 étoiles": 2.29,
+      "Sélectionné": 3.7
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "caviar",
+    "name": "caviar",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 90,
+    "frequency_percent": 2.86,
+    "restaurants": 61,
+    "by_stars": {
+      "1 étoile": 71,
+      "2 étoiles": 14,
+      "3 étoiles": 5
+    },
+    "star_percentages": {
+      "1 étoile": 2.68,
+      "2 étoiles": 4.44,
+      "3 étoiles": 3.82
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "champignon",
+    "name": "champignon",
+    "emoji": "🍄",
+    "category": "champignon",
+    "frequency": 87,
+    "frequency_percent": 2.77,
+    "restaurants": 55,
+    "by_stars": {
+      "1 étoile": 74,
+      "2 étoiles": 7,
+      "3 étoiles": 4,
+      "Sélectionné": 2
+    },
+    "star_percentages": {
+      "1 étoile": 2.8,
+      "2 étoiles": 2.22,
+      "3 étoiles": 3.05,
+      "Sélectionné": 3.7
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "bette",
+    "name": "bette",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 70,
+    "frequency_percent": 2.23,
+    "restaurants": 47,
+    "by_stars": {
+      "1 étoile": 60,
+      "2 étoiles": 9,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 2.27,
+      "2 étoiles": 2.86,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "saint-jacques",
+    "name": "Saint-Jacques",
+    "emoji": "🦪",
+    "category": "coquillage",
+    "frequency": 69,
+    "frequency_percent": 2.19,
+    "restaurants": 42,
+    "by_stars": {
+      "1 étoile": 63,
+      "2 étoiles": 3,
+      "3 étoiles": 3
+    },
+    "star_percentages": {
+      "1 étoile": 2.38,
+      "2 étoiles": 0.95,
+      "3 étoiles": 2.29
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "betterave",
+    "name": "betterave",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 69,
+    "frequency_percent": 2.19,
+    "restaurants": 46,
+    "by_stars": {
+      "1 étoile": 59,
+      "2 étoiles": 9,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 2.23,
+      "2 étoiles": 2.86,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "langoustine",
+    "name": "langoustine",
+    "emoji": "🦐",
+    "category": "crustace",
+    "frequency": 69,
+    "frequency_percent": 2.19,
+    "restaurants": 50,
+    "by_stars": {
+      "1 étoile": 54,
+      "2 étoiles": 10,
+      "3 étoiles": 5
+    },
+    "star_percentages": {
+      "1 étoile": 2.04,
+      "2 étoiles": 3.17,
+      "3 étoiles": 3.82
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "pigeon",
+    "name": "pigeon",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 63,
+    "frequency_percent": 2.0,
+    "restaurants": 49,
+    "by_stars": {
+      "1 étoile": 54,
+      "2 étoiles": 7,
+      "3 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 2.04,
+      "2 étoiles": 2.22,
+      "3 étoiles": 1.53
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "huitre",
+    "name": "huitre",
+    "emoji": "🦪",
+    "category": "coquillage",
+    "frequency": 60,
+    "frequency_percent": 1.91,
+    "restaurants": 39,
+    "by_stars": {
+      "1 étoile": 56,
+      "2 étoiles": 2,
+      "Sélectionné": 2
+    },
+    "star_percentages": {
+      "1 étoile": 2.12,
+      "2 étoiles": 0.63,
+      "Sélectionné": 3.7
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "poireau",
+    "name": "poireau",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 60,
+    "frequency_percent": 1.91,
+    "restaurants": 40,
+    "by_stars": {
+      "1 étoile": 50,
+      "2 étoiles": 8,
+      "3 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 1.89,
+      "2 étoiles": 2.54,
+      "3 étoiles": 1.53
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "orange",
+    "name": "orange",
+    "emoji": "🍎",
+    "category": "fruit",
+    "frequency": 53,
+    "frequency_percent": 1.69,
+    "restaurants": 36,
+    "by_stars": {
+      "1 étoile": 48,
+      "2 étoiles": 2,
+      "3 étoiles": 2,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 1.81,
+      "2 étoiles": 0.63,
+      "3 étoiles": 1.53,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "topinambour",
+    "name": "topinambour",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 52,
+    "frequency_percent": 1.65,
+    "restaurants": 37,
+    "by_stars": {
+      "1 étoile": 44,
+      "2 étoiles": 3,
+      "3 étoiles": 4,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 1.66,
+      "2 étoiles": 0.95,
+      "3 étoiles": 3.05,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "truite",
+    "name": "truite",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 50,
+    "frequency_percent": 1.59,
+    "restaurants": 30,
+    "by_stars": {
+      "1 étoile": 40,
+      "2 étoiles": 7,
+      "Sélectionné": 3
+    },
+    "star_percentages": {
+      "1 étoile": 1.51,
+      "2 étoiles": 2.22,
+      "Sélectionné": 5.56
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "carotte",
+    "name": "carotte",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 49,
+    "frequency_percent": 1.56,
+    "restaurants": 33,
+    "by_stars": {
+      "1 étoile": 43,
+      "2 étoiles": 6
+    },
+    "star_percentages": {
+      "1 étoile": 1.63,
+      "2 étoiles": 1.9
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "artichaut",
+    "name": "artichaut",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 42,
+    "frequency_percent": 1.34,
+    "restaurants": 30,
+    "by_stars": {
+      "1 étoile": 34,
+      "2 étoiles": 6,
+      "3 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 1.29,
+      "2 étoiles": 1.9,
+      "3 étoiles": 1.53
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "oignon",
+    "name": "oignon",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 34,
+    "frequency_percent": 1.08,
+    "restaurants": 26,
+    "by_stars": {
+      "1 étoile": 31,
+      "3 étoiles": 3
+    },
+    "star_percentages": {
+      "1 étoile": 1.17,
+      "3 étoiles": 2.29
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "coquillage",
+    "name": "coquillage",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 31,
+    "frequency_percent": 0.99,
+    "restaurants": 19,
+    "by_stars": {
+      "1 étoile": 26,
+      "2 étoiles": 3,
+      "3 étoiles": 1,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.98,
+      "2 étoiles": 0.95,
+      "3 étoiles": 0.76,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "coing",
+    "name": "coing",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 30,
+    "frequency_percent": 0.95,
+    "restaurants": 22,
+    "by_stars": {
+      "1 étoile": 22,
+      "2 étoiles": 3,
+      "3 étoiles": 1,
+      "Sélectionné": 4
+    },
+    "star_percentages": {
+      "1 étoile": 0.83,
+      "2 étoiles": 0.95,
+      "3 étoiles": 0.76,
+      "Sélectionné": 7.41
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "agneau",
+    "name": "agneau",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 28,
+    "frequency_percent": 0.89,
+    "restaurants": 23,
+    "by_stars": {
+      "1 étoile": 19,
+      "2 étoiles": 3,
+      "3 étoiles": 6
+    },
+    "star_percentages": {
+      "1 étoile": 0.72,
+      "2 étoiles": 0.95,
+      "3 étoiles": 4.58
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "cabillaud",
+    "name": "cabillaud",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 27,
+    "frequency_percent": 0.86,
+    "restaurants": 15,
+    "by_stars": {
+      "1 étoile": 27
+    },
+    "star_percentages": {
+      "1 étoile": 1.02
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "caille",
+    "name": "caille",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 27,
+    "frequency_percent": 0.86,
+    "restaurants": 20,
+    "by_stars": {
+      "1 étoile": 23,
+      "2 étoiles": 3,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.87,
+      "2 étoiles": 0.95,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "boeuf",
+    "name": "boeuf",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 26,
+    "frequency_percent": 0.83,
+    "restaurants": 19,
+    "by_stars": {
+      "1 étoile": 24,
+      "2 étoiles": 1,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.91,
+      "2 étoiles": 0.32,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "lotte",
+    "name": "lotte",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 23,
+    "frequency_percent": 0.73,
+    "restaurants": 19,
+    "by_stars": {
+      "1 étoile": 18,
+      "2 étoiles": 3,
+      "3 étoiles": 1,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.68,
+      "2 étoiles": 0.95,
+      "3 étoiles": 0.76,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "panais",
+    "name": "panais",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 23,
+    "frequency_percent": 0.73,
+    "restaurants": 18,
+    "by_stars": {
+      "1 étoile": 20,
+      "2 étoiles": 1,
+      "3 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.76,
+      "2 étoiles": 0.32,
+      "3 étoiles": 1.53
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "rouget",
+    "name": "rouget",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 23,
+    "frequency_percent": 0.73,
+    "restaurants": 16,
+    "by_stars": {
+      "1 étoile": 21,
+      "2 étoiles": 1,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.79,
+      "2 étoiles": 0.32,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "tourteau",
+    "name": "tourteau",
+    "emoji": "🦐",
+    "category": "crustace",
+    "frequency": 23,
+    "frequency_percent": 0.73,
+    "restaurants": 16,
+    "by_stars": {
+      "1 étoile": 16,
+      "2 étoiles": 5,
+      "3 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.6,
+      "2 étoiles": 1.59,
+      "3 étoiles": 1.53
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "saumon",
+    "name": "saumon",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 22,
+    "frequency_percent": 0.7,
+    "restaurants": 15,
+    "by_stars": {
+      "1 étoile": 18,
+      "2 étoiles": 3,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.68,
+      "2 étoiles": 0.95,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "chou-fleur",
+    "name": "chou-fleur",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 21,
+    "frequency_percent": 0.67,
+    "restaurants": 17,
+    "by_stars": {
+      "1 étoile": 16,
+      "2 étoiles": 4,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.6,
+      "2 étoiles": 1.27,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "cochon",
+    "name": "cochon",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 21,
+    "frequency_percent": 0.67,
+    "restaurants": 16,
+    "by_stars": {
+      "1 étoile": 17,
+      "2 étoiles": 3,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.64,
+      "2 étoiles": 0.95,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "radis",
+    "name": "radis",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 20,
+    "frequency_percent": 0.64,
+    "restaurants": 14,
+    "by_stars": {
+      "1 étoile": 13,
+      "2 étoiles": 4,
+      "3 étoiles": 1,
+      "Sélectionné": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.49,
+      "2 étoiles": 1.27,
+      "3 étoiles": 0.76,
+      "Sélectionné": 3.7
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "crevette",
+    "name": "crevette",
+    "emoji": "🦐",
+    "category": "crustace",
+    "frequency": 19,
+    "frequency_percent": 0.6,
+    "restaurants": 12,
+    "by_stars": {
+      "1 étoile": 16,
+      "2 étoiles": 3
+    },
+    "star_percentages": {
+      "1 étoile": 0.6,
+      "2 étoiles": 0.95
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "oursin",
+    "name": "oursin",
+    "emoji": "🦪",
+    "category": "coquillage",
+    "frequency": 19,
+    "frequency_percent": 0.6,
+    "restaurants": 15,
+    "by_stars": {
+      "1 étoile": 13,
+      "2 étoiles": 4,
+      "3 étoiles": 1,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.49,
+      "2 étoiles": 1.27,
+      "3 étoiles": 0.76,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "sole",
+    "name": "sole",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 17,
+    "frequency_percent": 0.54,
+    "restaurants": 15,
+    "by_stars": {
+      "1 étoile": 13,
+      "2 étoiles": 3,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.49,
+      "2 étoiles": 0.95,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "turbot",
+    "name": "turbot",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 17,
+    "frequency_percent": 0.54,
+    "restaurants": 11,
+    "by_stars": {
+      "1 étoile": 16,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.6,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "salsifis",
+    "name": "salsifis",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 16,
+    "frequency_percent": 0.51,
+    "restaurants": 12,
+    "by_stars": {
+      "1 étoile": 15,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.57,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "maquereau",
+    "name": "maquereau",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 15,
+    "frequency_percent": 0.48,
+    "restaurants": 7,
+    "by_stars": {
+      "1 étoile": 14,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.53,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "tomate",
+    "name": "tomate",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 14,
+    "frequency_percent": 0.45,
+    "restaurants": 11,
+    "by_stars": {
+      "1 étoile": 13,
+      "2 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.49,
+      "2 étoiles": 0.32
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "morille",
+    "name": "morille",
+    "emoji": "🍄",
+    "category": "champignon",
+    "frequency": 12,
+    "frequency_percent": 0.38,
+    "restaurants": 11,
+    "by_stars": {
+      "1 étoile": 12
+    },
+    "star_percentages": {
+      "1 étoile": 0.45
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "porc",
+    "name": "porc",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 11,
+    "frequency_percent": 0.35,
+    "restaurants": 9,
+    "by_stars": {
+      "1 étoile": 9,
+      "2 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.34,
+      "2 étoiles": 0.63
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "poularde",
+    "name": "poularde",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 11,
+    "frequency_percent": 0.35,
+    "restaurants": 7,
+    "by_stars": {
+      "1 étoile": 9,
+      "2 étoiles": 1,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.34,
+      "2 étoiles": 0.32,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "thon",
+    "name": "thon",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 11,
+    "frequency_percent": 0.35,
+    "restaurants": 8,
+    "by_stars": {
+      "1 étoile": 8,
+      "2 étoiles": 3
+    },
+    "star_percentages": {
+      "1 étoile": 0.3,
+      "2 étoiles": 0.95
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "brocoli",
+    "name": "brocoli",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 10,
+    "frequency_percent": 0.32,
+    "restaurants": 8,
+    "by_stars": {
+      "1 étoile": 8,
+      "2 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.3,
+      "2 étoiles": 0.63
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "moule",
+    "name": "moule",
+    "emoji": "🦪",
+    "category": "coquillage",
+    "frequency": 10,
+    "frequency_percent": 0.32,
+    "restaurants": 8,
+    "by_stars": {
+      "1 étoile": 9,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.34,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "poulet",
+    "name": "poulet",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 10,
+    "frequency_percent": 0.32,
+    "restaurants": 8,
+    "by_stars": {
+      "1 étoile": 10
+    },
+    "star_percentages": {
+      "1 étoile": 0.38
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "girolle",
+    "name": "girolle",
+    "emoji": "🍄",
+    "category": "champignon",
+    "frequency": 9,
+    "frequency_percent": 0.29,
+    "restaurants": 7,
+    "by_stars": {
+      "1 étoile": 8,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.3,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "asperge",
+    "name": "asperge",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 8,
+    "frequency_percent": 0.25,
+    "restaurants": 6,
+    "by_stars": {
+      "1 étoile": 6,
+      "2 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.23,
+      "2 étoiles": 0.63
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "choux-de-bruxelles",
+    "name": "choux de bruxelles",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 8,
+    "frequency_percent": 0.25,
+    "restaurants": 5,
+    "by_stars": {
+      "1 étoile": 7,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.26,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "pintade",
+    "name": "pintade",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 8,
+    "frequency_percent": 0.25,
+    "restaurants": 8,
+    "by_stars": {
+      "1 étoile": 7,
+      "2 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.26,
+      "2 étoiles": 0.32
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "jambon",
+    "name": "jambon",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 7,
+    "frequency_percent": 0.22,
+    "restaurants": 7,
+    "by_stars": {
+      "1 étoile": 4,
+      "2 étoiles": 1,
+      "3 étoiles": 1,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.15,
+      "2 étoiles": 0.32,
+      "3 étoiles": 0.76,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "poivron",
+    "name": "poivron",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 7,
+    "frequency_percent": 0.22,
+    "restaurants": 4,
+    "by_stars": {
+      "1 étoile": 7
+    },
+    "star_percentages": {
+      "1 étoile": 0.26
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "choucroute",
+    "name": "choucroute",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 6,
+    "frequency_percent": 0.19,
+    "restaurants": 5,
+    "by_stars": {
+      "1 étoile": 3,
+      "2 étoiles": 2,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.11,
+      "2 étoiles": 0.63,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "courgette",
+    "name": "courgette",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 5,
+    "frequency_percent": 0.16,
+    "restaurants": 4,
+    "by_stars": {
+      "1 étoile": 5
+    },
+    "star_percentages": {
+      "1 étoile": 0.19
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "crabe",
+    "name": "crabe",
+    "emoji": "🦐",
+    "category": "crustace",
+    "frequency": 4,
+    "frequency_percent": 0.13,
+    "restaurants": 4,
+    "by_stars": {
+      "1 étoile": 3,
+      "2 étoiles": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.11,
+      "2 étoiles": 0.32
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "aubergine",
+    "name": "aubergine",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 3,
+    "frequency_percent": 0.1,
+    "restaurants": 3,
+    "by_stars": {
+      "1 étoile": 3
+    },
+    "star_percentages": {
+      "1 étoile": 0.11
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "gibier",
+    "name": "gibier",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 3,
+    "frequency_percent": 0.1,
+    "restaurants": 2,
+    "by_stars": {
+      "2 étoiles": 2,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "2 étoiles": 0.63,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "julienne",
+    "name": "julienne",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 3,
+    "frequency_percent": 0.1,
+    "restaurants": 3,
+    "by_stars": {
+      "1 étoile": 3
+    },
+    "star_percentages": {
+      "1 étoile": 0.11
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "sardine",
+    "name": "sardine",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 3,
+    "frequency_percent": 0.1,
+    "restaurants": 3,
+    "by_stars": {
+      "1 étoile": 3
+    },
+    "star_percentages": {
+      "1 étoile": 0.11
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "boudin",
+    "name": "boudin",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 2,
+    "frequency_percent": 0.06,
+    "restaurants": 2,
+    "by_stars": {
+      "1 étoile": 1,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.04,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "chapon",
+    "name": "chapon",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 2,
+    "frequency_percent": 0.06,
+    "restaurants": 2,
+    "by_stars": {
+      "2 étoiles": 1,
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "2 étoiles": 0.32,
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "hareng",
+    "name": "hareng",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 2,
+    "frequency_percent": 0.06,
+    "restaurants": 2,
+    "by_stars": {
+      "1 étoile": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.08
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "saucisse",
+    "name": "saucisse",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 2,
+    "frequency_percent": 0.06,
+    "restaurants": 2,
+    "by_stars": {
+      "1 étoile": 1,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.04,
+      "Sélectionné": 1.85
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "celeri",
+    "name": "celeri",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 1,
+    "frequency_percent": 0.03,
+    "restaurants": 1,
+    "by_stars": {
+      "1 étoile": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.04
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "epinard",
+    "name": "epinard",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 1,
+    "frequency_percent": 0.03,
+    "restaurants": 1,
+    "by_stars": {
+      "3 étoiles": 1
+    },
+    "star_percentages": {
+      "3 étoiles": 0.76
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  },
+  {
+    "id": "palourde",
+    "name": "palourde",
+    "emoji": "🦪",
+    "category": "coquillage",
+    "frequency": 1,
+    "frequency_percent": 0.03,
+    "restaurants": 1,
+    "by_stars": {
+      "1 étoile": 1
+    },
+    "star_percentages": {
+      "1 étoile": 0.04
+    },
+    "totals_by_star": {
+      "1 étoile": 2645,
+      "2 étoiles": 315,
+      "3 étoiles": 131,
+      "Sélectionné": 54
+    }
+  }
+]

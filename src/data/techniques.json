@@ -1,0 +1,62 @@
+[
+  {
+    "name": "glace",
+    "frequency": 177
+  },
+  {
+    "name": "confi",
+    "frequency": 141
+  },
+  {
+    "name": "cru",
+    "frequency": 138
+  },
+  {
+    "name": "roti",
+    "frequency": 126
+  },
+  {
+    "name": "mousse",
+    "frequency": 96
+  },
+  {
+    "name": "tartare",
+    "frequency": 35
+  },
+  {
+    "name": "friture",
+    "frequency": 22
+  },
+  {
+    "name": "vapeur",
+    "frequency": 13
+  },
+  {
+    "name": "braise",
+    "frequency": 8
+  },
+  {
+    "name": "fume",
+    "frequency": 7
+  },
+  {
+    "name": "emulsion",
+    "frequency": 6
+  },
+  {
+    "name": "marine",
+    "frequency": 4
+  },
+  {
+    "name": "saute",
+    "frequency": 3
+  },
+  {
+    "name": "souffle",
+    "frequency": 2
+  },
+  {
+    "name": "grille",
+    "frequency": 1
+  }
+]

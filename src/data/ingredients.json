@@ -514,6 +514,25 @@
     }
   },
   {
+    "id": "porc",
+    "name": "porc",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 32,
+    "frequency_percent": 1.04,
+    "restaurants": 24,
+    "by_stars": {
+      "1 étoile": 26,
+      "2 étoiles": 5,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 1.0,
+      "2 étoiles": 1.63,
+      "Sélectionné": 2.04
+    }
+  },
+  {
     "id": "coquillage",
     "name": "coquillage",
     "emoji": "🐟",
@@ -575,21 +594,6 @@
     }
   },
   {
-    "id": "cabillaud",
-    "name": "cabillaud",
-    "emoji": "🐟",
-    "category": "poisson",
-    "frequency": 27,
-    "frequency_percent": 0.88,
-    "restaurants": 15,
-    "by_stars": {
-      "1 étoile": 27
-    },
-    "star_percentages": {
-      "1 étoile": 1.04
-    }
-  },
-  {
     "id": "caille",
     "name": "caille",
     "emoji": "🥩",
@@ -609,8 +613,23 @@
     }
   },
   {
-    "id": "boeuf",
-    "name": "boeuf",
+    "id": "morue",
+    "name": "morue",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 27,
+    "frequency_percent": 0.88,
+    "restaurants": 15,
+    "by_stars": {
+      "1 étoile": 27
+    },
+    "star_percentages": {
+      "1 étoile": 1.04
+    }
+  },
+  {
+    "id": "bœuf",
+    "name": "bœuf",
     "emoji": "🥩",
     "category": "viande",
     "frequency": 26,
@@ -740,25 +759,6 @@
     "star_percentages": {
       "1 étoile": 0.62,
       "2 étoiles": 1.31,
-      "Sélectionné": 2.04
-    }
-  },
-  {
-    "id": "cochon",
-    "name": "cochon",
-    "emoji": "🥩",
-    "category": "viande",
-    "frequency": 21,
-    "frequency_percent": 0.68,
-    "restaurants": 16,
-    "by_stars": {
-      "1 étoile": 17,
-      "2 étoiles": 3,
-      "Sélectionné": 1
-    },
-    "star_percentages": {
-      "1 étoile": 0.65,
-      "2 étoiles": 0.98,
       "Sélectionné": 2.04
     }
   },
@@ -921,23 +921,6 @@
     },
     "star_percentages": {
       "1 étoile": 0.46
-    }
-  },
-  {
-    "id": "porc",
-    "name": "porc",
-    "emoji": "🥩",
-    "category": "viande",
-    "frequency": 11,
-    "frequency_percent": 0.36,
-    "restaurants": 9,
-    "by_stars": {
-      "1 étoile": 9,
-      "2 étoiles": 2
-    },
-    "star_percentages": {
-      "1 étoile": 0.35,
-      "2 étoiles": 0.65
     }
   },
   {

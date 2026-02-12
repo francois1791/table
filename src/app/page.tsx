@@ -6,28 +6,10 @@ import Link from "next/link";
 import { Award, Filter } from "lucide-react";
 import ingredientsDataRaw from "@/data/ingredients.json";
 import { StarFilter, Ingredient } from "@/lib/types";
+import { useLanguage } from "@/lib/language";
 
 const ingredientsData = ingredientsDataRaw as Ingredient[];
 
-const categories = [
-  { key: "viande", label: "Viandes", emoji: "🥩", color: "#ef4444" },
-  { key: "poisson", label: "Poissons", emoji: "🐟", color: "#06b6d4" },
-  { key: "crustace", label: "Crustacés", emoji: "🦐", color: "#ec4899" },
-  { key: "coquillage", label: "Coquillages", emoji: "🦪", color: "#14b8a6" },
-  { key: "champignon", label: "Champignons", emoji: "🍄", color: "#f59e0b" },
-  { key: "legume", label: "Légumes", emoji: "🥬", color: "#22c55e" },
-  { key: "fruit", label: "Fruits", emoji: "🍎", color: "#a855f7" },
-  { key: "fruit_sec", label: "Fruits secs", emoji: "🥜", color: "#d97706" },
-] as const;
-
-const stars = [
-  { value: "all" as StarFilter, label: "Toutes", stars: "⭐" },
-  { value: "3 étoiles" as StarFilter, label: "3★", stars: "⭐⭐⭐" },
-  { value: "2 étoiles" as StarFilter, label: "2★", stars: "⭐⭐" },
-  { value: "1 étoile" as StarFilter, label: "1★", stars: "⭐" },
-];
-
-// Colors for donut segments
 const segmentColors = [
   "#ef4444", "#f97316", "#f59e0b", "#84cc16", "#22c55e", 
   "#06b6d4", "#3b82f6", "#8b5cf6", "#a855f7", "#ec4899"
@@ -35,13 +17,21 @@ const segmentColors = [
 
 // Donut Chart Component - Full width with hover
 function CategoryDonut({ 
-  category,
+  categoryKey,
+  categoryLabel,
+  emoji,
+  color,
   items,
-  total
+  total,
+  t
 }: { 
-  category: typeof categories[number];
+  categoryKey: string;
+  categoryLabel: string;
+  emoji: string;
+  color: string;
   items: Ingredient[];
   total: number;
+  t: (key: string, params?: Record<string, string | number>) => string;
 }) {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const categoryTotal = items.reduce((sum, item) => sum + item.frequency, 0);
@@ -88,15 +78,15 @@ function CategoryDonut({
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3">
-          <span className="text-4xl">{category.emoji}</span>
-          <h2 className="font-bold text-2xl" style={{ color: category.color }}>
-            {category.label}
+          <span className="text-4xl">{emoji}</span>
+          <h2 className="font-bold text-2xl" style={{ color }}>
+            {categoryLabel}
           </h2>
         </div>
         <div className="text-right">
           <span className="text-4xl font-bold">{categoryTotal.toLocaleString()}</span>
           <p className="text-sm text-muted-foreground">
-            {Math.round((categoryTotal / total) * 100)}% du total
+            {Math.round((categoryTotal / total) * 100)}% {t("overview.percent_of_total")}
           </p>
         </div>
       </div>
@@ -116,23 +106,24 @@ function CategoryDonut({
                 <path
                   d={path.d}
                   fill={path.color}
-                  stroke="#0a0a0f"
+                  stroke="var(--background)"
                   strokeWidth="1.5"
                   className={`transition-all duration-200 cursor-pointer ${
                     hoveredIndex === null 
                       ? "opacity-100" 
                       : hoveredIndex === i 
-                        ? "opacity-100 scale-105" 
+                        ? "opacity-100" 
                         : "opacity-40"
                   }`}
                   style={{ 
                     transformOrigin: '50px 50px',
+                    transform: hoveredIndex === i ? 'scale(1.05)' : 'scale(1)',
                     filter: hoveredIndex === i ? 'brightness(1.2)' : 'none'
                   }}
                 />
               </Link>
             ))}
-            <circle cx="50" cy="50" r="22" fill="#0a0a0f" />
+            <circle cx="50" cy="50" r="22" fill="var(--background)" />
           </svg>
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <span className="text-2xl font-bold">{items.length}</span>
@@ -181,6 +172,26 @@ function CategoryDonut({
 
 export default function OverviewPage() {
   const [starFilter, setStarFilter] = useState<StarFilter>("all");
+  const { t, language } = useLanguage();
+
+  // Categories with translations
+  const categories = useMemo(() => [
+    { key: "viande", label: t("cat.viande"), emoji: "🥩", color: "#ef4444" },
+    { key: "poisson", label: t("cat.poisson"), emoji: "🐟", color: "#06b6d4" },
+    { key: "crustace", label: t("cat.crustace"), emoji: "🦐", color: "#ec4899" },
+    { key: "coquillage", label: t("cat.coquillage"), emoji: "🦪", color: "#14b8a6" },
+    { key: "champignon", label: t("cat.champignon"), emoji: "🍄", color: "#f59e0b" },
+    { key: "legume", label: t("cat.legume"), emoji: "🥬", color: "#22c55e" },
+    { key: "fruit", label: t("cat.fruit"), emoji: "🍎", color: "#a855f7" },
+    { key: "fruit_sec", label: t("cat.fruit_sec"), emoji: "🥜", color: "#d97706" },
+  ], [t, language]);
+
+  const stars = useMemo(() => [
+    { value: "all" as StarFilter, label: t("filter.all"), stars: "⭐" },
+    { value: "3 étoiles" as StarFilter, label: "3★", stars: "⭐⭐⭐" },
+    { value: "2 étoiles" as StarFilter, label: "2★", stars: "⭐⭐" },
+    { value: "1 étoile" as StarFilter, label: "1★", stars: "⭐" },
+  ], [t, language]);
 
   // Filtrer les ingrédients
   const filteredIngredients = useMemo(() => {
@@ -204,7 +215,7 @@ export default function OverviewPage() {
         .sort((a, b) => b.frequency - a.frequency);
     });
     return grouped;
-  }, [filteredIngredients]);
+  }, [filteredIngredients, categories]);
 
   return (
     <div className="container mx-auto px-4 py-6 max-w-5xl">
@@ -215,9 +226,12 @@ export default function OverviewPage() {
             <Award className="w-6 h-6 text-accent-violet" />
           </div>
           <div>
-            <h1 className="font-bold text-2xl">Menu Analytics</h1>
+            <h1 className="font-bold text-2xl">{t("overview.title")}</h1>
             <p className="text-sm text-muted-foreground">
-              {filteredIngredients.length} ingrédients • {totalAll.toLocaleString()} occurrences
+              {t("overview.subtitle", { 
+                ingredients: filteredIngredients.length, 
+                occurrences: totalAll.toLocaleString() 
+              })}
             </p>
           </div>
         </div>
@@ -243,14 +257,18 @@ export default function OverviewPage() {
         </div>
       </div>
 
-      {/* 7 Category Donuts - Full width, scrollable */}
+      {/* Category Donuts - Full width, scrollable */}
       <div className="space-y-4">
         {categories.map((cat) => (
           <CategoryDonut
             key={cat.key}
-            category={cat}
+            categoryKey={cat.key}
+            categoryLabel={cat.label}
+            emoji={cat.emoji}
+            color={cat.color}
             items={byCategory[cat.key] || []}
             total={totalAll}
+            t={t}
           />
         ))}
       </div>

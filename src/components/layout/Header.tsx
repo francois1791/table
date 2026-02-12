@@ -3,18 +3,22 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { ChefHat, Menu, X, BarChart3, UtensilsCrossed } from "lucide-react";
+import { ChefHat, Menu, X, BarChart3, UtensilsCrossed, Sun, Moon } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-
-const navItems = [
-  { href: "/", label: "Overview", icon: BarChart3 },
-  { href: "/ingredients", label: "Ingredients", icon: UtensilsCrossed },
-];
+import { useTheme } from "@/lib/theme";
+import { useLanguage } from "@/lib/language";
 
 export function Header() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
+  const { language, setLanguage, t } = useLanguage();
+
+  const navItems = [
+    { href: "/", label: t("nav.overview"), icon: BarChart3 },
+    { href: "/ingredients", label: t("nav.ingredients"), icon: UtensilsCrossed },
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border glass-strong">
@@ -30,7 +34,7 @@ export function Header() {
               Menu<span className="gradient-text">Analytics</span>
             </span>
             <span className="text-[10px] text-muted-foreground uppercase tracking-widest">
-              Fine Dining Intelligence
+              {t("nav.fine_dining")}
             </span>
           </div>
         </Link>
@@ -68,29 +72,42 @@ export function Header() {
           })}
         </nav>
 
-        {/* Stats Summary */}
-        <div className="hidden lg:flex items-center gap-4 text-xs text-muted-foreground">
-          <div className="flex items-center gap-1.5">
-            <div className="w-2 h-2 rounded-full bg-success animate-pulse" />
-            <span>279 Restaurants</span>
-          </div>
-          <div className="w-px h-4 bg-border" />
-          <div className="flex items-center gap-1.5">
-            <span>3,151 Dishes</span>
-          </div>
-        </div>
+        {/* Right side: Theme + Language */}
+        <div className="flex items-center gap-2">
+          {/* Theme Toggle */}
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg hover:bg-surface-hover transition-colors text-muted-foreground hover:text-foreground"
+            title={theme === "dark" ? "Mode clair" : "Mode sombre"}
+          >
+            {theme === "dark" ? (
+              <Sun className="w-5 h-5" />
+            ) : (
+              <Moon className="w-5 h-5" />
+            )}
+          </button>
 
-        {/* Mobile Menu Button */}
-        <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden p-2 rounded-lg hover:bg-surface-hover transition-colors"
-        >
-          {mobileMenuOpen ? (
-            <X className="w-5 h-5" />
-          ) : (
-            <Menu className="w-5 h-5" />
-          )}
-        </button>
+          {/* Language Toggle */}
+          <button
+            onClick={() => setLanguage(language === "fr" ? "en" : "fr")}
+            className="px-3 py-1.5 rounded-lg hover:bg-surface-hover transition-colors text-sm font-medium text-muted-foreground hover:text-foreground border border-border"
+            title={language === "fr" ? "Switch to English" : "Passer en français"}
+          >
+            {language === "fr" ? "EN" : "FR"}
+          </button>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden p-2 rounded-lg hover:bg-surface-hover transition-colors"
+          >
+            {mobileMenuOpen ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}
@@ -123,6 +140,29 @@ export function Header() {
                 </Link>
               );
             })}
+            
+            {/* Mobile Theme & Language */}
+            <div className="flex items-center gap-2 mt-4 pt-4 border-t border-border">
+              <button
+                onClick={() => {
+                  toggleTheme();
+                  setMobileMenuOpen(false);
+                }}
+                className="flex-1 px-4 py-3 rounded-lg bg-surface-hover flex items-center justify-center gap-2"
+              >
+                {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+                {theme === "dark" ? "Mode clair" : "Mode sombre"}
+              </button>
+              <button
+                onClick={() => {
+                  setLanguage(language === "fr" ? "en" : "fr");
+                  setMobileMenuOpen(false);
+                }}
+                className="flex-1 px-4 py-3 rounded-lg bg-surface-hover font-medium"
+              >
+                {language === "fr" ? "English" : "Français"}
+              </button>
+            </div>
           </nav>
         </motion.div>
       )}

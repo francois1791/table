@@ -4,6 +4,30 @@
 
 :root {
   --font-inter: 'Inter', system-ui, sans-serif;
+  
+  /* Light theme (default) */
+  --background: #fafafa;
+  --surface: #ffffff;
+  --surface-hover: #f4f4f5;
+  --surface-active: #e4e4e7;
+  --border: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 0, 0, 0.15);
+  --foreground: #18181b;
+  --muted: #71717a;
+  --muted-foreground: #52525b;
+}
+
+.dark {
+  /* Dark theme */
+  --background: #0a0a0f;
+  --surface: #12121a;
+  --surface-hover: #1a1a25;
+  --surface-active: #222230;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.15);
+  --foreground: #fafafa;
+  --muted: #a1a1aa;
+  --muted-foreground: #71717a;
 }
 
 @layer base {
@@ -13,6 +37,7 @@
   
   body {
     @apply bg-background text-foreground;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   /* Custom scrollbar */

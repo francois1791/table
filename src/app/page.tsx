@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Award } from "lucide-react";
 import { ShareList } from "@/components/dashboard/ShareList";
-import { TrendChart } from "@/components/dashboard/TrendChart";
 import ingredientsDataRaw from "@/data/ingredients.json";
 import { CategoryFilter, StarFilter, Ingredient } from "@/lib/types";
 
@@ -18,8 +17,9 @@ export default function OverviewPage() {
     <div className="container mx-auto px-4 py-8 space-y-8">
       {/* Main Content Grid */}
       <div className="grid lg:grid-cols-3 gap-8">
-        {/* Ingredient Share List */}
+        {/* Left Column - Ingredient Share */}
         <div className="lg:col-span-2 space-y-4">
+          {/* Ingredient Share Header */}
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-gradient-accent-soft flex items-center justify-center">
@@ -37,6 +37,7 @@ export default function OverviewPage() {
             </div>
           </div>
           
+          {/* Share List */}
           <ShareList
             ingredients={ingredients}
             searchQuery={searchQuery}
@@ -48,9 +49,9 @@ export default function OverviewPage() {
           />
         </div>
 
-        {/* Right Column - Only TrendChart */}
-        <div className="space-y-6">
-          <TrendChart ingredients={ingredients} />
+        {/* Right Column - Empty */}
+        <div className="hidden lg:block">
+          {/* Space for future content */}
         </div>
       </div>
     </div>

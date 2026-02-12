@@ -246,8 +246,8 @@
   {
     "id": "pomme-de-terre",
     "name": "pomme de terre",
-    "emoji": "🍚",
-    "category": "feculent",
+    "emoji": "🥬",
+    "category": "legume",
     "frequency": 72,
     "frequency_percent": 2.25,
     "restaurants": 58,

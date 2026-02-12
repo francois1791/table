@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { Award, Filter } from "lucide-react";
 import ingredientsDataRaw from "@/data/ingredients.json";
 import { StarFilter, Ingredient } from "@/lib/types";
@@ -9,13 +10,13 @@ import { StarFilter, Ingredient } from "@/lib/types";
 const ingredientsData = ingredientsDataRaw as Ingredient[];
 
 const categories = [
-  { key: "viande", label: "VIANDES", emoji: "🥩", color: "#ef4444" },
-  { key: "poisson", label: "POISSONS", emoji: "🐟", color: "#06b6d4" },
-  { key: "crustace", label: "CRUSTACÉS", emoji: "🦐", color: "#ec4899" },
-  { key: "coquillage", label: "COQUILLAGES", emoji: "🦪", color: "#14b8a6" },
-  { key: "champignon", label: "CHAMPIGNONS", emoji: "🍄", color: "#f59e0b" },
-  { key: "legume", label: "LÉGUMES", emoji: "🥬", color: "#22c55e" },
-  { key: "fruit", label: "FRUITS", emoji: "🍎", color: "#a855f7" },
+  { key: "viande", label: "Viandes", emoji: "🥩", color: "#ef4444" },
+  { key: "poisson", label: "Poissons", emoji: "🐟", color: "#06b6d4" },
+  { key: "crustace", label: "Crustacés", emoji: "🦐", color: "#ec4899" },
+  { key: "coquillage", label: "Coquillages", emoji: "🦪", color: "#14b8a6" },
+  { key: "champignon", label: "Champignons", emoji: "🍄", color: "#f59e0b" },
+  { key: "legume", label: "Légumes", emoji: "🥬", color: "#22c55e" },
+  { key: "fruit", label: "Fruits", emoji: "🍎", color: "#a855f7" },
 ] as const;
 
 const stars = [
@@ -31,7 +32,7 @@ const segmentColors = [
   "#06b6d4", "#3b82f6", "#8b5cf6", "#a855f7", "#ec4899"
 ];
 
-// Donut Chart Component - Full width
+// Donut Chart Component - Full width with hover
 function CategoryDonut({ 
   category,
   items,
@@ -41,18 +42,21 @@ function CategoryDonut({
   items: Ingredient[];
   total: number;
 }) {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const categoryTotal = items.reduce((sum, item) => sum + item.frequency, 0);
   
   // Prepare data for donut
   const donutData = items.slice(0, 10).map((item, i) => ({
+    ...item,
     label: item.name.charAt(0).toUpperCase() + item.name.slice(1),
     value: item.frequency,
     color: segmentColors[i % segmentColors.length],
+    percentage: ((item.frequency / categoryTotal) * 100).toFixed(1)
   }));
   
   // Calculate SVG paths
   let accumulated = 0;
-  const paths = donutData.map((slice) => {
+  const paths = donutData.map((slice, i) => {
     const startAngle = (accumulated / categoryTotal) * 360;
     accumulated += slice.value;
     const endAngle = (accumulated / categoryTotal) * 360;
@@ -69,8 +73,8 @@ function CategoryDonut({
     
     return {
       ...slice,
+      index: i,
       d: `M 50 50 L ${x1} ${y1} A 40 40 0 ${largeArc} 1 ${x2} ${y2} Z`,
-      percentage: ((slice.value / categoryTotal) * 100).toFixed(1)
     };
   });
   
@@ -84,7 +88,7 @@ function CategoryDonut({
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-3">
           <span className="text-4xl">{category.emoji}</span>
-          <h2 className="font-bold text-2xl tracking-wide" style={{ color: category.color }}>
+          <h2 className="font-bold text-2xl" style={{ color: category.color }}>
             {category.label}
           </h2>
         </div>
@@ -96,43 +100,77 @@ function CategoryDonut({
         </div>
       </div>
       
-      {/* Donut Chart - Large */}
-      <div className="flex flex-col md:flex-row items-center gap-8">
+      {/* Donut Chart and Legend */}
+      <div className="flex flex-col md:flex-row gap-8">
         {/* Chart */}
-        <div className="relative w-64 h-64 flex-shrink-0">
+        <div className="relative w-64 h-64 flex-shrink-0 mx-auto md:mx-0">
           <svg viewBox="0 0 100 100" className="w-full h-full">
             {paths.map((path, i) => (
-              <path
+              <Link
                 key={i}
-                d={path.d}
-                fill={path.color}
-                stroke="#0a0a0f"
-                strokeWidth="1.5"
-                className="hover:opacity-80 transition-opacity cursor-pointer"
-              />
+                href={`/ingredients/${path.id}`}
+                onMouseEnter={() => setHoveredIndex(i)}
+                onMouseLeave={() => setHoveredIndex(null)}
+              >
+                <path
+                  d={path.d}
+                  fill={path.color}
+                  stroke="#0a0a0f"
+                  strokeWidth="1.5"
+                  className={`transition-all duration-200 cursor-pointer ${
+                    hoveredIndex === null 
+                      ? "opacity-100" 
+                      : hoveredIndex === i 
+                        ? "opacity-100 scale-105" 
+                        : "opacity-40"
+                  }`}
+                  style={{ 
+                    transformOrigin: '50px 50px',
+                    filter: hoveredIndex === i ? 'brightness(1.2)' : 'none'
+                  }}
+                />
+              </Link>
             ))}
             <circle cx="50" cy="50" r="22" fill="#0a0a0f" />
           </svg>
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
             <span className="text-2xl font-bold">{items.length}</span>
           </div>
         </div>
         
-        {/* Legend - Full width */}
-        <div className="flex-1 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-          {paths.map((item, i) => (
-            <div key={i} className="flex items-center gap-3 p-3 bg-surface/50 rounded-xl">
+        {/* Legend - Vertical list */}
+        <div className="flex-1 space-y-2">
+          {donutData.map((item, i) => (
+            <Link
+              key={i}
+              href={`/ingredients/${item.id}`}
+              onMouseEnter={() => setHoveredIndex(i)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              className={`flex items-center gap-4 p-3 rounded-xl transition-all ${
+                hoveredIndex === i 
+                  ? "bg-accent-violet/20 scale-[1.02]" 
+                  : hoveredIndex !== null 
+                    ? "opacity-40" 
+                    : "hover:bg-surface-hover"
+              }`}
+            >
               <div 
-                className="w-4 h-4 rounded-full flex-shrink-0" 
-                style={{ backgroundColor: item.color }}
+                className="w-5 h-5 rounded-full flex-shrink-0 transition-transform"
+                style={{ 
+                  backgroundColor: item.color,
+                  transform: hoveredIndex === i ? 'scale(1.2)' : 'scale(1)'
+                }}
               />
-              <div className="min-w-0">
-                <p className="font-medium text-sm truncate capitalize">{item.label}</p>
-                <p className="text-xs text-muted-foreground">
-                  {item.value} ({item.percentage}%)
+              <div className="flex-1 min-w-0">
+                <p className="font-medium text-base capitalize truncate">
+                  {item.label}
                 </p>
               </div>
-            </div>
+              <div className="text-right">
+                <p className="font-bold text-base">{item.value}</p>
+                <p className="text-sm text-muted-foreground">{item.percentage}%</p>
+              </div>
+            </Link>
           ))}
         </div>
       </div>
@@ -177,7 +215,7 @@ export default function OverviewPage() {
             <Award className="w-6 h-6 text-accent-violet" />
           </div>
           <div>
-            <h1 className="font-bold text-2xl">MENU ANALYTICS</h1>
+            <h1 className="font-bold text-2xl">Menu Analytics</h1>
             <p className="text-sm text-muted-foreground">
               {filteredIngredients.length} ingrédients • {totalAll.toLocaleString()} occurrences
             </p>

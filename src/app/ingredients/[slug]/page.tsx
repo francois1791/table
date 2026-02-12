@@ -6,7 +6,7 @@ const ingredientsData = ingredientsDataRaw as Ingredient[];
 
 export function generateStaticParams() {
   return ingredientsData.map((ingredient) => ({
-    slug: ingredient.slug,
+    slug: ingredient.id,
   }));
 }
 
@@ -17,7 +17,7 @@ interface PageProps {
 }
 
 export default function IngredientDetailPage({ params }: PageProps) {
-  const ingredient = ingredientsData.find((i) => i.slug === params.slug);
+  const ingredient = ingredientsData.find((i) => i.id === params.slug);
 
   if (!ingredient) {
     return (

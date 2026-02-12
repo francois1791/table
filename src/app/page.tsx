@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
-import { Award, Filter, BarChart3, PieChart, TrendingUp } from "lucide-react";
+import { Award, Filter, BarChart3, PieChart } from "lucide-react";
 import ingredientsDataRaw from "@/data/ingredients.json";
 import { StarFilter, Ingredient } from "@/lib/types";
 
@@ -24,6 +24,61 @@ const stars = [
   { value: "2 étoiles" as StarFilter, label: "2★", stars: "⭐⭐" },
   { value: "1 étoile" as StarFilter, label: "1★", stars: "⭐" },
 ];
+
+// Donut Chart Component
+function DonutChart({ 
+  data, 
+  size = 120, 
+  showCenter = true,
+  centerValue
+}: { 
+  data: { label: string; value: number; color: string }[]; 
+  size?: number;
+  showCenter?: boolean;
+  centerValue?: string;
+}) {
+  const total = data.reduce((sum, d) => sum + d.value, 0);
+  if (total === 0) return <div className="text-muted-foreground text-xs">Aucune donnée</div>;
+  
+  let accumulated = 0;
+  
+  return (
+    <div className="relative" style={{ width: size, height: size }}>
+      <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
+        {data.map((slice, i) => {
+          const start = (accumulated / total) * 360;
+          accumulated += slice.value;
+          const end = (accumulated / total) * 360;
+          const largeArc = end - start > 180 ? 1 : 0;
+          
+          const startRad = (start * Math.PI) / 180;
+          const endRad = (end * Math.PI) / 180;
+          
+          const x1 = 50 + 40 * Math.cos(startRad);
+          const y1 = 50 + 40 * Math.sin(startRad);
+          const x2 = 50 + 40 * Math.cos(endRad);
+          const y2 = 50 + 40 * Math.sin(endRad);
+          
+          return (
+            <path
+              key={i}
+              d={`M 50 50 L ${x1} ${y1} A 40 40 0 ${largeArc} 1 ${x2} ${y2} Z`}
+              fill={slice.color}
+              stroke="rgba(0,0,0,0.2)"
+              strokeWidth="1"
+            />
+          );
+        })}
+        {showCenter && <circle cx="50" cy="50" r="25" fill="#0a0a0f" />}
+      </svg>
+      {showCenter && (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="text-sm font-bold">{centerValue || total}</span>
+        </div>
+      )}
+    </div>
+  );
+}
 
 // Bar Chart Component
 function BarChart({ data, color }: { data: { name: string; value: number; emoji: string }[]; color: string }) {
@@ -53,59 +108,6 @@ function BarChart({ data, color }: { data: { name: string; value: number; emoji:
   );
 }
 
-// Donut Chart Component
-function DonutChart({ data }: { data: { label: string; value: number; color: string }[] }) {
-  const total = data.reduce((sum, d) => sum + d.value, 0);
-  let accumulated = 0;
-  
-  return (
-    <div className="flex items-center gap-4">
-      <div className="relative w-32 h-32">
-        <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
-          {data.map((slice, i) => {
-            const start = (accumulated / total) * 360;
-            accumulated += slice.value;
-            const end = (accumulated / total) * 360;
-            const largeArc = end - start > 180 ? 1 : 0;
-            
-            const startRad = (start * Math.PI) / 180;
-            const endRad = (end * Math.PI) / 180;
-            
-            const x1 = 50 + 40 * Math.cos(startRad);
-            const y1 = 50 + 40 * Math.sin(startRad);
-            const x2 = 50 + 40 * Math.cos(endRad);
-            const y2 = 50 + 40 * Math.sin(endRad);
-            
-            return (
-              <path
-                key={i}
-                d={`M 50 50 L ${x1} ${y1} A 40 40 0 ${largeArc} 1 ${x2} ${y2} Z`}
-                fill={slice.color}
-                stroke="rgba(0,0,0,0.1)"
-                strokeWidth="1"
-              />
-            );
-          })}
-          <circle cx="50" cy="50" r="25" fill="#0a0a0f" />
-        </svg>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-lg font-bold">{total}</span>
-        </div>
-      </div>
-      <div className="flex-1 space-y-1">
-        {data.map((d, i) => (
-          <div key={i} className="flex items-center gap-2 text-xs">
-            <div className="w-3 h-3 rounded" style={{ backgroundColor: d.color }} />
-            <span className="flex-1">{d.label}</span>
-            <span className="font-mono">{d.value}</span>
-            <span className="text-muted-foreground">({Math.round((d.value / total) * 100)}%)</span>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 export default function OverviewPage() {
   const [starFilter, setStarFilter] = useState<StarFilter>("all");
   const [viewMode, setViewMode] = useState<"bars" | "donut">("bars");
@@ -118,18 +120,24 @@ export default function OverviewPage() {
     });
   }, [starFilter]);
 
-  // Stats globales
+  // Stats globales par catégorie
   const stats = useMemo(() => {
-    const byCat: Record<string, number> = {};
+    const byCat: Record<string, { total: number; byStar: Record<string, number> }> = {};
     categories.forEach((cat) => {
-      byCat[cat.key] = filteredIngredients
-        .filter((ing) => ing.category === cat.key)
-        .reduce((sum, ing) => sum + ing.frequency, 0);
+      const catItems = filteredIngredients.filter((ing) => ing.category === cat.key);
+      byCat[cat.key] = {
+        total: catItems.reduce((sum, ing) => sum + ing.frequency, 0),
+        byStar: {
+          "3 étoiles": catItems.reduce((s, i) => s + (i.by_stars?.["3 étoiles"] || 0), 0),
+          "2 étoiles": catItems.reduce((s, i) => s + (i.by_stars?.["2 étoiles"] || 0), 0),
+          "1 étoile": catItems.reduce((s, i) => s + (i.by_stars?.["1 étoile"] || 0), 0),
+        }
+      };
     });
     return byCat;
   }, [filteredIngredients]);
 
-  // Top par catégorie
+  // Top 5 par catégorie
   const byCategory = useMemo(() => {
     const grouped: Record<string, Ingredient[]> = {};
     categories.forEach((cat) => {
@@ -202,25 +210,48 @@ export default function OverviewPage() {
         </div>
       </div>
 
-      {/* Overview Stats (Donut View) */}
-      {viewMode === "donut" && (
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="glass rounded-2xl p-6 mb-8"
-        >
-          <h2 className="text-lg font-semibold mb-4">Répartition par catégorie</h2>
-          <DonutChart
-            data={categories
-              .map((cat) => ({
-                label: cat.label,
-                value: stats[cat.key] || 0,
-                color: cat.color,
-              }))
-              .filter((d) => d.value > 0)}
-          />
-        </motion.div>
-      )}
+      {/* Category Donuts Overview */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="glass rounded-2xl p-6 mb-8"
+      >
+        <h2 className="text-lg font-semibold mb-6 text-center">Répartition par catégorie et étoiles</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+          {categories.map((cat) => {
+            const stat = stats[cat.key];
+            const donutData = [
+              { label: "3★", value: stat?.byStar["3 étoiles"] || 0, color: "#fbbf24" },
+              { label: "2★", value: stat?.byStar["2 étoiles"] || 0, color: "#9ca3af" },
+              { label: "1★", value: stat?.byStar["1 étoile"] || 0, color: "#fb923c" },
+            ].filter(d => d.value > 0);
+            
+            if (donutData.length === 0) donutData.push({ label: "Aucun", value: 1, color: "#333" });
+            
+            return (
+              <div key={cat.key} className="flex flex-col items-center">
+                <DonutChart 
+                  data={donutData} 
+                  size={80} 
+                  centerValue={stat?.total.toString()}
+                />
+                <div className="mt-2 text-center">
+                  <span className="text-lg">{cat.emoji}</span>
+                  <p className="text-xs font-medium">{cat.label}</p>
+                  <p className="text-[10px] text-muted-foreground">{stat?.total || 0} occ.</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        
+        {/* Legend */}
+        <div className="flex justify-center gap-4 mt-4 text-xs">
+          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-yellow-400"></span> 3★</span>
+          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-gray-400"></span> 2★</span>
+          <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-orange-400"></span> 1★</span>
+        </div>
+      </motion.div>
 
       {/* Categories Grid */}
       <div className="grid md:grid-cols-2 gap-6">
@@ -246,7 +277,7 @@ export default function OverviewPage() {
                 </div>
                 <div>
                   <h2 className="font-semibold">{cat.label}</h2>
-                  <p className="text-xs text-muted-foreground">{stats[cat.key]} occurrences</p>
+                  <p className="text-xs text-muted-foreground">{stats[cat.key]?.total || 0} occurrences</p>
                 </div>
               </div>
 
@@ -262,14 +293,14 @@ export default function OverviewPage() {
                     <a
                       key={ing.id}
                       href={`/ingredients/${ing.id}`}
-                      className="flex items-center justify-between p-2 rounded-lg hover:bg-surface-hover transition-colors"
+                      className="flex items-center justify-between p-2 rounded-xl hover:bg-surface-hover transition-colors"
                     >
                       <span className="flex items-center gap-2">
-                        <span>{i + 1}.</span>
+                        <span className="text-muted-foreground text-sm">{i + 1}.</span>
                         <span>{ing.emoji}</span>
                         <span className="capitalize">{ing.name}</span>
                       </span>
-                      <span className="font-mono">{ing.frequency}</span>
+                      <span className="font-mono text-sm">{ing.frequency}</span>
                     </a>
                   ))}
                 </div>

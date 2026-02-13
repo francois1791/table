@@ -59,11 +59,28 @@ export default function IngredientDetailClient({
 
   // Calculate ingredient associations (co-occurrences)
   const associations = useMemo(() => {
+    // Pairs to exclude (substring relationships or trivial associations)
+    const EXCLUDE_PAIRS: Record<string, string[]> = {
+      'poire': ['poireau'],
+      'poireau': ['poire'],
+      'citron': ['citronnelle', 'citron vert'],
+      'citronnelle': ['citron'],
+      'citron vert': ['citron'],
+      'chou': ['chou de Bruxelles', 'chou-fleur', 'choucroute'],
+      'chou de Bruxelles': ['chou'],
+      'foie_gras_canard': ['canard'],
+      'porcelet': ['porc'],
+    };
+    
     const cooccurrenceMap = new Map<string, { count: number; ingredient: Ingredient }>();
     
     dishesWithIngredient.forEach((dish) => {
       dish.ingredients.forEach((ingName) => {
         if (ingName !== ingredient.name) {
+          // Skip if this association should be excluded
+          const excludes = EXCLUDE_PAIRS[ingredient.name] || [];
+          if (excludes.includes(ingName)) return;
+          
           const existing = cooccurrenceMap.get(ingName);
           if (existing) {
             existing.count++;

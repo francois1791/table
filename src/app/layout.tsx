@@ -1,18 +1,32 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Space_Mono, Space_Grotesk, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { ThemeProvider } from "@/lib/theme";
 import { LanguageProvider } from "@/lib/language";
 
-const inter = Inter({ 
+const spaceMono = Space_Mono({
   subsets: ["latin"],
-  variable: "--font-inter",
+  weight: ["400", "700"],
+  variable: "--font-mono",
+});
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-sans",
+});
+
+const instrumentSerif = Instrument_Serif({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-serif",
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
-  title: "Menu Analytics | Fine Dining Intelligence",
-  description: "Premium culinary analytics platform for Michelin-starred gastronomy",
+  title: "CARTE BRUTE | Menu Analytics",
+  description: "Analyse brutale des données gastronomiques Michelin",
 };
 
 export default function RootLayout({
@@ -22,13 +36,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr" suppressHydrationWarning>
-      <body className={`${inter.variable} font-sans antialiased bg-background text-foreground min-h-screen`}>
+      <body className={`${spaceMono.variable} ${spaceGrotesk.variable} ${instrumentSerif.variable} font-mono bg-background text-primary min-h-screen`}>
         <ThemeProvider>
           <LanguageProvider>
-            <div className="relative flex min-h-screen flex-col">
-              <div className="fixed inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-accent-violet/10 via-background to-background pointer-events-none dark:block hidden" />
+            <div className="flex min-h-screen flex-col">
               <Header />
-              <main className="flex-1 relative z-10">
+              <main className="flex-1">
                 {children}
               </main>
             </div>

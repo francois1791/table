@@ -533,15 +533,11 @@
     "stars": "Sélectionné",
     "menuType": "plat",
     "ingredients": [
-      "ail",
       "champignon",
-      "truffe",
-      "pignon"
+      "truffe"
     ],
     "categories": [
-      "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -575,7 +571,6 @@
     "menuType": "entree",
     "ingredients": [
       "champignon",
-      "pignon",
       "châtaigne"
     ],
     "categories": [
@@ -625,11 +620,9 @@
     "stars": "Sélectionné",
     "menuType": "plat",
     "ingredients": [
-      "ail",
       "écrevisse"
     ],
     "categories": [
-      "legume",
       "crustace"
     ]
   },
@@ -961,12 +954,10 @@
     "ingredients": [
       "ananas",
       "coco",
-      "noix de coco",
-      "noix"
+      "noix de coco"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -1094,12 +1085,10 @@
     "menuType": "plat",
     "ingredients": [
       "champignon",
-      "truffe",
-      "pignon"
+      "truffe"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -1203,12 +1192,10 @@
     "menuType": "entree",
     "ingredients": [
       "champignon",
-      "truffe",
-      "pignon"
+      "truffe"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -1578,12 +1565,10 @@
     "stars": "2 étoiles",
     "menuType": "plat",
     "ingredients": [
-      "saumon",
-      "noisette"
+      "saumon"
     ],
     "categories": [
-      "poisson",
-      "fruit_sec"
+      "poisson"
     ]
   },
   {
@@ -1697,12 +1682,10 @@
     "stars": "2 étoiles",
     "menuType": "plat",
     "ingredients": [
-      "pomme",
-      "noisette"
+      "pomme"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -1777,12 +1760,8 @@
     "restaurantId": 11,
     "stars": "2 étoiles",
     "menuType": "plat",
-    "ingredients": [
-      "noisette"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 167,
@@ -1792,13 +1771,11 @@
     "menuType": "plat",
     "ingredients": [
       "betterave",
-      "chevreuil",
-      "noisette"
+      "chevreuil"
     ],
     "categories": [
       "legume",
-      "viande",
-      "fruit_sec"
+      "viande"
     ]
   },
   {
@@ -1838,12 +1815,8 @@
     "restaurantId": 11,
     "stars": "2 étoiles",
     "menuType": "plat",
-    "ingredients": [
-      "noisette"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 175,
@@ -2187,13 +2160,11 @@
     "menuType": "entree",
     "ingredients": [
       "thon",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "poisson",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -2407,11 +2378,9 @@
     "stars": "2 étoiles",
     "menuType": "plat",
     "ingredients": [
-      "bar",
       "citron"
     ],
     "categories": [
-      "poisson",
       "fruit"
     ]
   },
@@ -2432,13 +2401,11 @@
     "menuType": "plat",
     "ingredients": [
       "coing",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -2712,12 +2679,10 @@
     "stars": "2 étoiles",
     "menuType": "plat",
     "ingredients": [
-      "Saint-Jacques",
-      "noix"
+      "Saint-Jacques"
     ],
     "categories": [
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -2741,8 +2706,7 @@
     "menuType": "plat",
     "ingredients": [
       "chevreuil",
-      "châtaigne",
-      "noisette"
+      "châtaigne"
     ],
     "categories": [
       "viande",
@@ -3044,12 +3008,8 @@
     "restaurantId": 20,
     "stars": "2 étoiles",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 318,
@@ -3202,13 +3162,11 @@
     "menuType": "",
     "ingredients": [
       "veau",
-      "citron",
-      "noix"
+      "citron"
     ],
     "categories": [
       "viande",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -3464,12 +3422,10 @@
     "menuType": "",
     "ingredients": [
       "coco",
-      "noix de coco",
-      "noix"
+      "noix de coco"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -3509,12 +3465,10 @@
     "stars": "2 étoiles",
     "menuType": "",
     "ingredients": [
-      "pomme de terre",
-      "noisette"
+      "pomme de terre"
     ],
     "categories": [
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -3587,12 +3541,8 @@
     "restaurantId": 23,
     "stars": "2 étoiles",
     "menuType": "",
-    "ingredients": [
-      "coco"
-    ],
-    "categories": [
-      "fruit"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 367,
@@ -3670,12 +3620,8 @@
     "restaurantId": 24,
     "stars": "2 étoiles",
     "menuType": "",
-    "ingredients": [
-      "bar"
-    ],
-    "categories": [
-      "poisson"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 381,
@@ -3913,9 +3859,7 @@
     "menuType": "",
     "ingredients": [
       "champignon",
-      "pignon",
-      "châtaigne",
-      "noisette"
+      "châtaigne"
     ],
     "categories": [
       "champignon",
@@ -4165,12 +4109,10 @@
     "menuType": "",
     "ingredients": [
       "champignon",
-      "truffe",
-      "pignon"
+      "truffe"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -4221,12 +4163,10 @@
     "stars": "2 étoiles",
     "menuType": "",
     "ingredients": [
-      "homard",
-      "ail"
+      "homard"
     ],
     "categories": [
-      "crustace",
-      "legume"
+      "crustace"
     ]
   },
   {
@@ -4325,12 +4265,10 @@
     "stars": "2 étoiles",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -4747,12 +4685,10 @@
     "stars": "2 étoiles",
     "menuType": "",
     "ingredients": [
-      "chevreuil",
-      "noisette"
+      "chevreuil"
     ],
     "categories": [
-      "viande",
-      "fruit_sec"
+      "viande"
     ]
   },
   {
@@ -4934,7 +4870,6 @@
     "stars": "2 étoiles",
     "menuType": "",
     "ingredients": [
-      "ail",
       "brocoli",
       "pomme de terre"
     ],
@@ -4949,12 +4884,10 @@
     "stars": "2 étoiles",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -5050,12 +4983,8 @@
     "restaurantId": 35,
     "stars": "2 étoiles",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 514,
@@ -5127,12 +5056,8 @@
     "restaurantId": 36,
     "stars": "2 étoiles",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 521,
@@ -5201,12 +5126,8 @@
     "restaurantId": 37,
     "stars": "2 étoiles",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 527,
@@ -6410,12 +6331,10 @@
     "menuType": "",
     "ingredients": [
       "champignon",
-      "truffe",
-      "pignon"
+      "truffe"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -6563,12 +6482,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "boudin",
-      "ail"
+      "boudin"
     ],
     "categories": [
-      "viande",
-      "legume"
+      "viande"
     ]
   },
   {
@@ -6712,12 +6629,8 @@
     "restaurantId": 50,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 729,
@@ -6849,13 +6762,11 @@
       "carotte",
       "champignon",
       "truffe",
-      "cresson",
-      "pignon"
+      "cresson"
     ],
     "categories": [
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -6914,7 +6825,6 @@
     "menuType": "",
     "ingredients": [
       "pintade",
-      "ail",
       "salsifis",
       "pomme de terre",
       "châtaigne"
@@ -7076,13 +6986,11 @@
     "menuType": "",
     "ingredients": [
       "Saint-Jacques",
-      "citron",
-      "noix"
+      "citron"
     ],
     "categories": [
       "coquillage",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -7602,7 +7510,6 @@
     "menuType": "",
     "ingredients": [
       "champignon",
-      "pignon",
       "châtaigne"
     ],
     "categories": [
@@ -7619,7 +7526,6 @@
     "ingredients": [
       "veau",
       "foie gras",
-      "bar",
       "rouget",
       "artichaut",
       "orange"
@@ -7637,12 +7543,8 @@
     "restaurantId": 57,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 804,
@@ -7686,13 +7588,11 @@
     "menuType": "",
     "ingredients": [
       "langoustine",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "crustace",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -7747,13 +7647,11 @@
     "menuType": "",
     "ingredients": [
       "citron",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "fruit",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -7764,13 +7662,11 @@
     "menuType": "",
     "ingredients": [
       "cresson",
-      "Saint-Jacques",
-      "noisette"
+      "Saint-Jacques"
     ],
     "categories": [
       "legume",
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -8555,12 +8451,10 @@
     "ingredients": [
       "abricot",
       "coco",
-      "noix de coco",
-      "noix"
+      "noix de coco"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -8623,7 +8517,6 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "cardon"
     ],
     "categories": [
@@ -8650,12 +8543,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -8864,11 +8755,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "Saint-Jacques"
     ],
     "categories": [
-      "poisson",
       "coquillage"
     ]
   },
@@ -9202,12 +9091,8 @@
     "restaurantId": 75,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 989,
@@ -9345,14 +9230,12 @@
     "ingredients": [
       "veau",
       "champignon",
-      "pomme de terre",
-      "pignon"
+      "pomme de terre"
     ],
     "categories": [
       "viande",
       "champignon",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -9416,14 +9299,12 @@
     "ingredients": [
       "crevette",
       "poireau",
-      "poire",
-      "noix"
+      "poire"
     ],
     "categories": [
       "crustace",
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -9434,13 +9315,11 @@
     "menuType": "",
     "ingredients": [
       "sole",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "poisson",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -9850,12 +9729,10 @@
     "menuType": "",
     "ingredients": [
       "homard",
-      "ail",
       "morille"
     ],
     "categories": [
       "crustace",
-      "legume",
       "champignon"
     ]
   },
@@ -10093,13 +9970,11 @@
     "ingredients": [
       "caviar",
       "clémentine",
-      "yuzu",
-      "noix"
+      "yuzu"
     ],
     "categories": [
       "poisson",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -10125,14 +10000,12 @@
     "ingredients": [
       "jambon",
       "champignon",
-      "pomme de terre",
-      "pignon"
+      "pomme de terre"
     ],
     "categories": [
       "viande",
       "champignon",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -10144,13 +10017,11 @@
     "ingredients": [
       "porc",
       "bar",
-      "cochon",
-      "noix"
+      "cochon"
     ],
     "categories": [
       "viande",
-      "poisson",
-      "fruit_sec"
+      "poisson"
     ]
   },
   {
@@ -10454,13 +10325,11 @@
     "ingredients": [
       "canard",
       "foie gras",
-      "poire",
-      "noix"
+      "poire"
     ],
     "categories": [
       "viande",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -10867,14 +10736,12 @@
     "ingredients": [
       "truite",
       "betterave",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "poisson",
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -11072,12 +10939,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "fraise",
       "rhubarbe"
     ],
     "categories": [
-      "poisson",
       "fruit"
     ]
   },
@@ -11210,13 +11075,11 @@
     "menuType": "",
     "ingredients": [
       "betterave",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -11610,12 +11473,8 @@
     "restaurantId": 94,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1281,
@@ -11904,12 +11763,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -12644,13 +12501,11 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "poire",
       "Saint-Jacques",
       "châtaigne"
     ],
     "categories": [
-      "poisson",
       "fruit",
       "coquillage",
       "fruit_sec"
@@ -12804,12 +12659,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -13153,12 +13006,8 @@
     "restaurantId": 106,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1455,
@@ -13184,14 +13033,12 @@
     "ingredients": [
       "Saint-Jacques",
       "panais",
-      "orange",
-      "noix"
+      "orange"
     ],
     "categories": [
       "coquillage",
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -13266,7 +13113,6 @@
     "menuType": "",
     "ingredients": [
       "champignon",
-      "pignon",
       "noisette"
     ],
     "categories": [
@@ -13514,12 +13360,8 @@
     "restaurantId": 108,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1493,
@@ -13621,11 +13463,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "rhubarbe"
     ],
     "categories": [
-      "poisson",
       "fruit"
     ]
   },
@@ -13813,12 +13653,10 @@
       "mangue",
       "coco",
       "noix de coco",
-      "passion",
-      "noix"
+      "passion"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -13908,13 +13746,11 @@
     "menuType": "",
     "ingredients": [
       "Saint-Jacques",
-      "truffe",
-      "noix"
+      "truffe"
     ],
     "categories": [
       "coquillage",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -14046,12 +13882,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -14061,7 +13895,6 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "rouget"
     ],
     "categories": [
@@ -14101,12 +13934,8 @@
     "restaurantId": 112,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1571,
@@ -14167,12 +13996,8 @@
     "restaurantId": 113,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1579,
@@ -14504,12 +14329,8 @@
     "restaurantId": 113,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1609,
@@ -14575,13 +14396,11 @@
       "chou",
       "chou-fleur",
       "coco",
-      "noix de coco",
-      "noix"
+      "noix de coco"
     ],
     "categories": [
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -14806,12 +14625,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "coco",
-      "noix"
+      "coco"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -15158,13 +14975,11 @@
     "ingredients": [
       "chou",
       "choucroute",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -15306,12 +15121,10 @@
     "menuType": "",
     "ingredients": [
       "veau",
-      "ail",
       "morille"
     ],
     "categories": [
       "viande",
-      "legume",
       "champignon"
     ]
   },
@@ -15676,7 +15489,6 @@
     "menuType": "",
     "ingredients": [
       "foie gras",
-      "ail",
       "chou"
     ],
     "categories": [
@@ -15862,12 +15674,10 @@
     "ingredients": [
       "ananas",
       "coco",
-      "noix de coco",
-      "noix"
+      "noix de coco"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -16023,7 +15833,6 @@
     "menuType": "",
     "ingredients": [
       "carotte",
-      "ail",
       "citron"
     ],
     "categories": [
@@ -16067,13 +15876,11 @@
     "menuType": "",
     "ingredients": [
       "champignon",
-      "faisan",
-      "pignon"
+      "faisan"
     ],
     "categories": [
       "champignon",
-      "viande",
-      "fruit_sec"
+      "viande"
     ]
   },
   {
@@ -16396,12 +16203,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -16443,12 +16248,8 @@
     "restaurantId": 123,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1785,
@@ -16492,12 +16293,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "poireau",
       "poire"
     ],
     "categories": [
-      "poisson",
       "legume",
       "fruit"
     ]
@@ -16538,12 +16337,8 @@
     "restaurantId": 124,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1792,
@@ -16648,12 +16443,8 @@
     "restaurantId": 125,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1804,
@@ -16876,11 +16667,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "truffe"
     ],
     "categories": [
-      "legume",
       "champignon"
     ]
   },
@@ -17079,14 +16868,12 @@
       "Saint-Jacques",
       "carotte",
       "citron",
-      "kumquat",
-      "noix"
+      "kumquat"
     ],
     "categories": [
       "coquillage",
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -17114,12 +16901,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "homard",
-      "ail"
+      "homard"
     ],
     "categories": [
-      "crustace",
-      "legume"
+      "crustace"
     ]
   },
   {
@@ -17147,13 +16932,11 @@
       "canard",
       "foie gras",
       "caille",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "viande",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -17221,12 +17004,8 @@
     "restaurantId": 130,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1847,
@@ -17289,15 +17068,13 @@
       "bar",
       "poulet",
       "kumquat",
-      "pomme de terre",
-      "noix"
+      "pomme de terre"
     ],
     "categories": [
       "viande",
       "poisson",
       "fruit",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -17309,14 +17086,12 @@
     "ingredients": [
       "rouget",
       "topinambour",
-      "clémentine",
-      "noix"
+      "clémentine"
     ],
     "categories": [
       "poisson",
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -18305,12 +18080,8 @@
     "restaurantId": 138,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1956,
@@ -18373,13 +18144,11 @@
     "menuType": "",
     "ingredients": [
       "Saint-Jacques",
-      "truffe",
-      "noix"
+      "truffe"
     ],
     "categories": [
       "coquillage",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -18418,12 +18187,8 @@
     "restaurantId": 138,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1968,
@@ -18847,13 +18612,11 @@
     "menuType": "",
     "ingredients": [
       "Saint-Jacques",
-      "yuzu",
-      "noix"
+      "yuzu"
     ],
     "categories": [
       "coquillage",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -18922,15 +18685,13 @@
       "Saint-Jacques",
       "citron",
       "caviar",
-      "cresson",
-      "noix"
+      "cresson"
     ],
     "categories": [
       "coquillage",
       "fruit",
       "poisson",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -18972,12 +18733,10 @@
     "menuType": "",
     "ingredients": [
       "pintade",
-      "ail",
       "pomme"
     ],
     "categories": [
       "viande",
-      "legume",
       "fruit"
     ]
   },
@@ -19177,12 +18936,8 @@
     "restaurantId": 143,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "bar"
-    ],
-    "categories": [
-      "poisson"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2049,
@@ -19191,13 +18946,12 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "truffe",
       "salade"
     ],
     "categories": [
-      "legume",
-      "champignon"
+      "champignon",
+      "legume"
     ]
   },
   {
@@ -19319,15 +19073,13 @@
       "crevette",
       "Saint-Jacques",
       "kumquat",
-      "navet",
-      "noix"
+      "navet"
     ],
     "categories": [
       "crustace",
       "coquillage",
       "fruit",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -19457,12 +19209,8 @@
     "restaurantId": 146,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2077,
@@ -19470,12 +19218,8 @@
     "restaurantId": 146,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2078,
@@ -19518,12 +19262,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "homard",
-      "noisette"
+      "homard"
     ],
     "categories": [
-      "crustace",
-      "fruit_sec"
+      "crustace"
     ]
   },
   {
@@ -19536,14 +19278,12 @@
       "foie gras",
       "poireau",
       "panais",
-      "poire",
-      "noix"
+      "poire"
     ],
     "categories": [
       "viande",
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -20006,13 +19746,12 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "truffe",
       "pomme de terre"
     ],
     "categories": [
-      "legume",
-      "champignon"
+      "champignon",
+      "legume"
     ]
   },
   {
@@ -20040,12 +19779,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -20302,12 +20039,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "passion",
-      "noix"
+      "passion"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -20660,12 +20395,8 @@
     "restaurantId": 153,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2203,
@@ -20709,11 +20440,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "poulet"
     ],
     "categories": [
-      "poisson",
       "viande"
     ]
   },
@@ -20774,16 +20503,13 @@
     "menuType": "",
     "ingredients": [
       "oignon",
-      "ail",
       "champignon",
-      "huitre",
-      "pignon"
+      "huitre"
     ],
     "categories": [
       "legume",
       "champignon",
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -20929,14 +20655,12 @@
     "ingredients": [
       "foie gras",
       "Saint-Jacques",
-      "lentille",
-      "noix"
+      "lentille"
     ],
     "categories": [
       "viande",
       "coquillage",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -20948,14 +20672,12 @@
     "ingredients": [
       "pigeon",
       "homard",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "viande",
       "crustace",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -20987,7 +20709,6 @@
       "ananas",
       "coco",
       "noix de coco",
-      "noix",
       "noisette"
     ],
     "categories": [
@@ -21368,15 +21089,13 @@
       "foie gras",
       "langoustine",
       "chou",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "viande",
       "crustace",
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -21548,12 +21267,8 @@
     "restaurantId": 162,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noisette"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2289,
@@ -21704,15 +21419,11 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "champignon",
-      "truffe",
-      "pignon"
+      "truffe"
     ],
     "categories": [
-      "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -21883,12 +21594,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "truffe",
-      "noix"
+      "truffe"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -22003,7 +21712,6 @@
     "menuType": "",
     "ingredients": [
       "lotte",
-      "ail",
       "orange",
       "biche",
       "gambas",
@@ -22011,7 +21719,6 @@
     ],
     "categories": [
       "poisson",
-      "legume",
       "fruit",
       "viande",
       "crustace",
@@ -22224,12 +21931,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -22282,7 +21987,6 @@
     "ingredients": [
       "champignon",
       "truffe",
-      "pignon",
       "noisette"
     ],
     "categories": [
@@ -22314,13 +22018,11 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "poireau",
       "poire",
       "Saint-Jacques"
     ],
     "categories": [
-      "poisson",
       "legume",
       "fruit",
       "coquillage"
@@ -22430,14 +22132,12 @@
       "brocoli",
       "champignon",
       "truffe",
-      "dorade",
-      "pignon"
+      "dorade"
     ],
     "categories": [
       "legume",
       "champignon",
-      "poisson",
-      "fruit_sec"
+      "poisson"
     ]
   },
   {
@@ -22508,11 +22208,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "raie"
     ],
     "categories": [
-      "legume",
       "poisson"
     ]
   },
@@ -22597,11 +22295,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "chevreuil"
     ],
     "categories": [
-      "poisson",
       "viande"
     ]
   },
@@ -22837,12 +22533,8 @@
     "restaurantId": 169,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2399,
@@ -23065,7 +22757,6 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "fenouil"
     ],
     "categories": [
@@ -23158,12 +22849,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -23618,12 +23307,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -24100,13 +23787,11 @@
     "menuType": "",
     "ingredients": [
       "pomme",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "fruit",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -24967,14 +24652,11 @@
     "menuType": "",
     "ingredients": [
       "artichaut",
-      "ail",
-      "truffe",
-      "noix"
+      "truffe"
     ],
     "categories": [
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -25643,13 +25325,11 @@
     "menuType": "",
     "ingredients": [
       "ail",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -25764,11 +25444,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "pomme"
     ],
     "categories": [
-      "poisson",
       "fruit"
     ]
   },
@@ -25781,7 +25459,6 @@
     "ingredients": [
       "betterave",
       "champignon",
-      "pignon",
       "cacahuète"
     ],
     "categories": [
@@ -25840,12 +25517,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "Saint-Jacques",
       "pomme"
     ],
     "categories": [
-      "poisson",
       "coquillage",
       "fruit"
     ]
@@ -25927,13 +25602,11 @@
     "menuType": "",
     "ingredients": [
       "veau",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "viande",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -25942,12 +25615,8 @@
     "restaurantId": 194,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2739,
@@ -25990,14 +25659,12 @@
     "ingredients": [
       "coquillage",
       "Saint-Jacques",
-      "truffe",
-      "noix"
+      "truffe"
     ],
     "categories": [
       "poisson",
       "coquillage",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -26259,13 +25926,11 @@
     "menuType": "",
     "ingredients": [
       "ail",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -26879,13 +26544,11 @@
     "menuType": "",
     "ingredients": [
       "foie gras",
-      "bar",
       "chou",
       "truffe"
     ],
     "categories": [
       "viande",
-      "poisson",
       "legume",
       "champignon"
     ]
@@ -26985,14 +26648,12 @@
       "bœuf",
       "carotte",
       "champignon",
-      "boeuf",
-      "pignon"
+      "boeuf"
     ],
     "categories": [
       "viande",
       "legume",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -27004,13 +26665,11 @@
     "ingredients": [
       "poireau",
       "poire",
-      "pomme de terre",
-      "noix"
+      "pomme de terre"
     ],
     "categories": [
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -27038,7 +26697,6 @@
     "ingredients": [
       "veau",
       "endive",
-      "noix",
       "noisette"
     ],
     "categories": [
@@ -27326,12 +26984,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "Saint-Jacques",
-      "noix"
+      "Saint-Jacques"
     ],
     "categories": [
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -27967,13 +27623,11 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "topinambour",
       "truffe",
       "Saint-Jacques"
     ],
     "categories": [
-      "poisson",
       "legume",
       "champignon",
       "coquillage"
@@ -28019,12 +27673,10 @@
       "coco",
       "noix de coco",
       "passion",
-      "fruit de la passion",
-      "noix"
+      "fruit de la passion"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -28060,12 +27712,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -28075,11 +27725,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "bar",
       "courge"
     ],
     "categories": [
-      "poisson",
       "legume"
     ]
   },
@@ -28147,12 +27795,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "citron",
       "raie"
     ],
     "categories": [
-      "legume",
       "fruit",
       "poisson"
     ]
@@ -28257,13 +27903,11 @@
       "carotte",
       "chou",
       "chou-fleur",
-      "passion",
-      "noisette"
+      "passion"
     ],
     "categories": [
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -28286,12 +27930,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -28407,12 +28049,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -28875,12 +28515,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -29012,13 +28650,11 @@
     "menuType": "",
     "ingredients": [
       "Saint-Jacques",
-      "caviar",
-      "noix"
+      "caviar"
     ],
     "categories": [
       "coquillage",
-      "poisson",
-      "fruit_sec"
+      "poisson"
     ]
   },
   {
@@ -29185,14 +28821,12 @@
     "ingredients": [
       "Saint-Jacques",
       "pomme",
-      "truffe",
-      "noix"
+      "truffe"
     ],
     "categories": [
       "coquillage",
       "fruit",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -29363,12 +28997,10 @@
     "menuType": "",
     "ingredients": [
       "champignon",
-      "truffe",
-      "pignon"
+      "truffe"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -29392,13 +29024,11 @@
     "menuType": "",
     "ingredients": [
       "foie gras",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "viande",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -29409,13 +29039,11 @@
     "menuType": "",
     "ingredients": [
       "coquillage",
-      "Saint-Jacques",
-      "noix"
+      "Saint-Jacques"
     ],
     "categories": [
       "poisson",
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -29619,12 +29247,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -30227,11 +29853,9 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
       "oie"
     ],
     "categories": [
-      "legume",
       "viande"
     ]
   },
@@ -30565,13 +30189,11 @@
     "menuType": "",
     "ingredients": [
       "veau",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "viande",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -30778,12 +30400,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -31125,14 +30745,12 @@
     "ingredients": [
       "bar",
       "Saint-Jacques",
-      "fenouil",
-      "noix"
+      "fenouil"
     ],
     "categories": [
       "poisson",
       "coquillage",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -31416,12 +31034,8 @@
     "restaurantId": 230,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 3303,
@@ -31575,13 +31189,11 @@
     "menuType": "plat",
     "ingredients": [
       "porc",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "viande",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -31803,7 +31415,6 @@
     "stars": "3 étoiles",
     "menuType": "",
     "ingredients": [
-      "bar",
       "rouget"
     ],
     "categories": [
@@ -32499,13 +32110,11 @@
     "ingredients": [
       "sole",
       "champignon",
-      "truffe",
-      "pignon"
+      "truffe"
     ],
     "categories": [
       "poisson",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -32530,11 +32139,9 @@
     "stars": "3 étoiles",
     "menuType": "",
     "ingredients": [
-      "ail",
       "truffe"
     ],
     "categories": [
-      "legume",
       "champignon"
     ]
   },
@@ -32670,12 +32277,8 @@
     "restaurantId": 238,
     "stars": "2 étoiles",
     "menuType": "",
-    "ingredients": [
-      "noisette"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 3402,
@@ -32712,12 +32315,10 @@
     "menuType": "",
     "ingredients": [
       "coco",
-      "noix de coco",
-      "noix"
+      "noix de coco"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -32873,12 +32474,10 @@
       "coco",
       "noix de coco",
       "passion",
-      "fruit de la passion",
-      "noix"
+      "fruit de la passion"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -33081,12 +32680,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -33270,14 +32867,12 @@
     "ingredients": [
       "Saint-Jacques",
       "poivron",
-      "citron",
-      "noix"
+      "citron"
     ],
     "categories": [
       "coquillage",
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -33313,12 +32908,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "chevreuil",
-      "noisette"
+      "chevreuil"
     ],
     "categories": [
-      "viande",
-      "fruit_sec"
+      "viande"
     ]
   },
   {
@@ -33735,14 +33328,11 @@
     "menuType": "",
     "ingredients": [
       "Saint-Jacques",
-      "champignon",
-      "pignon",
-      "noix"
+      "champignon"
     ],
     "categories": [
       "coquillage",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -33923,12 +33513,8 @@
     "restaurantId": 249,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "bar"
-    ],
-    "categories": [
-      "poisson"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 3583,
@@ -34195,13 +33781,11 @@
     "ingredients": [
       "bar",
       "brocoli",
-      "haricot",
-      "noisette"
+      "haricot"
     ],
     "categories": [
       "poisson",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -34304,13 +33888,11 @@
     "ingredients": [
       "porc",
       "champignon",
-      "cochon",
-      "pignon"
+      "cochon"
     ],
     "categories": [
       "viande",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -34319,12 +33901,8 @@
     "restaurantId": 252,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 3621,
@@ -34466,13 +34044,11 @@
     "menuType": "",
     "ingredients": [
       "bar",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "poisson",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -34526,12 +34102,10 @@
     "menuType": "",
     "ingredients": [
       "foie gras",
-      "bar",
       "rhubarbe"
     ],
     "categories": [
       "viande",
-      "poisson",
       "fruit"
     ]
   },
@@ -34586,13 +34160,11 @@
     "menuType": "",
     "ingredients": [
       "veau",
-      "oignon",
-      "noix"
+      "oignon"
     ],
     "categories": [
       "viande",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -34601,12 +34173,8 @@
     "restaurantId": 253,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 3648,
@@ -34685,13 +34253,11 @@
     "menuType": "",
     "ingredients": [
       "bar",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "poisson",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -34855,7 +34421,6 @@
     "ingredients": [
       "aubergine",
       "oignon",
-      "ail",
       "pomme"
     ],
     "categories": [
@@ -34872,12 +34437,10 @@
     "ingredients": [
       "citron",
       "coco",
-      "noix de coco",
-      "noix"
+      "noix de coco"
     ],
     "categories": [
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -35343,13 +34906,11 @@
     "menuType": "",
     "ingredients": [
       "turbot",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "poisson",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -35533,14 +35094,12 @@
       "truite",
       "poireau",
       "poire",
-      "cresson",
-      "noix"
+      "cresson"
     ],
     "categories": [
       "poisson",
       "legume",
-      "fruit",
-      "fruit_sec"
+      "fruit"
     ]
   },
   {
@@ -35784,13 +35343,11 @@
     "menuType": "",
     "ingredients": [
       "bar",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "poisson",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -35849,12 +35406,8 @@
     "restaurantId": 258,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "ail"
-    ],
-    "categories": [
-      "legume"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 3741,
@@ -35863,12 +35416,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "pomme de terre",
-      "noisette"
+      "pomme de terre"
     ],
     "categories": [
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -35891,12 +35442,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -36276,13 +35825,11 @@
     "menuType": "",
     "ingredients": [
       "champignon",
-      "huitre",
-      "pignon"
+      "huitre"
     ],
     "categories": [
       "champignon",
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -36982,12 +36529,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -37497,13 +37042,11 @@
     "menuType": "",
     "ingredients": [
       "pigeon",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "viande",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -37548,7 +37091,6 @@
     "ingredients": [
       "veau",
       "caille",
-      "bar",
       "rouget",
       "chou"
     ],
@@ -37883,13 +37425,11 @@
     "ingredients": [
       "Saint-Jacques",
       "radis",
-      "cresson",
-      "noix"
+      "cresson"
     ],
     "categories": [
       "coquillage",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {
@@ -37913,13 +37453,11 @@
     "menuType": "",
     "ingredients": [
       "homard",
-      "champignon",
-      "pignon"
+      "champignon"
     ],
     "categories": [
       "crustace",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -37982,14 +37520,12 @@
     "ingredients": [
       "Saint-Jacques",
       "coco",
-      "endive",
-      "noix"
+      "endive"
     ],
     "categories": [
       "coquillage",
       "fruit",
-      "legume",
-      "fruit_sec"
+      "legume"
     ]
   },
   {

@@ -5,7 +5,7 @@
     "emoji": "🍄",
     "category": "champignon",
     "frequency": 249,
-    "frequency_percent": 7.14,
+    "frequency_percent": 7.59,
     "restaurants": 98,
     "by_stars": {
       "1 étoile": 211,
@@ -14,10 +14,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 7.3,
-      "2 étoiles": 5.65,
-      "3 étoiles": 9.66,
-      "Sélectionné": 1.47
+      "1 étoile": 7.76,
+      "2 étoiles": 6.15,
+      "3 étoiles": 10.0,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -26,7 +26,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 132,
-    "frequency_percent": 3.78,
+    "frequency_percent": 4.03,
     "restaurants": 90,
     "by_stars": {
       "1 étoile": 116,
@@ -35,10 +35,10 @@
       "Sélectionné": 3
     },
     "star_percentages": {
-      "1 étoile": 4.01,
-      "2 étoiles": 2.82,
-      "3 étoiles": 1.7,
-      "Sélectionné": 4.41
+      "1 étoile": 4.26,
+      "2 étoiles": 3.08,
+      "3 étoiles": 1.76,
+      "Sélectionné": 4.69
     }
   },
   {
@@ -47,7 +47,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 112,
-    "frequency_percent": 3.21,
+    "frequency_percent": 3.42,
     "restaurants": 72,
     "by_stars": {
       "1 étoile": 92,
@@ -56,10 +56,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 3.18,
-      "2 étoiles": 2.26,
-      "3 étoiles": 6.25,
-      "Sélectionné": 1.47
+      "1 étoile": 3.38,
+      "2 étoiles": 2.46,
+      "3 étoiles": 6.47,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -68,7 +68,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 108,
-    "frequency_percent": 3.1,
+    "frequency_percent": 3.29,
     "restaurants": 78,
     "by_stars": {
       "1 étoile": 89,
@@ -77,10 +77,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 3.08,
-      "2 étoiles": 3.95,
-      "3 étoiles": 2.27,
-      "Sélectionné": 1.47
+      "1 étoile": 3.27,
+      "2 étoiles": 4.31,
+      "3 étoiles": 2.35,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -89,7 +89,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 98,
-    "frequency_percent": 2.81,
+    "frequency_percent": 2.99,
     "restaurants": 72,
     "by_stars": {
       "1 étoile": 77,
@@ -98,10 +98,10 @@
       "Sélectionné": 4
     },
     "star_percentages": {
-      "1 étoile": 2.66,
-      "2 étoiles": 3.95,
-      "3 étoiles": 1.7,
-      "Sélectionné": 5.88
+      "1 étoile": 2.83,
+      "2 étoiles": 4.31,
+      "3 étoiles": 1.76,
+      "Sélectionné": 6.25
     }
   },
   {
@@ -110,7 +110,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 93,
-    "frequency_percent": 2.67,
+    "frequency_percent": 2.84,
     "restaurants": 80,
     "by_stars": {
       "1 étoile": 81,
@@ -119,31 +119,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 2.8,
-      "2 étoiles": 1.69,
-      "3 étoiles": 2.84,
-      "Sélectionné": 1.47
-    }
-  },
-  {
-    "id": "noix",
-    "name": "noix",
-    "emoji": "🥜",
-    "category": "fruit_sec",
-    "frequency": 92,
-    "frequency_percent": 2.64,
-    "restaurants": 65,
-    "by_stars": {
-      "1 étoile": 83,
-      "2 étoiles": 6,
-      "3 étoiles": 2,
-      "Sélectionné": 1
-    },
-    "star_percentages": {
-      "1 étoile": 2.87,
-      "2 étoiles": 1.69,
-      "3 étoiles": 1.14,
-      "Sélectionné": 1.47
+      "1 étoile": 2.98,
+      "2 étoiles": 1.85,
+      "3 étoiles": 2.94,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -152,7 +131,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 86,
-    "frequency_percent": 2.47,
+    "frequency_percent": 2.62,
     "restaurants": 64,
     "by_stars": {
       "1 étoile": 72,
@@ -161,10 +140,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 2.49,
-      "2 étoiles": 1.69,
-      "3 étoiles": 3.98,
-      "Sélectionné": 1.47
+      "1 étoile": 2.65,
+      "2 étoiles": 1.85,
+      "3 étoiles": 4.12,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -173,7 +152,7 @@
     "emoji": "🦪",
     "category": "coquillage",
     "frequency": 85,
-    "frequency_percent": 2.44,
+    "frequency_percent": 2.59,
     "restaurants": 69,
     "by_stars": {
       "1 étoile": 77,
@@ -181,9 +160,9 @@
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 2.66,
-      "2 étoiles": 1.69,
-      "3 étoiles": 1.14
+      "1 étoile": 2.83,
+      "2 étoiles": 1.85,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -192,7 +171,7 @@
     "emoji": "🦐",
     "category": "crustace",
     "frequency": 84,
-    "frequency_percent": 2.41,
+    "frequency_percent": 2.56,
     "restaurants": 68,
     "by_stars": {
       "1 étoile": 73,
@@ -200,30 +179,9 @@
       "3 étoiles": 4
     },
     "star_percentages": {
-      "1 étoile": 2.53,
-      "2 étoiles": 1.98,
-      "3 étoiles": 2.27
-    }
-  },
-  {
-    "id": "ail",
-    "name": "ail",
-    "emoji": "🥬",
-    "category": "legume",
-    "frequency": 83,
-    "frequency_percent": 2.38,
-    "restaurants": 67,
-    "by_stars": {
-      "1 étoile": 65,
-      "2 étoiles": 10,
-      "3 étoiles": 3,
-      "Sélectionné": 5
-    },
-    "star_percentages": {
-      "1 étoile": 2.25,
-      "2 étoiles": 2.82,
-      "3 étoiles": 1.7,
-      "Sélectionné": 7.35
+      "1 étoile": 2.68,
+      "2 étoiles": 2.15,
+      "3 étoiles": 2.35
     }
   },
   {
@@ -232,7 +190,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 76,
-    "frequency_percent": 2.18,
+    "frequency_percent": 2.32,
     "restaurants": 61,
     "by_stars": {
       "1 étoile": 61,
@@ -240,30 +198,9 @@
       "3 étoiles": 5
     },
     "star_percentages": {
-      "1 étoile": 2.11,
-      "2 étoiles": 2.82,
-      "3 étoiles": 2.84
-    }
-  },
-  {
-    "id": "pignon",
-    "name": "pignon",
-    "emoji": "🥜",
-    "category": "fruit_sec",
-    "frequency": 73,
-    "frequency_percent": 2.09,
-    "restaurants": 58,
-    "by_stars": {
-      "1 étoile": 60,
-      "2 étoiles": 6,
-      "3 étoiles": 5,
-      "Sélectionné": 2
-    },
-    "star_percentages": {
-      "1 étoile": 2.08,
-      "2 étoiles": 1.69,
-      "3 étoiles": 2.84,
-      "Sélectionné": 2.94
+      "1 étoile": 2.24,
+      "2 étoiles": 3.08,
+      "3 étoiles": 2.94
     }
   },
   {
@@ -272,7 +209,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 72,
-    "frequency_percent": 2.06,
+    "frequency_percent": 2.2,
     "restaurants": 58,
     "by_stars": {
       "1 étoile": 57,
@@ -281,29 +218,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 1.97,
-      "2 étoiles": 3.11,
-      "3 étoiles": 1.7,
-      "Sélectionné": 1.47
-    }
-  },
-  {
-    "id": "bar",
-    "name": "bar",
-    "emoji": "🐟",
-    "category": "poisson",
-    "frequency": 71,
-    "frequency_percent": 2.04,
-    "restaurants": 55,
-    "by_stars": {
-      "1 étoile": 63,
-      "2 étoiles": 5,
-      "3 étoiles": 3
-    },
-    "star_percentages": {
-      "1 étoile": 2.18,
-      "2 étoiles": 1.41,
-      "3 étoiles": 1.7
+      "1 étoile": 2.1,
+      "2 étoiles": 3.38,
+      "3 étoiles": 1.76,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -312,7 +230,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 70,
-    "frequency_percent": 2.01,
+    "frequency_percent": 2.13,
     "restaurants": 55,
     "by_stars": {
       "1 étoile": 60,
@@ -321,29 +239,10 @@
       "Sélectionné": 2
     },
     "star_percentages": {
-      "1 étoile": 2.08,
-      "2 étoiles": 1.41,
-      "3 étoiles": 1.7,
-      "Sélectionné": 2.94
-    }
-  },
-  {
-    "id": "noisette",
-    "name": "noisette",
-    "emoji": "🥜",
-    "category": "fruit_sec",
-    "frequency": 70,
-    "frequency_percent": 2.01,
-    "restaurants": 48,
-    "by_stars": {
-      "1 étoile": 54,
-      "2 étoiles": 13,
-      "3 étoiles": 3
-    },
-    "star_percentages": {
-      "1 étoile": 1.87,
-      "2 étoiles": 3.67,
-      "3 étoiles": 1.7
+      "1 étoile": 2.21,
+      "2 étoiles": 1.54,
+      "3 étoiles": 1.76,
+      "Sélectionné": 3.12
     }
   },
   {
@@ -352,7 +251,7 @@
     "emoji": "🍄",
     "category": "champignon",
     "frequency": 68,
-    "frequency_percent": 1.95,
+    "frequency_percent": 2.07,
     "restaurants": 55,
     "by_stars": {
       "1 étoile": 57,
@@ -361,10 +260,10 @@
       "Sélectionné": 2
     },
     "star_percentages": {
-      "1 étoile": 1.97,
-      "2 étoiles": 1.69,
-      "3 étoiles": 1.7,
-      "Sélectionné": 2.94
+      "1 étoile": 2.1,
+      "2 étoiles": 1.85,
+      "3 étoiles": 1.76,
+      "Sélectionné": 3.12
     }
   },
   {
@@ -373,7 +272,7 @@
     "emoji": "🦐",
     "category": "crustace",
     "frequency": 56,
-    "frequency_percent": 1.61,
+    "frequency_percent": 1.71,
     "restaurants": 50,
     "by_stars": {
       "1 étoile": 45,
@@ -381,9 +280,28 @@
       "3 étoiles": 4
     },
     "star_percentages": {
-      "1 étoile": 1.56,
-      "2 étoiles": 1.98,
-      "3 étoiles": 2.27
+      "1 étoile": 1.65,
+      "2 étoiles": 2.15,
+      "3 étoiles": 2.35
+    }
+  },
+  {
+    "id": "noisette",
+    "name": "noisette",
+    "emoji": "🥜",
+    "category": "fruit_sec",
+    "frequency": 53,
+    "frequency_percent": 1.62,
+    "restaurants": 40,
+    "by_stars": {
+      "1 étoile": 47,
+      "2 étoiles": 3,
+      "3 étoiles": 3
+    },
+    "star_percentages": {
+      "1 étoile": 1.73,
+      "2 étoiles": 0.92,
+      "3 étoiles": 1.76
     }
   },
   {
@@ -392,7 +310,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 52,
-    "frequency_percent": 1.49,
+    "frequency_percent": 1.59,
     "restaurants": 49,
     "by_stars": {
       "1 étoile": 43,
@@ -400,9 +318,28 @@
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 1.49,
-      "2 étoiles": 1.98,
-      "3 étoiles": 1.14
+      "1 étoile": 1.58,
+      "2 étoiles": 2.15,
+      "3 étoiles": 1.18
+    }
+  },
+  {
+    "id": "bar",
+    "name": "bar",
+    "emoji": "🐟",
+    "category": "poisson",
+    "frequency": 49,
+    "frequency_percent": 1.49,
+    "restaurants": 39,
+    "by_stars": {
+      "1 étoile": 44,
+      "2 étoiles": 3,
+      "3 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 1.62,
+      "2 étoiles": 0.92,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -411,7 +348,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 49,
-    "frequency_percent": 1.4,
+    "frequency_percent": 1.49,
     "restaurants": 46,
     "by_stars": {
       "1 étoile": 41,
@@ -419,9 +356,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 1.42,
-      "2 étoiles": 1.98,
-      "3 étoiles": 0.57
+      "1 étoile": 1.51,
+      "2 étoiles": 2.15,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -430,7 +367,7 @@
     "emoji": "🦪",
     "category": "coquillage",
     "frequency": 47,
-    "frequency_percent": 1.35,
+    "frequency_percent": 1.43,
     "restaurants": 39,
     "by_stars": {
       "1 étoile": 43,
@@ -438,9 +375,9 @@
       "Sélectionné": 2
     },
     "star_percentages": {
-      "1 étoile": 1.49,
-      "2 étoiles": 0.56,
-      "Sélectionné": 2.94
+      "1 étoile": 1.58,
+      "2 étoiles": 0.62,
+      "Sélectionné": 3.12
     }
   },
   {
@@ -449,7 +386,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 47,
-    "frequency_percent": 1.35,
+    "frequency_percent": 1.43,
     "restaurants": 40,
     "by_stars": {
       "1 étoile": 39,
@@ -457,9 +394,9 @@
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 1.35,
-      "2 étoiles": 1.69,
-      "3 étoiles": 1.14
+      "1 étoile": 1.43,
+      "2 étoiles": 1.85,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -468,7 +405,7 @@
     "emoji": "🥜",
     "category": "fruit_sec",
     "frequency": 45,
-    "frequency_percent": 1.29,
+    "frequency_percent": 1.37,
     "restaurants": 38,
     "by_stars": {
       "1 étoile": 36,
@@ -477,10 +414,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 1.25,
-      "2 étoiles": 1.69,
-      "3 étoiles": 1.14,
-      "Sélectionné": 1.47
+      "1 étoile": 1.32,
+      "2 étoiles": 1.85,
+      "3 étoiles": 1.18,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -489,7 +426,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 44,
-    "frequency_percent": 1.26,
+    "frequency_percent": 1.34,
     "restaurants": 36,
     "by_stars": {
       "1 étoile": 39,
@@ -498,10 +435,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 1.35,
-      "2 étoiles": 0.56,
-      "3 étoiles": 1.14,
-      "Sélectionné": 1.47
+      "1 étoile": 1.43,
+      "2 étoiles": 0.62,
+      "3 étoiles": 1.18,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -510,7 +447,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 44,
-    "frequency_percent": 1.26,
+    "frequency_percent": 1.34,
     "restaurants": 37,
     "by_stars": {
       "1 étoile": 37,
@@ -519,10 +456,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 1.28,
-      "2 étoiles": 0.56,
-      "3 étoiles": 2.27,
-      "Sélectionné": 1.47
+      "1 étoile": 1.36,
+      "2 étoiles": 0.62,
+      "3 étoiles": 2.35,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -531,15 +468,36 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 40,
-    "frequency_percent": 1.15,
+    "frequency_percent": 1.22,
     "restaurants": 33,
     "by_stars": {
       "1 étoile": 35,
       "2 étoiles": 5
     },
     "star_percentages": {
-      "1 étoile": 1.21,
-      "2 étoiles": 1.41
+      "1 étoile": 1.29,
+      "2 étoiles": 1.54
+    }
+  },
+  {
+    "id": "noix",
+    "name": "noix",
+    "emoji": "🥜",
+    "category": "fruit_sec",
+    "frequency": 39,
+    "frequency_percent": 1.19,
+    "restaurants": 29,
+    "by_stars": {
+      "1 étoile": 35,
+      "2 étoiles": 2,
+      "3 étoiles": 1,
+      "Sélectionné": 1
+    },
+    "star_percentages": {
+      "1 étoile": 1.29,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -548,7 +506,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 37,
-    "frequency_percent": 1.06,
+    "frequency_percent": 1.13,
     "restaurants": 30,
     "by_stars": {
       "1 étoile": 28,
@@ -556,9 +514,30 @@
       "Sélectionné": 3
     },
     "star_percentages": {
-      "1 étoile": 0.97,
-      "2 étoiles": 1.69,
-      "Sélectionné": 4.41
+      "1 étoile": 1.03,
+      "2 étoiles": 1.85,
+      "Sélectionné": 4.69
+    }
+  },
+  {
+    "id": "ail",
+    "name": "ail",
+    "emoji": "🥬",
+    "category": "legume",
+    "frequency": 35,
+    "frequency_percent": 1.07,
+    "restaurants": 30,
+    "by_stars": {
+      "1 étoile": 26,
+      "2 étoiles": 4,
+      "3 étoiles": 2,
+      "Sélectionné": 3
+    },
+    "star_percentages": {
+      "1 étoile": 0.96,
+      "2 étoiles": 1.23,
+      "3 étoiles": 1.18,
+      "Sélectionné": 4.69
     }
   },
   {
@@ -567,7 +546,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 35,
-    "frequency_percent": 1.0,
+    "frequency_percent": 1.07,
     "restaurants": 30,
     "by_stars": {
       "1 étoile": 28,
@@ -575,9 +554,9 @@
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.97,
-      "2 étoiles": 1.41,
-      "3 étoiles": 1.14
+      "1 étoile": 1.03,
+      "2 étoiles": 1.54,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -586,15 +565,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 32,
-    "frequency_percent": 0.92,
+    "frequency_percent": 0.98,
     "restaurants": 24,
     "by_stars": {
       "1 étoile": 29,
       "Sélectionné": 3
     },
     "star_percentages": {
-      "1 étoile": 1.0,
-      "Sélectionné": 4.41
+      "1 étoile": 1.07,
+      "Sélectionné": 4.69
     }
   },
   {
@@ -603,15 +582,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 30,
-    "frequency_percent": 0.86,
+    "frequency_percent": 0.91,
     "restaurants": 26,
     "by_stars": {
       "1 étoile": 27,
       "3 étoiles": 3
     },
     "star_percentages": {
-      "1 étoile": 0.93,
-      "3 étoiles": 1.7
+      "1 étoile": 0.99,
+      "3 étoiles": 1.76
     }
   },
   {
@@ -620,7 +599,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 29,
-    "frequency_percent": 0.83,
+    "frequency_percent": 0.88,
     "restaurants": 28,
     "by_stars": {
       "1 étoile": 24,
@@ -629,10 +608,10 @@
       "Sélectionné": 2
     },
     "star_percentages": {
-      "1 étoile": 0.83,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57,
-      "Sélectionné": 2.94
+      "1 étoile": 0.88,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59,
+      "Sélectionné": 3.12
     }
   },
   {
@@ -641,7 +620,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 29,
-    "frequency_percent": 0.83,
+    "frequency_percent": 0.88,
     "restaurants": 28,
     "by_stars": {
       "1 étoile": 26,
@@ -649,9 +628,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.9,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57
+      "1 étoile": 0.96,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -660,7 +639,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 28,
-    "frequency_percent": 0.8,
+    "frequency_percent": 0.85,
     "restaurants": 24,
     "by_stars": {
       "1 étoile": 23,
@@ -668,9 +647,9 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.8,
-      "2 étoiles": 1.13,
-      "Sélectionné": 1.47
+      "1 étoile": 0.85,
+      "2 étoiles": 1.23,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -679,15 +658,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 28,
-    "frequency_percent": 0.8,
+    "frequency_percent": 0.85,
     "restaurants": 25,
     "by_stars": {
       "1 étoile": 24,
       "2 étoiles": 4
     },
     "star_percentages": {
-      "1 étoile": 0.83,
-      "2 étoiles": 1.13
+      "1 étoile": 0.88,
+      "2 étoiles": 1.23
     }
   },
   {
@@ -696,7 +675,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 26,
-    "frequency_percent": 0.75,
+    "frequency_percent": 0.79,
     "restaurants": 23,
     "by_stars": {
       "1 étoile": 17,
@@ -704,28 +683,9 @@
       "3 étoiles": 6
     },
     "star_percentages": {
-      "1 étoile": 0.59,
-      "2 étoiles": 0.85,
-      "3 étoiles": 3.41
-    }
-  },
-  {
-    "id": "coco",
-    "name": "coco",
-    "emoji": "🍎",
-    "category": "fruit",
-    "frequency": 26,
-    "frequency_percent": 0.75,
-    "restaurants": 26,
-    "by_stars": {
-      "1 étoile": 20,
-      "2 étoiles": 4,
-      "3 étoiles": 2
-    },
-    "star_percentages": {
-      "1 étoile": 0.69,
-      "2 étoiles": 1.13,
-      "3 étoiles": 1.14
+      "1 étoile": 0.62,
+      "2 étoiles": 0.92,
+      "3 étoiles": 3.53
     }
   },
   {
@@ -734,7 +694,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 26,
-    "frequency_percent": 0.75,
+    "frequency_percent": 0.79,
     "restaurants": 22,
     "by_stars": {
       "1 étoile": 18,
@@ -743,10 +703,10 @@
       "Sélectionné": 4
     },
     "star_percentages": {
-      "1 étoile": 0.62,
-      "2 étoiles": 0.85,
-      "3 étoiles": 0.57,
-      "Sélectionné": 5.88
+      "1 étoile": 0.66,
+      "2 étoiles": 0.92,
+      "3 étoiles": 0.59,
+      "Sélectionné": 6.25
     }
   },
   {
@@ -755,7 +715,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 26,
-    "frequency_percent": 0.75,
+    "frequency_percent": 0.79,
     "restaurants": 22,
     "by_stars": {
       "1 étoile": 17,
@@ -763,9 +723,28 @@
       "3 étoiles": 5
     },
     "star_percentages": {
-      "1 étoile": 0.59,
-      "2 étoiles": 1.13,
-      "3 étoiles": 2.84
+      "1 étoile": 0.62,
+      "2 étoiles": 1.23,
+      "3 étoiles": 2.94
+    }
+  },
+  {
+    "id": "coco",
+    "name": "coco",
+    "emoji": "🍎",
+    "category": "fruit",
+    "frequency": 25,
+    "frequency_percent": 0.76,
+    "restaurants": 25,
+    "by_stars": {
+      "1 étoile": 20,
+      "2 étoiles": 3,
+      "3 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.74,
+      "2 étoiles": 0.92,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -774,15 +753,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 24,
-    "frequency_percent": 0.69,
+    "frequency_percent": 0.73,
     "restaurants": 19,
     "by_stars": {
       "1 étoile": 23,
       "2 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.8,
-      "2 étoiles": 0.28
+      "1 étoile": 0.85,
+      "2 étoiles": 0.31
     }
   },
   {
@@ -791,7 +770,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 23,
-    "frequency_percent": 0.66,
+    "frequency_percent": 0.7,
     "restaurants": 19,
     "by_stars": {
       "1 étoile": 18,
@@ -800,10 +779,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.62,
-      "2 étoiles": 0.85,
-      "3 étoiles": 0.57,
-      "Sélectionné": 1.47
+      "1 étoile": 0.66,
+      "2 étoiles": 0.92,
+      "3 étoiles": 0.59,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -812,7 +791,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 22,
-    "frequency_percent": 0.63,
+    "frequency_percent": 0.67,
     "restaurants": 19,
     "by_stars": {
       "1 étoile": 20,
@@ -820,9 +799,9 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.69,
-      "2 étoiles": 0.28,
-      "Sélectionné": 1.47
+      "1 étoile": 0.74,
+      "2 étoiles": 0.31,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -831,7 +810,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 22,
-    "frequency_percent": 0.63,
+    "frequency_percent": 0.67,
     "restaurants": 19,
     "by_stars": {
       "1 étoile": 20,
@@ -839,9 +818,9 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.69,
-      "2 étoiles": 0.28,
-      "Sélectionné": 1.47
+      "1 étoile": 0.74,
+      "2 étoiles": 0.31,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -850,7 +829,7 @@
     "emoji": "🥜",
     "category": "fruit_sec",
     "frequency": 21,
-    "frequency_percent": 0.6,
+    "frequency_percent": 0.64,
     "restaurants": 19,
     "by_stars": {
       "1 étoile": 15,
@@ -858,9 +837,9 @@
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.52,
-      "2 étoiles": 1.13,
-      "3 étoiles": 1.14
+      "1 étoile": 0.55,
+      "2 étoiles": 1.23,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -869,15 +848,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 21,
-    "frequency_percent": 0.6,
+    "frequency_percent": 0.64,
     "restaurants": 20,
     "by_stars": {
       "1 étoile": 19,
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.66,
-      "3 étoiles": 1.14
+      "1 étoile": 0.7,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -886,7 +865,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 21,
-    "frequency_percent": 0.6,
+    "frequency_percent": 0.64,
     "restaurants": 18,
     "by_stars": {
       "1 étoile": 18,
@@ -894,9 +873,9 @@
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.62,
-      "2 étoiles": 0.28,
-      "3 étoiles": 1.14
+      "1 étoile": 0.66,
+      "2 étoiles": 0.31,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -905,7 +884,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 20,
-    "frequency_percent": 0.57,
+    "frequency_percent": 0.61,
     "restaurants": 18,
     "by_stars": {
       "1 étoile": 14,
@@ -913,9 +892,9 @@
       "3 étoiles": 3
     },
     "star_percentages": {
-      "1 étoile": 0.48,
-      "2 étoiles": 0.85,
-      "3 étoiles": 1.7
+      "1 étoile": 0.51,
+      "2 étoiles": 0.92,
+      "3 étoiles": 1.76
     }
   },
   {
@@ -924,7 +903,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 20,
-    "frequency_percent": 0.57,
+    "frequency_percent": 0.61,
     "restaurants": 19,
     "by_stars": {
       "1 étoile": 17,
@@ -932,9 +911,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.59,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57
+      "1 étoile": 0.62,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -943,15 +922,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 20,
-    "frequency_percent": 0.57,
+    "frequency_percent": 0.61,
     "restaurants": 17,
     "by_stars": {
       "1 étoile": 18,
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.62,
-      "3 étoiles": 1.14
+      "1 étoile": 0.66,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -960,15 +939,15 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 20,
-    "frequency_percent": 0.57,
+    "frequency_percent": 0.61,
     "restaurants": 18,
     "by_stars": {
       "1 étoile": 19,
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.66,
-      "Sélectionné": 1.47
+      "1 étoile": 0.7,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -977,7 +956,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 19,
-    "frequency_percent": 0.54,
+    "frequency_percent": 0.58,
     "restaurants": 17,
     "by_stars": {
       "1 étoile": 14,
@@ -985,9 +964,9 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.48,
-      "2 étoiles": 1.13,
-      "Sélectionné": 1.47
+      "1 étoile": 0.51,
+      "2 étoiles": 1.23,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -996,15 +975,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 19,
-    "frequency_percent": 0.54,
+    "frequency_percent": 0.58,
     "restaurants": 18,
     "by_stars": {
       "1 étoile": 18,
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.62,
-      "3 étoiles": 0.57
+      "1 étoile": 0.66,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1013,15 +992,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 19,
-    "frequency_percent": 0.54,
+    "frequency_percent": 0.58,
     "restaurants": 16,
     "by_stars": {
       "1 étoile": 17,
       "2 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.59,
-      "2 étoiles": 0.56
+      "1 étoile": 0.62,
+      "2 étoiles": 0.62
     }
   },
   {
@@ -1030,7 +1009,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 19,
-    "frequency_percent": 0.54,
+    "frequency_percent": 0.58,
     "restaurants": 19,
     "by_stars": {
       "1 étoile": 15,
@@ -1039,10 +1018,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.52,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57,
-      "Sélectionné": 1.47
+      "1 étoile": 0.55,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1051,13 +1030,13 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 18,
-    "frequency_percent": 0.52,
+    "frequency_percent": 0.55,
     "restaurants": 15,
     "by_stars": {
       "1 étoile": 18
     },
     "star_percentages": {
-      "1 étoile": 0.62
+      "1 étoile": 0.66
     }
   },
   {
@@ -1066,7 +1045,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 18,
-    "frequency_percent": 0.52,
+    "frequency_percent": 0.55,
     "restaurants": 16,
     "by_stars": {
       "1 étoile": 15,
@@ -1074,9 +1053,9 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.52,
-      "2 étoiles": 0.56,
-      "Sélectionné": 1.47
+      "1 étoile": 0.55,
+      "2 étoiles": 0.62,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1085,7 +1064,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 18,
-    "frequency_percent": 0.52,
+    "frequency_percent": 0.55,
     "restaurants": 17,
     "by_stars": {
       "1 étoile": 16,
@@ -1093,9 +1072,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.55,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "1 étoile": 0.59,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1104,13 +1083,13 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 18,
-    "frequency_percent": 0.52,
+    "frequency_percent": 0.55,
     "restaurants": 15,
     "by_stars": {
       "1 étoile": 18
     },
     "star_percentages": {
-      "1 étoile": 0.62
+      "1 étoile": 0.66
     }
   },
   {
@@ -1119,7 +1098,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 18,
-    "frequency_percent": 0.52,
+    "frequency_percent": 0.55,
     "restaurants": 15,
     "by_stars": {
       "1 étoile": 14,
@@ -1127,9 +1106,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.48,
-      "2 étoiles": 0.85,
-      "3 étoiles": 0.57
+      "1 étoile": 0.51,
+      "2 étoiles": 0.92,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1138,7 +1117,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 16,
-    "frequency_percent": 0.46,
+    "frequency_percent": 0.49,
     "restaurants": 16,
     "by_stars": {
       "1 étoile": 14,
@@ -1146,9 +1125,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.48,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "1 étoile": 0.51,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1157,7 +1136,7 @@
     "emoji": "🦐",
     "category": "crustace",
     "frequency": 16,
-    "frequency_percent": 0.46,
+    "frequency_percent": 0.49,
     "restaurants": 16,
     "by_stars": {
       "1 étoile": 12,
@@ -1165,9 +1144,9 @@
       "3 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.42,
-      "2 étoiles": 0.56,
-      "3 étoiles": 1.14
+      "1 étoile": 0.44,
+      "2 étoiles": 0.62,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -1176,7 +1155,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 15,
-    "frequency_percent": 0.43,
+    "frequency_percent": 0.46,
     "restaurants": 14,
     "by_stars": {
       "1 étoile": 13,
@@ -1184,9 +1163,9 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.45,
-      "2 étoiles": 0.28,
-      "Sélectionné": 1.47
+      "1 étoile": 0.48,
+      "2 étoiles": 0.31,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1195,7 +1174,7 @@
     "emoji": "🦪",
     "category": "coquillage",
     "frequency": 15,
-    "frequency_percent": 0.43,
+    "frequency_percent": 0.46,
     "restaurants": 15,
     "by_stars": {
       "1 étoile": 11,
@@ -1204,10 +1183,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.38,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57,
-      "Sélectionné": 1.47
+      "1 étoile": 0.4,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1216,7 +1195,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 15,
-    "frequency_percent": 0.43,
+    "frequency_percent": 0.46,
     "restaurants": 14,
     "by_stars": {
       "1 étoile": 10,
@@ -1225,10 +1204,10 @@
       "Sélectionné": 2
     },
     "star_percentages": {
-      "1 étoile": 0.35,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57,
-      "Sélectionné": 2.94
+      "1 étoile": 0.37,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59,
+      "Sélectionné": 3.12
     }
   },
   {
@@ -1237,7 +1216,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 15,
-    "frequency_percent": 0.43,
+    "frequency_percent": 0.46,
     "restaurants": 14,
     "by_stars": {
       "1 étoile": 10,
@@ -1245,9 +1224,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.35,
-      "2 étoiles": 1.13,
-      "3 étoiles": 0.57
+      "1 étoile": 0.37,
+      "2 étoiles": 1.23,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1256,7 +1235,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 14,
-    "frequency_percent": 0.4,
+    "frequency_percent": 0.43,
     "restaurants": 13,
     "by_stars": {
       "1 étoile": 9,
@@ -1264,9 +1243,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.31,
-      "2 étoiles": 1.13,
-      "3 étoiles": 0.57
+      "1 étoile": 0.33,
+      "2 étoiles": 1.23,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1275,7 +1254,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 14,
-    "frequency_percent": 0.4,
+    "frequency_percent": 0.43,
     "restaurants": 14,
     "by_stars": {
       "1 étoile": 10,
@@ -1283,9 +1262,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.35,
-      "2 étoiles": 0.85,
-      "3 étoiles": 0.57
+      "1 étoile": 0.37,
+      "2 étoiles": 0.92,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1294,15 +1273,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 13,
-    "frequency_percent": 0.37,
+    "frequency_percent": 0.4,
     "restaurants": 13,
     "by_stars": {
       "1 étoile": 12,
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.42,
-      "3 étoiles": 0.57
+      "1 étoile": 0.44,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1311,7 +1290,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 13,
-    "frequency_percent": 0.37,
+    "frequency_percent": 0.4,
     "restaurants": 13,
     "by_stars": {
       "1 étoile": 11,
@@ -1319,9 +1298,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.38,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "1 étoile": 0.4,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1330,15 +1309,15 @@
     "emoji": "🦐",
     "category": "crustace",
     "frequency": 12,
-    "frequency_percent": 0.34,
+    "frequency_percent": 0.37,
     "restaurants": 12,
     "by_stars": {
       "1 étoile": 9,
       "2 étoiles": 3
     },
     "star_percentages": {
-      "1 étoile": 0.31,
-      "2 étoiles": 0.85
+      "1 étoile": 0.33,
+      "2 étoiles": 0.92
     }
   },
   {
@@ -1347,7 +1326,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 12,
-    "frequency_percent": 0.34,
+    "frequency_percent": 0.37,
     "restaurants": 12,
     "by_stars": {
       "1 étoile": 9,
@@ -1355,9 +1334,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.31,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57
+      "1 étoile": 0.33,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1366,13 +1345,13 @@
     "emoji": "🍄",
     "category": "champignon",
     "frequency": 12,
-    "frequency_percent": 0.34,
+    "frequency_percent": 0.37,
     "restaurants": 11,
     "by_stars": {
       "1 étoile": 12
     },
     "star_percentages": {
-      "1 étoile": 0.42
+      "1 étoile": 0.44
     }
   },
   {
@@ -1381,7 +1360,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 12,
-    "frequency_percent": 0.34,
+    "frequency_percent": 0.37,
     "restaurants": 11,
     "by_stars": {
       "1 étoile": 10,
@@ -1389,9 +1368,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.35,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "1 étoile": 0.37,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1400,15 +1379,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 12,
-    "frequency_percent": 0.34,
+    "frequency_percent": 0.37,
     "restaurants": 12,
     "by_stars": {
       "1 étoile": 11,
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.38,
-      "Sélectionné": 1.47
+      "1 étoile": 0.4,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1417,15 +1396,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 12,
-    "frequency_percent": 0.34,
+    "frequency_percent": 0.37,
     "restaurants": 11,
     "by_stars": {
       "1 étoile": 11,
       "2 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.38,
-      "2 étoiles": 0.28
+      "1 étoile": 0.4,
+      "2 étoiles": 0.31
     }
   },
   {
@@ -1434,15 +1413,15 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 12,
-    "frequency_percent": 0.34,
+    "frequency_percent": 0.37,
     "restaurants": 11,
     "by_stars": {
       "1 étoile": 11,
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.38,
-      "3 étoiles": 0.57
+      "1 étoile": 0.4,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1451,7 +1430,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 11,
-    "frequency_percent": 0.32,
+    "frequency_percent": 0.34,
     "restaurants": 10,
     "by_stars": {
       "1 étoile": 4,
@@ -1460,10 +1439,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.14,
-      "2 étoiles": 1.41,
-      "3 étoiles": 0.57,
-      "Sélectionné": 1.47
+      "1 étoile": 0.15,
+      "2 étoiles": 1.54,
+      "3 étoiles": 0.59,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1472,7 +1451,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 11,
-    "frequency_percent": 0.32,
+    "frequency_percent": 0.34,
     "restaurants": 11,
     "by_stars": {
       "1 étoile": 8,
@@ -1480,9 +1459,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.28,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57
+      "1 étoile": 0.29,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1491,7 +1470,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 10,
-    "frequency_percent": 0.29,
+    "frequency_percent": 0.3,
     "restaurants": 9,
     "by_stars": {
       "1 étoile": 6,
@@ -1500,10 +1479,10 @@
       "Sélectionné": 2
     },
     "star_percentages": {
-      "1 étoile": 0.21,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57,
-      "Sélectionné": 2.94
+      "1 étoile": 0.22,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59,
+      "Sélectionné": 3.12
     }
   },
   {
@@ -1512,13 +1491,13 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 10,
-    "frequency_percent": 0.29,
+    "frequency_percent": 0.3,
     "restaurants": 10,
     "by_stars": {
       "1 étoile": 10
     },
     "star_percentages": {
-      "1 étoile": 0.35
+      "1 étoile": 0.37
     }
   },
   {
@@ -1527,7 +1506,7 @@
     "emoji": "🥜",
     "category": "fruit_sec",
     "frequency": 10,
-    "frequency_percent": 0.29,
+    "frequency_percent": 0.3,
     "restaurants": 10,
     "by_stars": {
       "1 étoile": 8,
@@ -1535,9 +1514,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.28,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "1 étoile": 0.29,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1546,7 +1525,7 @@
     "emoji": "🥜",
     "category": "fruit_sec",
     "frequency": 10,
-    "frequency_percent": 0.29,
+    "frequency_percent": 0.3,
     "restaurants": 9,
     "by_stars": {
       "1 étoile": 8,
@@ -1554,9 +1533,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.28,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "1 étoile": 0.29,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1565,7 +1544,7 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 10,
-    "frequency_percent": 0.29,
+    "frequency_percent": 0.3,
     "restaurants": 9,
     "by_stars": {
       "1 étoile": 3,
@@ -1573,9 +1552,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.1,
-      "2 étoiles": 1.69,
-      "3 étoiles": 0.57
+      "1 étoile": 0.11,
+      "2 étoiles": 1.85,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1584,15 +1563,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 9,
-    "frequency_percent": 0.26,
+    "frequency_percent": 0.27,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 7,
       "2 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.24,
-      "2 étoiles": 0.56
+      "1 étoile": 0.26,
+      "2 étoiles": 0.62
     }
   },
   {
@@ -1601,15 +1580,15 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 9,
-    "frequency_percent": 0.26,
+    "frequency_percent": 0.27,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 7,
       "2 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.24,
-      "2 étoiles": 0.56
+      "1 étoile": 0.26,
+      "2 étoiles": 0.62
     }
   },
   {
@@ -1618,15 +1597,15 @@
     "emoji": "🦪",
     "category": "coquillage",
     "frequency": 9,
-    "frequency_percent": 0.26,
+    "frequency_percent": 0.27,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 8,
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.28,
-      "Sélectionné": 1.47
+      "1 étoile": 0.29,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1635,15 +1614,15 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 9,
-    "frequency_percent": 0.26,
+    "frequency_percent": 0.27,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 7,
       "2 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.24,
-      "2 étoiles": 0.56
+      "1 étoile": 0.26,
+      "2 étoiles": 0.62
     }
   },
   {
@@ -1652,15 +1631,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 7,
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.24,
-      "Sélectionné": 1.47
+      "1 étoile": 0.26,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1669,7 +1648,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 5,
@@ -1677,9 +1656,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.17,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57
+      "1 étoile": 0.18,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1688,13 +1667,13 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 8
     },
     "star_percentages": {
-      "1 étoile": 0.28
+      "1 étoile": 0.29
     }
   },
   {
@@ -1703,7 +1682,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 7,
     "by_stars": {
       "1 étoile": 4,
@@ -1712,10 +1691,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.14,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57,
-      "Sélectionné": 1.47
+      "1 étoile": 0.15,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1724,15 +1703,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 7,
     "by_stars": {
       "1 étoile": 7,
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.24,
-      "3 étoiles": 0.57
+      "1 étoile": 0.26,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1741,15 +1720,15 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 7,
     "by_stars": {
       "1 étoile": 7,
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.24,
-      "3 étoiles": 0.57
+      "1 étoile": 0.26,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1758,15 +1737,15 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 7,
       "2 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.24,
-      "2 étoiles": 0.28
+      "1 étoile": 0.26,
+      "2 étoiles": 0.31
     }
   },
   {
@@ -1775,13 +1754,13 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 8
     },
     "star_percentages": {
-      "1 étoile": 0.28
+      "1 étoile": 0.29
     }
   },
   {
@@ -1790,13 +1769,13 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 8,
-    "frequency_percent": 0.23,
+    "frequency_percent": 0.24,
     "restaurants": 8,
     "by_stars": {
       "1 étoile": 8
     },
     "star_percentages": {
-      "1 étoile": 0.28
+      "1 étoile": 0.29
     }
   },
   {
@@ -1805,15 +1784,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 7,
-    "frequency_percent": 0.2,
+    "frequency_percent": 0.21,
     "restaurants": 6,
     "by_stars": {
       "1 étoile": 5,
       "2 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.17,
-      "2 étoiles": 0.56
+      "1 étoile": 0.18,
+      "2 étoiles": 0.62
     }
   },
   {
@@ -1822,15 +1801,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 7,
-    "frequency_percent": 0.2,
+    "frequency_percent": 0.21,
     "restaurants": 7,
     "by_stars": {
       "1 étoile": 6,
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.21,
-      "3 étoiles": 0.57
+      "1 étoile": 0.22,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1839,15 +1818,15 @@
     "emoji": "🍄",
     "category": "champignon",
     "frequency": 7,
-    "frequency_percent": 0.2,
+    "frequency_percent": 0.21,
     "restaurants": 7,
     "by_stars": {
       "1 étoile": 6,
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.21,
-      "Sélectionné": 1.47
+      "1 étoile": 0.22,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1856,7 +1835,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 7,
-    "frequency_percent": 0.2,
+    "frequency_percent": 0.21,
     "restaurants": 7,
     "by_stars": {
       "1 étoile": 4,
@@ -1865,10 +1844,10 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.14,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57,
-      "Sélectionné": 1.47
+      "1 étoile": 0.15,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1877,7 +1856,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 7,
-    "frequency_percent": 0.2,
+    "frequency_percent": 0.21,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 2,
@@ -1886,8 +1865,8 @@
     },
     "star_percentages": {
       "1 étoile": 0.07,
-      "2 étoiles": 1.13,
-      "Sélectionné": 1.47
+      "2 étoiles": 1.23,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1896,7 +1875,7 @@
     "emoji": "🥩",
     "category": "viande",
     "frequency": 7,
-    "frequency_percent": 0.2,
+    "frequency_percent": 0.21,
     "restaurants": 7,
     "by_stars": {
       "1 étoile": 5,
@@ -1904,9 +1883,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.17,
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "1 étoile": 0.18,
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1915,7 +1894,7 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 7,
-    "frequency_percent": 0.2,
+    "frequency_percent": 0.21,
     "restaurants": 6,
     "by_stars": {
       "1 étoile": 4,
@@ -1923,9 +1902,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.14,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57
+      "1 étoile": 0.15,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1934,15 +1913,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 6,
-    "frequency_percent": 0.17,
+    "frequency_percent": 0.18,
     "restaurants": 6,
     "by_stars": {
       "1 étoile": 4,
       "2 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.14,
-      "2 étoiles": 0.56
+      "1 étoile": 0.15,
+      "2 étoiles": 0.62
     }
   },
   {
@@ -1951,15 +1930,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 6,
-    "frequency_percent": 0.17,
+    "frequency_percent": 0.18,
     "restaurants": 5,
     "by_stars": {
       "1 étoile": 5,
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.17,
-      "Sélectionné": 1.47
+      "1 étoile": 0.18,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -1968,7 +1947,7 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 6,
-    "frequency_percent": 0.17,
+    "frequency_percent": 0.18,
     "restaurants": 5,
     "by_stars": {
       "1 étoile": 3,
@@ -1976,9 +1955,9 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.1,
-      "2 étoiles": 0.56,
-      "3 étoiles": 0.57
+      "1 étoile": 0.11,
+      "2 étoiles": 0.62,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -1987,13 +1966,30 @@
     "emoji": "🦐",
     "category": "crustace",
     "frequency": 6,
-    "frequency_percent": 0.17,
+    "frequency_percent": 0.18,
     "restaurants": 6,
     "by_stars": {
       "1 étoile": 6
     },
     "star_percentages": {
-      "1 étoile": 0.21
+      "1 étoile": 0.22
+    }
+  },
+  {
+    "id": "pignon",
+    "name": "pignon",
+    "emoji": "🥜",
+    "category": "fruit_sec",
+    "frequency": 5,
+    "frequency_percent": 0.15,
+    "restaurants": 4,
+    "by_stars": {
+      "1 étoile": 3,
+      "3 étoiles": 2
+    },
+    "star_percentages": {
+      "1 étoile": 0.11,
+      "3 étoiles": 1.18
     }
   },
   {
@@ -2002,15 +1998,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 5,
-    "frequency_percent": 0.14,
+    "frequency_percent": 0.15,
     "restaurants": 5,
     "by_stars": {
       "1 étoile": 4,
       "2 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.14,
-      "2 étoiles": 0.28
+      "1 étoile": 0.15,
+      "2 étoiles": 0.31
     }
   },
   {
@@ -2019,15 +2015,15 @@
     "emoji": "🥜",
     "category": "fruit_sec",
     "frequency": 5,
-    "frequency_percent": 0.14,
+    "frequency_percent": 0.15,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 3,
       "2 étoiles": 2
     },
     "star_percentages": {
-      "1 étoile": 0.1,
-      "2 étoiles": 0.56
+      "1 étoile": 0.11,
+      "2 étoiles": 0.62
     }
   },
   {
@@ -2036,13 +2032,13 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 5,
-    "frequency_percent": 0.14,
+    "frequency_percent": 0.15,
     "restaurants": 5,
     "by_stars": {
       "1 étoile": 5
     },
     "star_percentages": {
-      "1 étoile": 0.17
+      "1 étoile": 0.18
     }
   },
   {
@@ -2051,15 +2047,15 @@
     "emoji": "🍎",
     "category": "fruit",
     "frequency": 4,
-    "frequency_percent": 0.11,
+    "frequency_percent": 0.12,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 3,
       "2 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.1,
-      "2 étoiles": 0.28
+      "1 étoile": 0.11,
+      "2 étoiles": 0.31
     }
   },
   {
@@ -2068,13 +2064,13 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 4,
-    "frequency_percent": 0.11,
+    "frequency_percent": 0.12,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 4
     },
     "star_percentages": {
-      "1 étoile": 0.14
+      "1 étoile": 0.15
     }
   },
   {
@@ -2083,15 +2079,15 @@
     "emoji": "🦐",
     "category": "crustace",
     "frequency": 4,
-    "frequency_percent": 0.11,
+    "frequency_percent": 0.12,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 3,
       "2 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.1,
-      "2 étoiles": 0.28
+      "1 étoile": 0.11,
+      "2 étoiles": 0.31
     }
   },
   {
@@ -2100,13 +2096,13 @@
     "emoji": "🐟",
     "category": "poisson",
     "frequency": 4,
-    "frequency_percent": 0.11,
+    "frequency_percent": 0.12,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 4
     },
     "star_percentages": {
-      "1 étoile": 0.14
+      "1 étoile": 0.15
     }
   },
   {
@@ -2115,13 +2111,13 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 4,
-    "frequency_percent": 0.11,
+    "frequency_percent": 0.12,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 4
     },
     "star_percentages": {
-      "1 étoile": 0.14
+      "1 étoile": 0.15
     }
   },
   {
@@ -2130,13 +2126,13 @@
     "emoji": "🦪",
     "category": "coquillage",
     "frequency": 4,
-    "frequency_percent": 0.11,
+    "frequency_percent": 0.12,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 4
     },
     "star_percentages": {
-      "1 étoile": 0.14
+      "1 étoile": 0.15
     }
   },
   {
@@ -2145,13 +2141,13 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 4,
-    "frequency_percent": 0.11,
+    "frequency_percent": 0.12,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 4
     },
     "star_percentages": {
-      "1 étoile": 0.14
+      "1 étoile": 0.15
     }
   },
   {
@@ -2160,15 +2156,15 @@
     "emoji": "🥬",
     "category": "legume",
     "frequency": 4,
-    "frequency_percent": 0.11,
+    "frequency_percent": 0.12,
     "restaurants": 4,
     "by_stars": {
       "1 étoile": 3,
       "2 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.1,
-      "2 étoiles": 0.28
+      "1 étoile": 0.11,
+      "2 étoiles": 0.31
     }
   },
   {
@@ -2183,7 +2179,7 @@
       "1 étoile": 3
     },
     "star_percentages": {
-      "1 étoile": 0.1
+      "1 étoile": 0.11
     }
   },
   {
@@ -2198,7 +2194,7 @@
       "1 étoile": 3
     },
     "star_percentages": {
-      "1 étoile": 0.1
+      "1 étoile": 0.11
     }
   },
   {
@@ -2213,7 +2209,7 @@
       "1 étoile": 3
     },
     "star_percentages": {
-      "1 étoile": 0.1
+      "1 étoile": 0.11
     }
   },
   {
@@ -2230,7 +2226,7 @@
     },
     "star_percentages": {
       "1 étoile": 0.07,
-      "2 étoiles": 0.28
+      "2 étoiles": 0.31
     }
   },
   {
@@ -2247,7 +2243,7 @@
     },
     "star_percentages": {
       "1 étoile": 0.07,
-      "3 étoiles": 0.57
+      "3 étoiles": 0.59
     }
   },
   {
@@ -2262,7 +2258,7 @@
       "1 étoile": 3
     },
     "star_percentages": {
-      "1 étoile": 0.1
+      "1 étoile": 0.11
     }
   },
   {
@@ -2277,7 +2273,7 @@
       "1 étoile": 3
     },
     "star_percentages": {
-      "1 étoile": 0.1
+      "1 étoile": 0.11
     }
   },
   {
@@ -2292,7 +2288,7 @@
       "1 étoile": 3
     },
     "star_percentages": {
-      "1 étoile": 0.1
+      "1 étoile": 0.11
     }
   },
   {
@@ -2307,7 +2303,7 @@
       "1 étoile": 3
     },
     "star_percentages": {
-      "1 étoile": 0.1
+      "1 étoile": 0.11
     }
   },
   {
@@ -2323,8 +2319,8 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "2 étoiles": 0.56,
-      "Sélectionné": 1.47
+      "2 étoiles": 0.62,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -2340,8 +2336,8 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03,
-      "Sélectionné": 1.47
+      "1 étoile": 0.04,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -2357,8 +2353,8 @@
       "2 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03,
-      "2 étoiles": 0.28
+      "1 étoile": 0.04,
+      "2 étoiles": 0.31
     }
   },
   {
@@ -2374,8 +2370,8 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -2391,8 +2387,8 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03,
-      "3 étoiles": 0.57
+      "1 étoile": 0.04,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -2423,8 +2419,8 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "2 étoiles": 0.28,
-      "3 étoiles": 0.57
+      "2 étoiles": 0.31,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -2470,8 +2466,8 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03,
-      "3 étoiles": 0.57
+      "1 étoile": 0.04,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -2487,8 +2483,8 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03,
-      "3 étoiles": 0.57
+      "1 étoile": 0.04,
+      "3 étoiles": 0.59
     }
   },
   {
@@ -2519,8 +2515,8 @@
       "Sélectionné": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03,
-      "Sélectionné": 1.47
+      "1 étoile": 0.04,
+      "Sélectionné": 1.56
     }
   },
   {
@@ -2535,7 +2531,7 @@
       "1 étoile": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03
+      "1 étoile": 0.04
     }
   },
   {
@@ -2550,7 +2546,7 @@
       "1 étoile": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03
+      "1 étoile": 0.04
     }
   },
   {
@@ -2565,7 +2561,7 @@
       "1 étoile": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03
+      "1 étoile": 0.04
     }
   },
   {
@@ -2580,7 +2576,7 @@
       "1 étoile": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03
+      "1 étoile": 0.04
     }
   },
   {
@@ -2595,7 +2591,7 @@
       "1 étoile": 1
     },
     "star_percentages": {
-      "1 étoile": 0.03
+      "1 étoile": 0.04
     }
   },
   {
@@ -2610,7 +2606,7 @@
       "3 étoiles": 1
     },
     "star_percentages": {
-      "3 étoiles": 0.57
+      "3 étoiles": 0.59
     }
   }
 ]

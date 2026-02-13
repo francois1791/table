@@ -6,38 +6,47 @@ import Link from "next/link";
 import { Search, ArrowRight, Grid3X3, List } from "lucide-react";
 import ingredientsDataRaw from "@/data/ingredients.json";
 import { Ingredient, CategoryFilter } from "@/lib/types";
-import { useLanguage } from "@/lib/language";
 import { cn } from "@/lib/utils";
 
 const ingredientsData = ingredientsDataRaw as Ingredient[];
 
 const categoryDefs = [
-  { value: "all" as CategoryFilter, key: "all", emoji: "🍽️", color: "from-accent-violet to-accent-blue" },
-  { value: "viande" as CategoryFilter, key: "viande", emoji: "🥩", color: "from-red-500 to-rose-600" },
-  { value: "poisson" as CategoryFilter, key: "poisson", emoji: "🐟", color: "from-cyan-500 to-blue-500" },
-  { value: "crustace" as CategoryFilter, key: "crustace", emoji: "🦐", color: "from-pink-500 to-rose-500" },
-  { value: "coquillage" as CategoryFilter, key: "coquillage", emoji: "🦪", color: "from-teal-500 to-cyan-500" },
-  { value: "legume" as CategoryFilter, key: "legume", emoji: "🥬", color: "from-green-500 to-emerald-500" },
-  { value: "fruit" as CategoryFilter, key: "fruit", emoji: "🍎", color: "from-purple-500 to-violet-500" },
-  { value: "champignon" as CategoryFilter, key: "champignon", emoji: "🍄", color: "from-amber-500 to-orange-500" },
-  { value: "fruit_sec" as CategoryFilter, key: "fruit_sec", emoji: "🥜", color: "from-yellow-600 to-amber-700" },
-  { value: "epice" as CategoryFilter, key: "epice", emoji: "🌶️", color: "from-red-600 to-red-700" },
-  { value: "herbe" as CategoryFilter, key: "herbe", emoji: "🌿", color: "from-green-600 to-emerald-600" },
-  { value: "produit_laitier" as CategoryFilter, key: "produit_laitier", emoji: "🧀", color: "from-yellow-400 to-amber-500" },
-  { value: "cereale" as CategoryFilter, key: "cereale", emoji: "🌾", color: "from-amber-600 to-yellow-700" },
-  { value: "condiment" as CategoryFilter, key: "condiment", emoji: "🧂", color: "from-gray-500 to-gray-600" },
+  { value: "all" as CategoryFilter, label: "Tous", emoji: "🍽️", color: "from-accent-violet to-accent-blue" },
+  { value: "viande" as CategoryFilter, label: "Viandes", emoji: "🥩", color: "from-red-500 to-rose-600" },
+  { value: "poisson" as CategoryFilter, label: "Poissons", emoji: "🐟", color: "from-cyan-500 to-blue-500" },
+  { value: "crustace" as CategoryFilter, label: "Crustacés", emoji: "🦐", color: "from-pink-500 to-rose-500" },
+  { value: "coquillage" as CategoryFilter, label: "Coquillages", emoji: "🦪", color: "from-teal-500 to-cyan-500" },
+  { value: "legume" as CategoryFilter, label: "Légumes", emoji: "🥬", color: "from-green-500 to-emerald-500" },
+  { value: "fruit" as CategoryFilter, label: "Fruits", emoji: "🍎", color: "from-purple-500 to-violet-500" },
+  { value: "champignon" as CategoryFilter, label: "Champignons", emoji: "🍄", color: "from-amber-500 to-orange-500" },
+  { value: "fruit_sec" as CategoryFilter, label: "Fruits secs", emoji: "🥜", color: "from-yellow-600 to-amber-700" },
+  { value: "epice" as CategoryFilter, label: "Épices", emoji: "🌶️", color: "from-red-600 to-red-700" },
+  { value: "herbe" as CategoryFilter, label: "Herbes", emoji: "🌿", color: "from-green-600 to-emerald-600" },
+  { value: "produit_laitier" as CategoryFilter, label: "Produits laitiers", emoji: "🧀", color: "from-yellow-400 to-amber-500" },
+  { value: "cereale" as CategoryFilter, label: "Céréales", emoji: "🌾", color: "from-amber-600 to-yellow-700" },
+  { value: "condiment" as CategoryFilter, label: "Condiments", emoji: "🧂", color: "from-gray-500 to-gray-600" },
 ];
+
+const categoryLabels: Record<string, string> = {
+  viande: "Viandes",
+  poisson: "Poissons",
+  crustace: "Crustacés",
+  coquillage: "Coquillages",
+  legume: "Légumes",
+  fruit: "Fruits",
+  champignon: "Champignons",
+  fruit_sec: "Fruits secs",
+  epice: "Épices",
+  herbe: "Herbes",
+  produit_laitier: "Produits laitiers",
+  cereale: "Céréales",
+  condiment: "Condiments",
+};
 
 export default function IngredientsPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>("all");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
-  const { t } = useLanguage();
-
-  const categories = useMemo(() => 
-    categoryDefs.map(c => ({ ...c, label: t(`cat.${c.key}`) })),
-    [t]
-  );
 
   const filteredIngredients = useMemo(() => {
     return ingredientsData.filter((ing) => {
@@ -67,10 +76,10 @@ export default function IngredientsPage() {
       >
         <div>
           <h1 className="text-3xl font-bold mb-2">
-            {t("ingredients.title")} <span className="gradient-text">{t("ingredients.title_accent")}</span>
+            Répertoire <span className="gradient-text">d'Ingrédients</span>
           </h1>
           <p className="text-muted-foreground">
-            {t("ingredients.subtitle", { count: ingredientsData.length })}
+            {ingredientsData.length} ingrédients analysés
           </p>
         </div>
 
@@ -82,7 +91,7 @@ export default function IngredientsPage() {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
               <input
                 type="text"
-                placeholder={t("ingredients.search")}
+                placeholder="Rechercher un ingrédient..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 bg-surface border border-border rounded-xl text-sm placeholder:text-muted-foreground focus:outline-none focus:border-accent-violet/50 transition-all"
@@ -114,7 +123,7 @@ export default function IngredientsPage() {
 
           {/* Category Filter */}
           <div className="flex flex-wrap gap-2">
-            {categories.map((cat) => (
+            {categoryDefs.map((cat) => (
               <button
                 key={cat.value}
                 onClick={() => setCategoryFilter(cat.value)}
@@ -136,10 +145,10 @@ export default function IngredientsPage() {
       {/* Results */}
       <div className="flex items-center justify-between">
         <span className="text-sm text-muted-foreground">
-          {t("ingredients.showing")} <span className="text-foreground font-medium">{filteredIngredients.length}</span> {t("ingredients.results")}
+          <span className="text-foreground font-medium">{filteredIngredients.length}</span> ingrédients
         </span>
         <span className="text-xs text-muted-foreground">
-          {t("ingredients.sorted_by")}
+          Triés par popularité
         </span>
       </div>
 
@@ -165,7 +174,7 @@ export default function IngredientsPage() {
                   </div>
                   <div className="text-right">
                     <div className="text-lg font-bold font-mono">{ingredient.frequency}</div>
-                    <div className="text-[10px] text-muted-foreground uppercase">{t("ingredients.mentions")}</div>
+                    <div className="text-[10px] text-muted-foreground uppercase">mentions</div>
                   </div>
                 </div>
 
@@ -173,7 +182,7 @@ export default function IngredientsPage() {
                   {ingredient.name}
                 </h3>
                 <p className="text-xs text-muted-foreground uppercase tracking-wider mb-4">
-                  {t(`cat.${ingredient.category}`)}
+                  {categoryLabels[ingredient.category] || ingredient.category}
                 </p>
 
                 {/* Star distribution preview */}
@@ -215,7 +224,7 @@ export default function IngredientsPage() {
                   <h3 className="font-medium capitalize group-hover:text-accent-violet transition-colors">
                     {ingredient.name}
                   </h3>
-                  <p className="text-xs text-muted-foreground">{t(`cat.${ingredient.category}`)}</p>
+                  <p className="text-xs text-muted-foreground">{categoryLabels[ingredient.category] || ingredient.category}</p>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="hidden sm:flex items-center gap-2">
@@ -239,8 +248,8 @@ export default function IngredientsPage() {
           <div className="w-16 h-16 rounded-2xl bg-surface flex items-center justify-center mx-auto mb-4">
             <Search className="w-8 h-8 text-muted-foreground" />
           </div>
-          <h3 className="font-semibold text-foreground mb-2">{t("ingredients.no_results")}</h3>
-          <p className="text-muted-foreground">{t("ingredients.no_results_hint")}</p>
+          <h3 className="font-semibold text-foreground mb-2">Aucun ingrédient trouvé</h3>
+          <p className="text-muted-foreground">Essayez de modifier vos filtres</p>
         </div>
       )}
     </div>

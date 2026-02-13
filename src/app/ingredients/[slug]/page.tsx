@@ -24,8 +24,8 @@ export default function IngredientDetailPage({ params }: PageProps) {
   if (!ingredient) {
     return (
       <div className="container mx-auto px-4 py-20 text-center">
-        <h1 className="text-2xl font-bold mb-4">Ingredient not found</h1>
-        <p className="text-muted-foreground">The requested ingredient could not be found.</p>
+        <h1 className="text-2xl font-bold mb-4">Ingrédient introuvable</h1>
+        <p className="text-muted-foreground">L'ingrédient demandé n'a pas été trouvé.</p>
       </div>
     );
   }

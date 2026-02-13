@@ -6,17 +6,15 @@ import { Menu, X, Sun, Moon } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { useTheme } from "@/lib/theme";
-import { useLanguage } from "@/lib/language";
 
 export function Header() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
-  const { language, setLanguage, t } = useLanguage();
 
   const navItems = [
-    { href: "/", label: t("nav.overview") },
-    { href: "/ingredients", label: t("nav.ingredients") },
+    { href: "/", label: "Vue d'ensemble" },
+    { href: "/ingredients", label: "Ingrédients" },
   ];
 
   return (
@@ -41,13 +39,16 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "flex items-center px-6 py-4 border-r-2 border-border font-mono text-sm uppercase tracking-wider transition-colors",
+                  "flex items-center px-6 py-4 border-r-2 border-border font-mono text-sm uppercase tracking-wider transition-colors relative",
                   isActive
-                    ? "bg-primary text-surface"
+                    ? "text-primary"
                     : "hover:bg-accent"
                 )}
               >
                 {item.label}
+                {isActive && (
+                  <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary" />
+                )}
               </Link>
             );
           })}
@@ -68,26 +69,6 @@ export function Header() {
             ) : (
               <Moon className="w-4 h-4" />
             )}
-          </button>
-
-          {/* Language Toggle */}
-          <button
-            onClick={() => setLanguage(language === "fr" ? "en" : "fr")}
-            className={cn(
-              "flex items-center px-4 py-4 border-l-2 border-border font-mono text-sm font-bold tracking-wider transition-colors",
-              language === "fr" ? "bg-primary text-surface" : "hover:bg-accent"
-            )}
-          >
-            FR
-          </button>
-          <button
-            onClick={() => setLanguage(language === "fr" ? "en" : "fr")}
-            className={cn(
-              "flex items-center px-4 py-4 border-l-2 border-border font-mono text-sm font-bold tracking-wider transition-colors",
-              language === "en" ? "bg-primary text-surface" : "hover:bg-accent"
-            )}
-          >
-            EN
           </button>
         </div>
 
@@ -117,39 +98,31 @@ export function Header() {
                   href={item.href}
                   onClick={() => setMobileMenuOpen(false)}
                   className={cn(
-                    "px-6 py-4 border-b-2 border-border font-mono text-sm uppercase tracking-wider transition-colors",
+                    "px-6 py-4 border-b-2 border-border font-mono text-sm uppercase tracking-wider transition-colors relative",
                     isActive
-                      ? "bg-primary text-surface"
+                      ? "text-primary"
                       : "hover:bg-accent"
                   )}
                 >
                   {item.label}
+                  {isActive && (
+                    <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary" />
+                  )}
                 </Link>
               );
             })}
             
-            {/* Mobile Controls */}
-            <div className="flex">
-              <button
-                onClick={() => {
-                  toggleTheme();
-                  setMobileMenuOpen(false);
-                }}
-                className="flex-1 flex items-center justify-center gap-2 px-4 py-4 border-r-2 border-border font-mono text-sm uppercase hover:bg-accent transition-colors"
-              >
-                {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-                {theme === "dark" ? "LIGHT" : "DARK"}
-              </button>
-              <button
-                onClick={() => {
-                  setLanguage(language === "fr" ? "en" : "fr");
-                  setMobileMenuOpen(false);
-                }}
-                className="flex-1 px-4 py-4 font-mono text-sm uppercase hover:bg-accent transition-colors"
-              >
-                {language === "fr" ? "ENGLISH" : "FRANÇAIS"}
-              </button>
-            </div>
+            {/* Mobile Theme Toggle */}
+            <button
+              onClick={() => {
+                toggleTheme();
+                setMobileMenuOpen(false);
+              }}
+              className="flex items-center justify-center gap-2 px-4 py-4 font-mono text-sm uppercase hover:bg-accent transition-colors"
+            >
+              {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+              {theme === "dark" ? "MODE CLAIR" : "MODE SOMBRE"}
+            </button>
           </nav>
         </div>
       )}

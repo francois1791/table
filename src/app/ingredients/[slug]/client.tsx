@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowLeft, ChevronDown, ChevronUp } from "lucide-react";
 import { Ingredient, Dish } from "@/lib/types";
-import { useLanguage } from "@/lib/language";
 
 interface IngredientDetailClientProps {
   ingredient: Ingredient;
@@ -29,13 +28,28 @@ const categoryEmojis: Record<string, string> = {
   condiment: "🧂",
 };
 
+const categoryLabels: Record<string, string> = {
+  viande: "Viandes",
+  poisson: "Poissons",
+  crustace: "Crustacés",
+  coquillage: "Coquillages",
+  legume: "Légumes",
+  fruit: "Fruits",
+  champignon: "Champignons",
+  fruit_sec: "Fruits secs",
+  epice: "Épices",
+  herbe: "Herbes",
+  produit_laitier: "Produits laitiers",
+  cereale: "Céréales",
+  condiment: "Condiments",
+};
+
 export default function IngredientDetailClient({ 
   ingredient, 
   ingredientsData,
   dishesWithIngredient
 }: IngredientDetailClientProps) {
   const [showAllDishes, setShowAllDishes] = useState(false);
-  const { t } = useLanguage();
 
   // Similar ingredients (same category)
   const similarIngredients = ingredientsData
@@ -56,7 +70,7 @@ export default function IngredientDetailClient({
         className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors mb-6"
       >
         <ArrowLeft className="w-4 h-4" />
-        {t("detail.back")}
+        Retour
       </Link>
 
       {/* Header */}
@@ -70,7 +84,7 @@ export default function IngredientDetailClient({
           <div>
             <h1 className="text-4xl font-bold capitalize">{ingredient.name}</h1>
             <span className="text-muted-foreground uppercase tracking-wider text-sm">
-              {t(`cat.${ingredient.category}`)}
+              {categoryLabels[ingredient.category] || ingredient.category}
             </span>
           </div>
         </div>
@@ -79,21 +93,21 @@ export default function IngredientDetailClient({
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
           <div className="glass rounded-2xl p-4">
             <div className="text-3xl font-bold font-mono">{ingredient.frequency}</div>
-            <div className="text-xs text-muted-foreground uppercase">{t("detail.total_occurrences")}</div>
+            <div className="text-xs text-muted-foreground uppercase">Occurrences</div>
           </div>
           <div className="glass rounded-2xl p-4">
             <div className="text-3xl font-bold font-mono">{ingredient.frequency_percent}%</div>
-            <div className="text-xs text-muted-foreground uppercase">{t("detail.global_share")}</div>
+            <div className="text-xs text-muted-foreground uppercase">Part globale</div>
           </div>
           <div className="glass rounded-2xl p-4">
             <div className="text-3xl font-bold font-mono">{ingredient.restaurants}</div>
-            <div className="text-xs text-muted-foreground uppercase">{t("detail.restaurants")}</div>
+            <div className="text-xs text-muted-foreground uppercase">Restaurants</div>
           </div>
           <div className="glass rounded-2xl p-4">
             <div className="text-3xl font-bold font-mono text-yellow-500">
               {ingredient.star_percentages?.["3 étoiles"] || 0}%
             </div>
-            <div className="text-xs text-muted-foreground uppercase">{t("detail.in_3star")}</div>
+            <div className="text-xs text-muted-foreground uppercase">Dans les 3★</div>
           </div>
         </div>
       </motion.div>
@@ -108,7 +122,7 @@ export default function IngredientDetailClient({
             transition={{ delay: 0.1 }}
             className="glass rounded-2xl p-6"
           >
-            <h2 className="text-xl font-semibold mb-6">{t("detail.star_distribution")}</h2>
+            <h2 className="text-xl font-semibold mb-6">Répartition par étoiles</h2>
             <div className="space-y-4">
               {[
                 { star: "3 étoiles", color: "from-yellow-400 to-amber-500", icon: "⭐⭐⭐" },
@@ -126,7 +140,7 @@ export default function IngredientDetailClient({
                         <span className="text-muted-foreground">{star}</span>
                       </span>
                       <div className="flex items-center gap-4">
-                        <span className="text-sm font-mono">{count} {t("detail.occurrences")}</span>
+                        <span className="text-sm font-mono">{count} occurrences</span>
                         <span className="text-sm font-bold w-16 text-right">{percent}%</span>
                       </div>
                     </div>
@@ -150,7 +164,7 @@ export default function IngredientDetailClient({
               transition={{ delay: 0.2 }}
               className="glass rounded-2xl p-6"
             >
-              <h2 className="text-xl font-semibold mb-4">{t("detail.similar")}</h2>
+              <h2 className="text-xl font-semibold mb-4">Ingrédients similaires</h2>
               <div className="space-y-2">
                 {similarIngredients.map((ing) => (
                   <Link
@@ -178,18 +192,15 @@ export default function IngredientDetailClient({
           className="glass rounded-2xl p-6"
         >
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-xl font-semibold">{t("detail.dishes_with", { name: ingredient.name })}</h2>
+            <h2 className="text-xl font-semibold">Plats avec {ingredient.name}</h2>
             <span className="text-sm text-muted-foreground">
-              {dishesWithIngredient.length} {t("detail.found")}
+              {dishesWithIngredient.length} trouvés
             </span>
           </div>
 
           {dishesWithIngredient.length === 0 ? (
             <div className="text-center py-12">
-              <p className="text-muted-foreground">{t("detail.no_dishes")}</p>
-              <p className="text-xs text-muted-foreground mt-2">
-                {t("detail.no_dishes_hint")}
-              </p>
+              <p className="text-muted-foreground">Aucun plat trouvé.</p>
             </div>
           ) : (
             <>
@@ -221,12 +232,12 @@ export default function IngredientDetailClient({
                   {showAllDishes ? (
                     <>
                       <ChevronUp className="w-4 h-4" />
-                      {t("detail.show_less")}
+                      Voir moins
                     </>
                   ) : (
                     <>
                       <ChevronDown className="w-4 h-4" />
-                      {t("detail.show_more", { count: dishesWithIngredient.length - 10 })}
+                      Voir {dishesWithIngredient.length - 10} plats de plus
                     </>
                   )}
                 </button>

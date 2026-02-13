@@ -3,10 +3,8 @@
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Award, Filter } from "lucide-react";
 import ingredientsDataRaw from "@/data/ingredients.json";
-import { StarFilter, Ingredient } from "@/lib/types";
-import { useLanguage } from "@/lib/language";
+import { Ingredient } from "@/lib/types";
 
 const ingredientsData = ingredientsDataRaw as Ingredient[];
 
@@ -15,28 +13,40 @@ const segmentColors = [
   "#06b6d4", "#3b82f6", "#8b5cf6", "#a855f7", "#ec4899"
 ];
 
+// Catégories en français direct
+const categories = [
+  { key: "viande", label: "Viandes", emoji: "🥩", color: "#ef4444" },
+  { key: "poisson", label: "Poissons", emoji: "🐟", color: "#06b6d4" },
+  { key: "crustace", label: "Crustacés", emoji: "🦐", color: "#ec4899" },
+  { key: "coquillage", label: "Coquillages", emoji: "🦪", color: "#14b8a6" },
+  { key: "champignon", label: "Champignons", emoji: "🍄", color: "#f59e0b" },
+  { key: "legume", label: "Légumes", emoji: "🥬", color: "#22c55e" },
+  { key: "fruit", label: "Fruits", emoji: "🍎", color: "#a855f7" },
+  { key: "fruit_sec", label: "Fruits secs", emoji: "🥜", color: "#d97706" },
+  { key: "epice", label: "Épices", emoji: "🌶️", color: "#dc2626" },
+  { key: "herbe", label: "Herbes", emoji: "🌿", color: "#16a34a" },
+  { key: "produit_laitier", label: "Produits laitiers", emoji: "🧀", color: "#fbbf24" },
+  { key: "cereale", label: "Céréales", emoji: "🌾", color: "#d97706" },
+  { key: "condiment", label: "Condiments", emoji: "🧂", color: "#6b7280" },
+];
+
 // Donut Chart Component - Full width with hover
 function CategoryDonut({ 
-  categoryKey,
   categoryLabel,
   emoji,
   color,
   items,
-  total,
-  t
+  total
 }: { 
-  categoryKey: string;
   categoryLabel: string;
   emoji: string;
   color: string;
   items: Ingredient[];
   total: number;
-  t: (key: string, params?: Record<string, string | number>) => string;
 }) {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const categoryTotal = items.reduce((sum, item) => sum + item.frequency, 0);
   
-  // Prepare data for donut (tous les ingrédients)
   const donutData = items.map((item, i) => ({
     ...item,
     label: item.name.charAt(0).toUpperCase() + item.name.slice(1),
@@ -45,7 +55,6 @@ function CategoryDonut({
     percentage: ((item.frequency / categoryTotal) * 100).toFixed(1)
   }));
   
-  // Calculate SVG paths
   let accumulated = 0;
   const paths = donutData.map((slice, i) => {
     const startAngle = (accumulated / categoryTotal) * 360;
@@ -86,7 +95,7 @@ function CategoryDonut({
         <div className="text-right">
           <span className="text-2xl font-bold">{categoryTotal.toLocaleString()}</span>
           <p className="text-xs text-muted-foreground">
-            {Math.round((categoryTotal / total) * 100)}% {t("overview.percent_of_total")}
+            {Math.round((categoryTotal / total) * 100)}% du total
           </p>
         </div>
       </div>
@@ -165,109 +174,39 @@ function CategoryDonut({
 }
 
 export default function OverviewPage() {
-  const [starFilter, setStarFilter] = useState<StarFilter>("all");
-  const { t, language } = useLanguage();
-
-  // Categories with translations
-  const categories = useMemo(() => [
-    { key: "viande", label: t("cat.viande"), emoji: "🥩", color: "#ef4444" },
-    { key: "poisson", label: t("cat.poisson"), emoji: "🐟", color: "#06b6d4" },
-    { key: "crustace", label: t("cat.crustace"), emoji: "🦐", color: "#ec4899" },
-    { key: "coquillage", label: t("cat.coquillage"), emoji: "🦪", color: "#14b8a6" },
-    { key: "champignon", label: t("cat.champignon"), emoji: "🍄", color: "#f59e0b" },
-    { key: "legume", label: t("cat.legume"), emoji: "🥬", color: "#22c55e" },
-    { key: "fruit", label: t("cat.fruit"), emoji: "🍎", color: "#a855f7" },
-    { key: "fruit_sec", label: t("cat.fruit_sec"), emoji: "🥜", color: "#d97706" },
-    { key: "epice", label: t("cat.epice"), emoji: "🌶️", color: "#dc2626" },
-    { key: "herbe", label: t("cat.herbe"), emoji: "🌿", color: "#16a34a" },
-    { key: "produit_laitier", label: t("cat.produit_laitier"), emoji: "🧀", color: "#fbbf24" },
-    { key: "cereale", label: t("cat.cereale"), emoji: "🌾", color: "#d97706" },
-    { key: "condiment", label: t("cat.condiment"), emoji: "🧂", color: "#6b7280" },
-  ], [t, language]);
-
-  const stars = useMemo(() => [
-    { value: "all" as StarFilter, label: t("filter.all"), stars: "⭐" },
-    { value: "3 étoiles" as StarFilter, label: "3★", stars: "⭐⭐⭐" },
-    { value: "2 étoiles" as StarFilter, label: "2★", stars: "⭐⭐" },
-    { value: "1 étoile" as StarFilter, label: "1★", stars: "⭐" },
-  ], [t, language]);
-
-  // Filtrer les ingrédients
-  const filteredIngredients = useMemo(() => {
-    return ingredientsData.filter((ing) => {
-      if (starFilter === "all") return true;
-      return ing.by_stars && ing.by_stars[starFilter] > 0;
-    });
-  }, [starFilter]);
-
   const totalAll = useMemo(() => 
-    filteredIngredients.reduce((sum, ing) => sum + ing.frequency, 0),
-    [filteredIngredients]
+    ingredientsData.reduce((sum, ing) => sum + ing.frequency, 0),
+    []
   );
 
   // Tous les ingrédients par catégorie
   const byCategory = useMemo(() => {
     const grouped: Record<string, Ingredient[]> = {};
     categories.forEach((cat) => {
-      grouped[cat.key] = filteredIngredients
+      grouped[cat.key] = ingredientsData
         .filter((ing) => ing.category === cat.key)
         .sort((a, b) => b.frequency - a.frequency);
     });
     return grouped;
-  }, [filteredIngredients, categories]);
+  }, []);
 
   return (
     <div className="container mx-auto px-4 py-6 max-w-5xl">
-      {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
-        <div className="flex items-center gap-3">
-          <div className="w-12 h-12 rounded-xl bg-gradient-accent-soft flex items-center justify-center">
-            <Award className="w-6 h-6 text-accent-violet" />
-          </div>
-          <div>
-            <h1 className="font-bold text-2xl">{t("overview.title")}</h1>
-            <p className="text-sm text-muted-foreground">
-              {t("overview.subtitle", { 
-                ingredients: filteredIngredients.length, 
-                occurrences: totalAll.toLocaleString() 
-              })}
-            </p>
-          </div>
-        </div>
-
-        {/* Star Filter */}
-        <div className="flex items-center gap-2">
-          <Filter className="w-4 h-4 text-muted-foreground" />
-          <div className="flex gap-1">
-            {stars.map((star) => (
-              <button
-                key={star.value}
-                onClick={() => setStarFilter(star.value)}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all border ${
-                  starFilter === star.value
-                    ? "bg-gradient-accent text-white border-transparent"
-                    : "bg-surface text-muted-foreground border-border hover:border-border-strong"
-                }`}
-              >
-                {star.stars}
-              </button>
-            ))}
-          </div>
-        </div>
+      {/* Stats simples */}
+      <div className="mb-8 text-sm text-muted-foreground">
+        {ingredientsData.length} ingrédients • {totalAll.toLocaleString()} occurrences
       </div>
 
-      {/* Category Donuts - Full width, scrollable */}
+      {/* Category Donuts */}
       <div className="space-y-4">
         {categories.map((cat) => (
           <CategoryDonut
             key={cat.key}
-            categoryKey={cat.key}
             categoryLabel={cat.label}
             emoji={cat.emoji}
             color={cat.color}
             items={byCategory[cat.key] || []}
             total={totalAll}
-            t={t}
           />
         ))}
       </div>

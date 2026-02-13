@@ -25,8 +25,8 @@ export function Header() {
           href="/" 
           className="flex items-center gap-3 px-6 py-4 border-r-2 border-border hover:bg-accent transition-colors"
         >
-          <span className="font-serif text-2xl italic">CARTE</span>
-          <span className="font-mono text-xs tracking-wider bg-primary text-surface px-2 py-1">BRUTE</span>
+          <span className="font-serif text-2xl italic">MENU</span>
+          <span className="font-mono text-xs tracking-wider bg-primary text-surface px-2 py-1">MINE</span>
         </Link>
 
         {/* Desktop Navigation */}

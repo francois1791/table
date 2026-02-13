@@ -193,8 +193,15 @@ export default function OverviewPage() {
   return (
     <div className="container mx-auto px-4 py-6 max-w-5xl">
       {/* Stats simples */}
-      <div className="mb-8 text-sm text-muted-foreground">
+      <div className="mb-4 text-sm text-muted-foreground">
         {ingredientsData.length} ingrédients • {totalAll.toLocaleString()} occurrences
+      </div>
+
+      {/* Description du concept */}
+      <div className="mb-8 p-4 border-l-4 border-primary bg-accent">
+        <p className="text-sm leading-relaxed text-secondary">
+          <strong className="text-primary">Menu Mine</strong> agrège les menus accessibles publiquement sur les sites de restaurants gastronomiques français. Chaque carte est analysée, décomposée en ingrédients individuels, puis chaque occurrence est comptabilisée et classée par famille — viandes, poissons, légumes, épices… L'objectif : dresser une cartographie vivante des tendances et des produits qui façonnent la gastronomie d'aujourd'hui. Aucun contenu rédactionnel n'est reproduit : seules les données brutes d'ingrédients sont extraites à des fins d'analyse statistique.
+        </p>
       </div>
 
       {/* Category Donuts */}

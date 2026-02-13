@@ -202,7 +202,7 @@ export default function IngredientDetailClient({
                     <p className="font-medium text-sm leading-relaxed">{dish.name}</p>
                     <div className="flex items-center gap-3 mt-2 text-xs text-muted-foreground">
                       {dish.city && <span className="capitalize">{dish.city}</span>}
-                      {dish.category && <span className="capitalize">{dish.category}</span>}
+                      {dish.menuType && <span className="capitalize">{dish.menuType}</span>}
                       {dish.stars && (
                         <span className="px-2 py-0.5 rounded-full bg-accent-violet/10 text-accent-violet">
                           {dish.stars}

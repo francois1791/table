@@ -339,7 +339,7 @@
     "stars": "Sélectionné",
     "menuType": "plat",
     "ingredients": [
-      "ail"
+      "ail noir"
     ],
     "categories": [
       "legume"
@@ -2092,7 +2092,7 @@
     "menuType": "entree",
     "ingredients": [
       "crevette",
-      "ail"
+      "ail noir"
     ],
     "categories": [
       "crustace",
@@ -2663,7 +2663,7 @@
     "stars": "2 étoiles",
     "menuType": "plat",
     "ingredients": [
-      "ail",
+      "ail noir",
       "brocoli",
       "sandre"
     ],
@@ -3122,7 +3122,7 @@
     "menuType": "",
     "ingredients": [
       "lotte",
-      "ail",
+      "ail confit",
       "coco",
       "saint-pierre"
     ],
@@ -3900,7 +3900,6 @@
     "ingredients": [
       "Saint-Jacques",
       "artichaut",
-      "noix",
       "noisette"
     ],
     "categories": [
@@ -6359,7 +6358,7 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
+      "ail noir",
       "truffe",
       "pomme de terre"
     ],
@@ -7146,12 +7145,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "Saint-Jacques",
-      "noix"
+      "Saint-Jacques"
     ],
     "categories": [
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -7347,7 +7344,7 @@
     "menuType": "",
     "ingredients": [
       "crevette",
-      "ail"
+      "ail noir"
     ],
     "categories": [
       "crustace",
@@ -9451,7 +9448,7 @@
     "menuType": "",
     "ingredients": [
       "foie gras",
-      "ail",
+      "ail noir",
       "panais",
       "biche"
     ],
@@ -10063,7 +10060,7 @@
     "menuType": "",
     "ingredients": [
       "pigeon",
-      "ail"
+      "ail noir"
     ],
     "categories": [
       "viande",
@@ -17672,12 +17669,8 @@
     "restaurantId": 134,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1905,
@@ -17720,12 +17713,8 @@
     "restaurantId": 134,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 1911,
@@ -19143,7 +19132,7 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail"
+      "ail noir"
     ],
     "categories": [
       "legume"
@@ -21309,7 +21298,7 @@
     "menuType": "",
     "ingredients": [
       "canard",
-      "ail"
+      "ail noir"
     ],
     "categories": [
       "viande",
@@ -21540,7 +21529,7 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail",
+      "aillet",
       "citron",
       "noisette"
     ],
@@ -22771,7 +22760,7 @@
     "menuType": "",
     "ingredients": [
       "veau",
-      "ail",
+      "ail noir",
       "panais",
       "châtaigne"
     ],
@@ -23482,7 +23471,7 @@
     "menuType": "",
     "ingredients": [
       "morue",
-      "ail",
+      "ail confit",
       "cabillaud"
     ],
     "categories": [
@@ -23510,7 +23499,7 @@
       "foie gras",
       "betterave",
       "oignon",
-      "ail",
+      "ail noir",
       "mûre",
       "amande"
     ],
@@ -23586,14 +23575,12 @@
       "poireau",
       "pomme",
       "poire",
-      "caviar",
-      "noix"
+      "caviar"
     ],
     "categories": [
       "legume",
       "fruit",
-      "poisson",
-      "fruit_sec"
+      "poisson"
     ]
   },
   {
@@ -25561,7 +25548,7 @@
     "menuType": "",
     "ingredients": [
       "agneau",
-      "ail"
+      "ail des ours"
     ],
     "categories": [
       "viande",
@@ -25626,7 +25613,7 @@
     "menuType": "",
     "ingredients": [
       "veau",
-      "ail",
+      "aillet",
       "truffe"
     ],
     "categories": [
@@ -26996,12 +26983,8 @@
     "restaurantId": 206,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2895,
@@ -27035,12 +27018,8 @@
     "restaurantId": 206,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2898,
@@ -27048,12 +27027,8 @@
     "restaurantId": 206,
     "stars": "1 étoile",
     "menuType": "",
-    "ingredients": [
-      "noix"
-    ],
-    "categories": [
-      "fruit_sec"
-    ]
+    "ingredients": [],
+    "categories": []
   },
   {
     "id": 2899,
@@ -28293,14 +28268,12 @@
       "citron",
       "caviar",
       "passion",
-      "fruit de la passion",
-      "noix"
+      "fruit de la passion"
     ],
     "categories": [
       "coquillage",
       "fruit",
-      "poisson",
-      "fruit_sec"
+      "poisson"
     ]
   },
   {
@@ -28310,12 +28283,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "Saint-Jacques",
-      "noix"
+      "Saint-Jacques"
     ],
     "categories": [
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -32420,12 +32391,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "Saint-Jacques",
-      "noix"
+      "Saint-Jacques"
     ],
     "categories": [
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {
@@ -32503,13 +32472,11 @@
     "menuType": "",
     "ingredients": [
       "Saint-Jacques",
-      "truffe",
-      "noix"
+      "truffe"
     ],
     "categories": [
       "coquillage",
-      "champignon",
-      "fruit_sec"
+      "champignon"
     ]
   },
   {
@@ -32520,7 +32487,7 @@
     "menuType": "",
     "ingredients": [
       "foie gras",
-      "ail",
+      "ail noir",
       "truffe"
     ],
     "categories": [
@@ -33287,7 +33254,7 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail"
+      "ail noir"
     ],
     "categories": [
       "legume"
@@ -33795,7 +33762,7 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "ail"
+      "ail noir"
     ],
     "categories": [
       "legume"
@@ -35327,12 +35294,10 @@
     "stars": "1 étoile",
     "menuType": "",
     "ingredients": [
-      "Saint-Jacques",
-      "noix"
+      "Saint-Jacques"
     ],
     "categories": [
-      "coquillage",
-      "fruit_sec"
+      "coquillage"
     ]
   },
   {

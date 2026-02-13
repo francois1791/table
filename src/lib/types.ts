@@ -1,7 +1,7 @@
 export interface Ingredient {
   id: string;
   name: string;
-  emoji: string;
+  emoji?: string;
   category: Category;
   frequency: number;
   frequency_percent: number;

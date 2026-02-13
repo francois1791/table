@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowLeft, ChevronDown, ChevronUp } from "lucide-react";
@@ -49,7 +49,7 @@ export default function IngredientDetailClient({
   ingredientsData,
   dishesWithIngredient
 }: IngredientDetailClientProps) {
-  const [showAllDishes, setShowAllDishes] = useState(false);
+  const [showAllAssociations, setShowAllAssociations] = useState(false);
 
   // Similar ingredients (same category)
   const similarIngredients = ingredientsData
@@ -57,10 +57,36 @@ export default function IngredientDetailClient({
     .sort((a, b) => b.frequency - a.frequency)
     .slice(0, 5);
 
-  // Limit displayed dishes
-  const displayedDishes = showAllDishes 
-    ? dishesWithIngredient 
-    : dishesWithIngredient.slice(0, 10);
+  // Calculate ingredient associations (co-occurrences)
+  const associations = useMemo(() => {
+    const cooccurrenceMap = new Map<string, { count: number; ingredient: Ingredient }>();
+    
+    dishesWithIngredient.forEach((dish) => {
+      dish.ingredients.forEach((ingName) => {
+        if (ingName !== ingredient.name) {
+          const existing = cooccurrenceMap.get(ingName);
+          if (existing) {
+            existing.count++;
+          } else {
+            // Find the ingredient data
+            const ingData = ingredientsData.find((i) => i.name === ingName);
+            if (ingData) {
+              cooccurrenceMap.set(ingName, { count: 1, ingredient: ingData });
+            }
+          }
+        }
+      });
+    });
+    
+    // Convert to array and sort by count
+    return Array.from(cooccurrenceMap.values())
+      .sort((a, b) => b.count - a.count);
+  }, [dishesWithIngredient, ingredient.name, ingredientsData]);
+
+  // Limit displayed associations
+  const displayedAssociations = showAllAssociations 
+    ? associations 
+    : associations.slice(0, 10);
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-5xl">
@@ -184,7 +210,7 @@ export default function IngredientDetailClient({
           )}
         </div>
 
-        {/* Right Column - Dishes */}
+        {/* Right Column - Ingredient Associations */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -192,44 +218,50 @@ export default function IngredientDetailClient({
           className="glass rounded-2xl p-6"
         >
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-xl font-semibold">Plats avec {ingredient.name}</h2>
+            <h2 className="text-xl font-semibold">Associations avec {ingredient.name}</h2>
             <span className="text-sm text-muted-foreground">
-              {dishesWithIngredient.length} trouvés
+              {associations.length} produits liés
             </span>
           </div>
 
-          {dishesWithIngredient.length === 0 ? (
+          {associations.length === 0 ? (
             <div className="text-center py-12">
-              <p className="text-muted-foreground">Aucun plat trouvé.</p>
+              <p className="text-muted-foreground">Aucune association trouvée.</p>
             </div>
           ) : (
             <>
               <div className="space-y-3 max-h-[600px] overflow-y-auto pr-2">
-                {displayedDishes.map((dish) => (
-                  <div
-                    key={dish.id}
-                    className="p-4 rounded-xl bg-surface-hover/50 hover:bg-surface-hover transition-colors"
+                {displayedAssociations.map((assoc) => (
+                  <Link
+                    key={assoc.ingredient.id}
+                    href={`/ingredients/${assoc.ingredient.id}`}
+                    className="flex items-center justify-between p-4 rounded-xl bg-surface-hover/50 hover:bg-surface-hover transition-colors"
                   >
-                    <p className="font-medium text-sm leading-relaxed">{dish.name}</p>
-                    <div className="flex items-center gap-3 mt-2 text-xs text-muted-foreground">
-                      {dish.city && <span className="capitalize">{dish.city}</span>}
-                      {dish.menuType && <span className="capitalize">{dish.menuType}</span>}
-                      {dish.stars && (
-                        <span className="px-2 py-0.5 rounded-full bg-accent-violet/10 text-accent-violet">
-                          {dish.stars}
-                        </span>
-                      )}
+                    <div className="flex items-center gap-3">
+                      <span className="text-xl">{assoc.ingredient.emoji || categoryEmojis[assoc.ingredient.category] || "🍽️"}</span>
+                      <div>
+                        <p className="font-medium capitalize">{assoc.ingredient.name}</p>
+                        <p className="text-xs text-muted-foreground">
+                          {categoryLabels[assoc.ingredient.category] || assoc.ingredient.category}
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                    <div className="text-right">
+                      <span className="font-bold font-mono">{assoc.count}</span>
+                      <span className="text-xs text-muted-foreground block">
+                        {Math.round((assoc.count / dishesWithIngredient.length) * 100)}% des plats
+                      </span>
+                    </div>
+                  </Link>
                 ))}
               </div>
 
-              {dishesWithIngredient.length > 10 && (
+              {associations.length > 10 && (
                 <button
-                  onClick={() => setShowAllDishes(!showAllDishes)}
+                  onClick={() => setShowAllAssociations(!showAllAssociations)}
                   className="w-full mt-4 py-3 rounded-xl bg-surface hover:bg-surface-hover transition-colors text-sm font-medium flex items-center justify-center gap-2"
                 >
-                  {showAllDishes ? (
+                  {showAllAssociations ? (
                     <>
                       <ChevronUp className="w-4 h-4" />
                       Voir moins
@@ -237,7 +269,7 @@ export default function IngredientDetailClient({
                   ) : (
                     <>
                       <ChevronDown className="w-4 h-4" />
-                      Voir {dishesWithIngredient.length - 10} plats de plus
+                      Voir {associations.length - 10} associations de plus
                     </>
                   )}
                 </button>

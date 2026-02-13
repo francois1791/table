@@ -21,6 +21,27 @@
     }
   },
   {
+    "id": "foie-gras",
+    "name": "foie gras",
+    "emoji": "🥩",
+    "category": "viande",
+    "frequency": 176,
+    "frequency_percent": 4.11,
+    "restaurants": 90,
+    "by_stars": {
+      "1 étoile": 152,
+      "2 étoiles": 14,
+      "3 étoiles": 5,
+      "Sélectionné": 5
+    },
+    "star_percentages": {
+      "1 étoile": 4.29,
+      "2 étoiles": 3.28,
+      "3 étoiles": 2.2,
+      "Sélectionné": 5.68
+    }
+  },
+  {
     "id": "crème",
     "name": "crème",
     "emoji": "🧀",
@@ -39,27 +60,6 @@
       "2 étoiles": 3.28,
       "3 étoiles": 4.41,
       "Sélectionné": 2.27
-    }
-  },
-  {
-    "id": "foie-gras",
-    "name": "foie gras",
-    "emoji": "🥩",
-    "category": "viande",
-    "frequency": 132,
-    "frequency_percent": 3.08,
-    "restaurants": 90,
-    "by_stars": {
-      "1 étoile": 116,
-      "2 étoiles": 10,
-      "3 étoiles": 3,
-      "Sélectionné": 3
-    },
-    "star_percentages": {
-      "1 étoile": 3.27,
-      "2 étoiles": 2.34,
-      "3 étoiles": 1.32,
-      "Sélectionné": 3.41
     }
   },
   {
@@ -498,27 +498,6 @@
       "2 étoiles": 1.41,
       "3 étoiles": 0.88,
       "Sélectionné": 1.14
-    }
-  },
-  {
-    "id": "foie_gras_canard",
-    "name": "foie_gras_canard",
-    "emoji": "🥩",
-    "category": "viande",
-    "frequency": 44,
-    "frequency_percent": 1.03,
-    "restaurants": 36,
-    "by_stars": {
-      "1 étoile": 36,
-      "2 étoiles": 4,
-      "3 étoiles": 2,
-      "Sélectionné": 2
-    },
-    "star_percentages": {
-      "1 étoile": 1.02,
-      "2 étoiles": 0.94,
-      "3 étoiles": 0.88,
-      "Sélectionné": 2.27
     }
   },
   {

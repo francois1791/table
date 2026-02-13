@@ -68,7 +68,6 @@ export default function IngredientDetailClient({
       'citron vert': ['citron'],
       'chou': ['chou de Bruxelles', 'chou-fleur', 'choucroute'],
       'chou de Bruxelles': ['chou'],
-      'foie_gras_canard': ['canard'],
       'porcelet': ['porc'],
     };
     

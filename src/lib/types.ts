@@ -42,11 +42,9 @@ export interface Restaurant {
 export interface Dish {
   id: number;
   name: string;
-  restaurantId: number;
+  category: string;
   stars: string;
-  menuType: string;
-  ingredients: string[];
-  categories: string[];
+  city: string;
 }
 
 export interface Technique {

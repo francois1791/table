@@ -194,7 +194,7 @@ export default function OverviewPage() {
     <div className="container mx-auto px-4 py-6 max-w-5xl">
       {/* Stats simples */}
       <div className="mb-4 text-sm text-muted-foreground">
-        {ingredientsData.length} ingrédients • {totalAll.toLocaleString()} occurrences • 237 restaurants actifs
+        {ingredientsData.length} ingrédients • {totalAll.toLocaleString()} occurrences • 188 restaurants
       </div>
 
       {/* Description du concept */}

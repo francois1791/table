@@ -22,6 +22,11 @@ const categoryEmojis: Record<string, string> = {
   fruit: "🍎",
   champignon: "🍄",
   fruit_sec: "🥜",
+  epice: "🌶️",
+  herbe: "🌿",
+  produit_laitier: "🧀",
+  cereale: "🌾",
+  condiment: "🧂",
 };
 
 export default function IngredientDetailClient({ 

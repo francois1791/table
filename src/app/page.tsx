@@ -178,6 +178,11 @@ export default function OverviewPage() {
     { key: "legume", label: t("cat.legume"), emoji: "🥬", color: "#22c55e" },
     { key: "fruit", label: t("cat.fruit"), emoji: "🍎", color: "#a855f7" },
     { key: "fruit_sec", label: t("cat.fruit_sec"), emoji: "🥜", color: "#d97706" },
+    { key: "epice", label: t("cat.epice"), emoji: "🌶️", color: "#dc2626" },
+    { key: "herbe", label: t("cat.herbe"), emoji: "🌿", color: "#16a34a" },
+    { key: "produit_laitier", label: t("cat.produit_laitier"), emoji: "🧀", color: "#fbbf24" },
+    { key: "cereale", label: t("cat.cereale"), emoji: "🌾", color: "#d97706" },
+    { key: "condiment", label: t("cat.condiment"), emoji: "🧂", color: "#6b7280" },
   ], [t, language]);
 
   const stars = useMemo(() => [

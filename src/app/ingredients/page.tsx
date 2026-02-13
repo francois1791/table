@@ -21,6 +21,11 @@ const categoryDefs = [
   { value: "fruit" as CategoryFilter, key: "fruit", emoji: "🍎", color: "from-purple-500 to-violet-500" },
   { value: "champignon" as CategoryFilter, key: "champignon", emoji: "🍄", color: "from-amber-500 to-orange-500" },
   { value: "fruit_sec" as CategoryFilter, key: "fruit_sec", emoji: "🥜", color: "from-yellow-600 to-amber-700" },
+  { value: "epice" as CategoryFilter, key: "epice", emoji: "🌶️", color: "from-red-600 to-red-700" },
+  { value: "herbe" as CategoryFilter, key: "herbe", emoji: "🌿", color: "from-green-600 to-emerald-600" },
+  { value: "produit_laitier" as CategoryFilter, key: "produit_laitier", emoji: "🧀", color: "from-yellow-400 to-amber-500" },
+  { value: "cereale" as CategoryFilter, key: "cereale", emoji: "🌾", color: "from-amber-600 to-yellow-700" },
+  { value: "condiment" as CategoryFilter, key: "condiment", emoji: "🧂", color: "from-gray-500 to-gray-600" },
 ];
 
 export default function IngredientsPage() {

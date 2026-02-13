@@ -37,6 +37,11 @@ const translations: Record<Language, Record<string, string>> = {
     "cat.legume": "Légumes",
     "cat.fruit": "Fruits",
     "cat.fruit_sec": "Fruits secs",
+    "cat.epice": "Épices",
+    "cat.herbe": "Herbes",
+    "cat.produit_laitier": "Produits laitiers",
+    "cat.cereale": "Céréales",
+    "cat.condiment": "Condiments",
     
     // Overview page
     "overview.title": "Menu Analytics",
@@ -107,6 +112,11 @@ const translations: Record<Language, Record<string, string>> = {
     "cat.legume": "Vegetables",
     "cat.fruit": "Fruits",
     "cat.fruit_sec": "Dried Fruits & Nuts",
+    "cat.epice": "Spices",
+    "cat.herbe": "Herbs",
+    "cat.produit_laitier": "Dairy Products",
+    "cat.cereale": "Grains",
+    "cat.condiment": "Condiments",
     
     // Overview page
     "overview.title": "Menu Analytics",

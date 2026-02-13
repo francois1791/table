@@ -18,7 +18,12 @@ export type Category =
   | "legume" 
   | "fruit" 
   | "champignon"
-  | "fruit_sec";
+  | "fruit_sec"
+  | "epice"
+  | "herbe"
+  | "produit_laitier"
+  | "cereale"
+  | "condiment";
 
 export interface DailyDataPoint {
   date: string;

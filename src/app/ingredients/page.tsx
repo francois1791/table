@@ -3,33 +3,36 @@
 import { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import {
-  Search,
-  ArrowRight,
-  Grid3X3,
-  List,
-} from "lucide-react";
+import { Search, ArrowRight, Grid3X3, List } from "lucide-react";
 import ingredientsDataRaw from "@/data/ingredients.json";
 import { Ingredient, CategoryFilter } from "@/lib/types";
-
-const ingredientsData = ingredientsDataRaw as Ingredient[];
+import { useLanguage } from "@/lib/language";
 import { cn } from "@/lib/utils";
 
-const categories: { value: CategoryFilter; label: string; emoji: string; color: string }[] = [
-  { value: "all", label: "All", emoji: "🍽️", color: "from-accent-violet to-accent-blue" },
-  { value: "viande", label: "Meat", emoji: "🥩", color: "from-red-500 to-rose-600" },
-  { value: "poisson", label: "Fish", emoji: "🐟", color: "from-cyan-500 to-blue-500" },
-  { value: "crustace", label: "Shellfish", emoji: "🦐", color: "from-pink-500 to-rose-500" },
-  { value: "coquillage", label: "Shell", emoji: "🦪", color: "from-teal-500 to-cyan-500" },
-  { value: "legume", label: "Vegetable", emoji: "🥬", color: "from-green-500 to-emerald-500" },
-  { value: "fruit", label: "Fruit", emoji: "🍎", color: "from-purple-500 to-violet-500" },
-  { value: "champignon", label: "Mushroom", emoji: "🍄", color: "from-amber-500 to-orange-500" },
+const ingredientsData = ingredientsDataRaw as Ingredient[];
+
+const categoryDefs = [
+  { value: "all" as CategoryFilter, key: "all", emoji: "🍽️", color: "from-accent-violet to-accent-blue" },
+  { value: "viande" as CategoryFilter, key: "viande", emoji: "🥩", color: "from-red-500 to-rose-600" },
+  { value: "poisson" as CategoryFilter, key: "poisson", emoji: "🐟", color: "from-cyan-500 to-blue-500" },
+  { value: "crustace" as CategoryFilter, key: "crustace", emoji: "🦐", color: "from-pink-500 to-rose-500" },
+  { value: "coquillage" as CategoryFilter, key: "coquillage", emoji: "🦪", color: "from-teal-500 to-cyan-500" },
+  { value: "legume" as CategoryFilter, key: "legume", emoji: "🥬", color: "from-green-500 to-emerald-500" },
+  { value: "fruit" as CategoryFilter, key: "fruit", emoji: "🍎", color: "from-purple-500 to-violet-500" },
+  { value: "champignon" as CategoryFilter, key: "champignon", emoji: "🍄", color: "from-amber-500 to-orange-500" },
+  { value: "fruit_sec" as CategoryFilter, key: "fruit_sec", emoji: "🥜", color: "from-yellow-600 to-amber-700" },
 ];
 
 export default function IngredientsPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>("all");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
+  const { t } = useLanguage();
+
+  const categories = useMemo(() => 
+    categoryDefs.map(c => ({ ...c, label: t(`cat.${c.key}`) })),
+    [t]
+  );
 
   const filteredIngredients = useMemo(() => {
     return ingredientsData.filter((ing) => {
@@ -40,12 +43,12 @@ export default function IngredientsPage() {
   }, [searchQuery, categoryFilter]);
 
   const getCategoryGradient = (category: string) => {
-    const cat = categories.find((c) => c.value === category);
+    const cat = categoryDefs.find((c) => c.value === category);
     return cat?.color || "from-accent-violet to-accent-blue";
   };
 
   const getCategoryEmoji = (category: string) => {
-    const cat = categories.find((c) => c.value === category);
+    const cat = categoryDefs.find((c) => c.value === category);
     return cat?.emoji || "🍽️";
   };
 
@@ -59,10 +62,10 @@ export default function IngredientsPage() {
       >
         <div>
           <h1 className="text-3xl font-bold mb-2">
-            Ingredient <span className="gradient-text">Directory</span>
+            {t("ingredients.title")} <span className="gradient-text">{t("ingredients.title_accent")}</span>
           </h1>
           <p className="text-muted-foreground">
-            Browse and analyze {ingredientsData.length} ingredients from fine dining menus
+            {t("ingredients.subtitle", { count: ingredientsData.length })}
           </p>
         </div>
 
@@ -74,7 +77,7 @@ export default function IngredientsPage() {
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
               <input
                 type="text"
-                placeholder="Search ingredients..."
+                placeholder={t("ingredients.search")}
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-2.5 bg-surface border border-border rounded-xl text-sm placeholder:text-muted-foreground focus:outline-none focus:border-accent-violet/50 transition-all"
@@ -128,10 +131,10 @@ export default function IngredientsPage() {
       {/* Results */}
       <div className="flex items-center justify-between">
         <span className="text-sm text-muted-foreground">
-          Showing <span className="text-foreground font-medium">{filteredIngredients.length}</span> ingredients
+          {t("ingredients.showing")} <span className="text-foreground font-medium">{filteredIngredients.length}</span> {t("ingredients.results")}
         </span>
         <span className="text-xs text-muted-foreground">
-          Sorted by popularity
+          {t("ingredients.sorted_by")}
         </span>
       </div>
 
@@ -157,7 +160,7 @@ export default function IngredientsPage() {
                   </div>
                   <div className="text-right">
                     <div className="text-lg font-bold font-mono">{ingredient.frequency}</div>
-                    <div className="text-[10px] text-muted-foreground uppercase">mentions</div>
+                    <div className="text-[10px] text-muted-foreground uppercase">{t("ingredients.mentions")}</div>
                   </div>
                 </div>
 
@@ -165,7 +168,7 @@ export default function IngredientsPage() {
                   {ingredient.name}
                 </h3>
                 <p className="text-xs text-muted-foreground uppercase tracking-wider mb-4">
-                  {ingredient.category}
+                  {t(`cat.${ingredient.category}`)}
                 </p>
 
                 {/* Star distribution preview */}
@@ -207,7 +210,7 @@ export default function IngredientsPage() {
                   <h3 className="font-medium capitalize group-hover:text-accent-violet transition-colors">
                     {ingredient.name}
                   </h3>
-                  <p className="text-xs text-muted-foreground uppercase">{ingredient.category}</p>
+                  <p className="text-xs text-muted-foreground">{t(`cat.${ingredient.category}`)}</p>
                 </div>
                 <div className="flex items-center gap-4">
                   <div className="hidden sm:flex items-center gap-2">
@@ -231,8 +234,8 @@ export default function IngredientsPage() {
           <div className="w-16 h-16 rounded-2xl bg-surface flex items-center justify-center mx-auto mb-4">
             <Search className="w-8 h-8 text-muted-foreground" />
           </div>
-          <h3 className="font-semibold text-foreground mb-2">No ingredients found</h3>
-          <p className="text-muted-foreground">Try adjusting your filters</p>
+          <h3 className="font-semibold text-foreground mb-2">{t("ingredients.no_results")}</h3>
+          <p className="text-muted-foreground">{t("ingredients.no_results_hint")}</p>
         </div>
       )}
     </div>

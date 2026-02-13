@@ -17,7 +17,8 @@ export type Category =
   | "coquillage" 
   | "legume" 
   | "fruit" 
-  | "champignon";
+  | "champignon"
+  | "fruit_sec";
 
 export interface DailyDataPoint {
   date: string;
@@ -36,10 +37,11 @@ export interface Restaurant {
 export interface Dish {
   id: number;
   name: string;
-  category: string;
-  restaurant_id: number;
-  distinction: string;
+  restaurantId: number;
+  stars: string;
+  menuType: string;
   ingredients: string[];
+  categories: string[];
 }
 
 export interface Technique {

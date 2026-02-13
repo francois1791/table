@@ -30,7 +30,7 @@ export default function IngredientDetailPage({ params }: PageProps) {
     );
   }
 
-  // Filtrer les plats qui contiennent cet ingrédient
+  // Filter dishes that contain this ingredient
   const dishesWithIngredient = dishesData.filter((dish) => 
     dish.ingredients && dish.ingredients.includes(ingredient.name)
   );
